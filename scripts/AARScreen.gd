@@ -1,6 +1,7 @@
 extends Control
 @onready var sfx_click: AudioStreamPlayer = $AudioManager/SFX_Click
 @onready var sfx_result: AudioStreamPlayer = $AudioManager/SFX_Result
+@onready var stats_label: Label = $VBoxContainer/StatsLabel
 
 @onready var score_label = $VBoxContainer/ScoreLabel
 @onready var rank_label = $VBoxContainer/RankLabel
@@ -17,6 +18,20 @@ func _ready():
 func display_results():
 	score_label.text = "FINAL SCORE: " + str(GameManager.current_score)
 	
+	# Display High Score & Mastery
+	var course_id = GameManager.current_course_id
+	if GameManager.player_progress.has(course_id):
+		var p_data = GameManager.player_progress[course_id]
+		var high_score = p_data.get("high_score", 0)
+		var mastery = p_data.get("mastery_percent", 0.0)
+
+		stats_label.text = "BEST RECORD: Score %d | Mastery %.1f%%" % [high_score, mastery]
+		stats_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		stats_label.modulate = Color(0.8, 0.8, 1.0) # Light Blue
+		
+		$VBoxContainer.add_child(stats_label)
+		$VBoxContainer.move_child(stats_label, 2)
+
 	# Calculate Rank
 	var rank = "F"
 	var color = Color.WHITE # Default

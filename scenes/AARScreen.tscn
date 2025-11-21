@@ -83,6 +83,13 @@ text = "Rank: UNKNOWN"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="StatsLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_3dr1d")
+text = "Rank: UNKNOWN"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="RetryButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 tooltip_text = "REDEPLOY"

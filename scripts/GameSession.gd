@@ -214,7 +214,7 @@ func handle_correct(idx):
 	feedback_label.modulate = Color.GREEN
 	apply_shake(5.0)
 	
-	GameManager.current_score += 100
+	GameManager.add_correct_answer()
 	update_score_ui()
 	buttons[idx].modulate = Color.GREEN
 
@@ -282,6 +282,27 @@ func finish_game():
 	round_timer.stop()
 	sfx_ambience.stop()
 	inputs_locked = true
+	
+	# Calculate Stats & Save
+	var total_attempted = GameManager.correct_answers_count + GameManager.session_log.size()
+	var mastery_percent = 0.0
+	if total_attempted > 0:
+		mastery_percent = (float(GameManager.correct_answers_count) / total_attempted) * 100.0
+	
+	var course_id = GameManager.current_course_id
+	if not GameManager.player_progress.has(course_id):
+		GameManager.player_progress[course_id] = { "high_score": 0, "mastery_percent": 0.0 }
+	
+	var current_high_score = GameManager.player_progress[course_id]["high_score"]
+	var current_mastery = GameManager.player_progress[course_id]["mastery_percent"]
+	
+	if GameManager.current_score > current_high_score:
+		GameManager.player_progress[course_id]["high_score"] = GameManager.current_score
+		
+	if mastery_percent > current_mastery:
+		GameManager.player_progress[course_id]["mastery_percent"] = mastery_percent
+		
+	GameManager.save_game()
 	
 	question_label.text = "SIMULATION ENDED"
 	
