@@ -1,9 +1,9 @@
 extends Control
 
 
-@onready var sfx_click: AudioStreamPlayer2D = $AudioManager/SFX_Click
-@onready var sfx_correct: AudioStreamPlayer2D = $AudioManager/SFX_Correct
-@onready var sfx_alarm: AudioStreamPlayer2D = $AudioManager/SFX_Alarm
+@onready var sfx_click: AudioStreamPlayer = $AudioManager/SFX_Click
+@onready var sfx_correct: AudioStreamPlayer = $AudioManager/SFX_Correct
+@onready var sfx_alarm: AudioStreamPlayer = $AudioManager/SFX_Alarm
 
 @onready var integrity_bar: ProgressBar = $VBoxContainer/MarginContainer3/HBoxContainer/IntegrityBar
 @onready var timer_bar: ProgressBar = $VBoxContainer/MarginContainer3/HBoxContainer/TimerBar
@@ -129,7 +129,7 @@ func load_question(index: int):
 
 func _on_button_pressed(selected_idx: int):
 	if inputs_locked: return
-	sfx_click.play()
+	play_sound(sfx_click)
 	inputs_locked = true
 	quiz_timer.stop()
 	
@@ -174,7 +174,7 @@ func handle_correct(idx):
 	feedback_label.text = "STATUS: OPTIMAL"
 	feedback_label.modulate = Color.GREEN
 	GameManager.current_score += 100
-	sfx_correct.play()
+	play_sound(sfx_correct)
 	apply_shake(5.0)
 	update_score_ui()
 	buttons[idx].modulate = Color.GREEN
@@ -183,12 +183,19 @@ func handle_wrong(selected_idx, correct_idx):
 	feedback_label.text = "STATUS: FAILURE"
 	feedback_label.modulate = Color.RED
 	GameManager.current_integrity -= 20
-	sfx_alarm.play()
+	play_sound(sfx_alarm)
 	apply_shake(20.0)
 	
 	if selected_idx != -1:
 		buttons[selected_idx].modulate = Color.RED
 	buttons[correct_idx].modulate = Color.GREEN 
+
+func play_sound(player: AudioStreamPlayer, randomize_pitch: bool = false):
+	if randomize_pitch:
+		player.pitch_scale = rng.randf_range(0.9, 1.1)
+	else:
+		player.pitch_scale = 1.0
+	player.play()
 
 func reset_button_visuals():
 	for btn in buttons:

@@ -1,27 +1,38 @@
-[gd_resource type="Theme" load_steps=4 format=3 uid="uid://dmi3jf6jonyoq"]
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://dmi3jf6jonyoq"]
 
 [ext_resource type="FontFile" uid="uid://t86c8t2o1y50" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="1_l4r5r"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_l4r5r"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l4r5r"]
 bg_color = Color(0.2, 1, 0.2, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s5nl2"]
 bg_color = Color(0, 0.0666667, 0, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
+border_width_left = 3
+border_width_top = 5
+border_width_right = 3
+border_width_bottom = 5
 border_color = Color(0.2, 1, 0.2, 1)
-border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jnodi"]
+bg_color = Color(0.882736, 1, 0.871287, 1)
 
 [resource]
 Button/colors/font_hover_color = Color(0, 0, 0, 1)
 Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0.822991, 0, 1)
 Button/constants/outline_size = 0
 Button/font_sizes/font_size = 32
 Button/fonts/font = ExtResource("1_l4r5r")
+Button/styles/focus = SubResource("StyleBoxEmpty_l4r5r")
 Button/styles/hover = SubResource("StyleBoxFlat_l4r5r")
 Button/styles/normal = SubResource("StyleBoxFlat_s5nl2")
+Button/styles/pressed = SubResource("StyleBoxFlat_jnodi")
 Label/colors/font_outline_color = Color(0, 0, 0, 1)
 Label/constants/outline_size = 15
 Label/font_sizes/font_size = 50

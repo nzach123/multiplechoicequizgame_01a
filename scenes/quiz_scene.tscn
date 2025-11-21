@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://b74ltasqu7ps5"]
+[gd_scene load_steps=14 format=3 uid="uid://b74ltasqu7ps5"]
 
 [ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_c7ybq"]
 [ext_resource type="Script" uid="uid://bokrq0rpvdy4v" path="res://scripts/GameSession.gd" id="1_yjr3o"]
@@ -6,7 +6,19 @@
 [ext_resource type="AudioStream" uid="uid://beqilmnse66io" path="res://assets/audio/Loops/Retro Mystic.ogg" id="4_ndxw5"]
 [ext_resource type="AudioStream" uid="uid://cwi8tg0tp5a6h" path="res://assets/audio/ClickSFX/click_003.ogg" id="5_ijcxg"]
 [ext_resource type="AudioStream" uid="uid://caspgfmtl7keh" path="res://assets/audio/ClickSFX/confirmation_002.ogg" id="6_jfjul"]
-[ext_resource type="AudioStream" uid="uid://d16nd2odajx1e" path="res://assets/audio/Beeps/mixkit-retro-game-emergency-alarm-1000.wav" id="7_tkpib"]
+[ext_resource type="AudioStream" uid="uid://c2unp3p60uc4n" path="res://assets/audio/ClickSFX/error_001.ogg" id="7_ijcxg"]
+
+[sub_resource type="Gradient" id="Gradient_ijcxg"]
+offsets = PackedFloat32Array(0.376471, 1)
+colors = PackedColorArray(0.441607, 0.349522, 0.237369, 1, 0.838049, 0.634743, 0.319641, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_jfjul"]
+gradient = SubResource("Gradient_ijcxg")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tkpib"]
+texture = SubResource("GradientTexture2D_jfjul")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ijcxg"]
 bg_color = Color(5.29438e-06, 0.577399, 0.773026, 1)
@@ -55,6 +67,16 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.295589, 0.22334, 7.21961e-08, 1)
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_tkpib")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -180,7 +202,6 @@ theme_override_font_sizes/font_size = 128
 text = "Correct!"
 
 [node name="CRTScreen" type="ColorRect" parent="."]
-visible = false
 material = SubResource("ShaderMaterial_ndxw5")
 layout_mode = 1
 anchors_preset = 15
@@ -192,20 +213,14 @@ mouse_filter = 2
 
 [node name="AudioManager" type="Node" parent="."]
 
-[node name="SFX_BackgroundMusic" type="AudioStreamPlayer2D" parent="AudioManager"]
-visible = false
+[node name="SFX_BackgroundMusic" type="AudioStreamPlayer" parent="AudioManager"]
 stream = ExtResource("4_ndxw5")
-autoplay = true
 
-[node name="SFX_Click" type="AudioStreamPlayer2D" parent="AudioManager"]
+[node name="SFX_Click" type="AudioStreamPlayer" parent="AudioManager"]
 stream = ExtResource("5_ijcxg")
-autoplay = true
 
-[node name="SFX_Correct" type="AudioStreamPlayer2D" parent="AudioManager"]
+[node name="SFX_Correct" type="AudioStreamPlayer" parent="AudioManager"]
 stream = ExtResource("6_jfjul")
-autoplay = true
 
-[node name="SFX_Alarm" type="AudioStreamPlayer2D" parent="AudioManager"]
-visible = false
-stream = ExtResource("7_tkpib")
-autoplay = true
+[node name="SFX_Alarm" type="AudioStreamPlayer" parent="AudioManager"]
+stream = ExtResource("7_ijcxg")
