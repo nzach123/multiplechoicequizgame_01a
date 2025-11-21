@@ -26,3 +26,5 @@ Label/colors/font_outline_color = Color(0, 0, 0, 1)
 Label/constants/outline_size = 15
 Label/font_sizes/font_size = 50
 Label/fonts/font = ExtResource("1_l4r5r")
+ProgressBar/font_sizes/font_size = 40
+ProgressBar/fonts/font = ExtResource("1_l4r5r")

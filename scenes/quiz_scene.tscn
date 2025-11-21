@@ -1,8 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://b74ltasqu7ps5"]
+[gd_scene load_steps=11 format=3 uid="uid://b74ltasqu7ps5"]
 
 [ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_c7ybq"]
 [ext_resource type="Script" uid="uid://bokrq0rpvdy4v" path="res://scripts/GameSession.gd" id="1_yjr3o"]
 [ext_resource type="Shader" uid="uid://catxjmc45pfvr" path="res://resources/shaders/crt_screen.gdshader" id="3_vk6e3"]
+[ext_resource type="AudioStream" uid="uid://beqilmnse66io" path="res://assets/audio/Loops/Retro Mystic.ogg" id="4_ndxw5"]
+[ext_resource type="AudioStream" uid="uid://cwi8tg0tp5a6h" path="res://assets/audio/ClickSFX/click_003.ogg" id="5_ijcxg"]
+[ext_resource type="AudioStream" uid="uid://caspgfmtl7keh" path="res://assets/audio/ClickSFX/confirmation_002.ogg" id="6_jfjul"]
+[ext_resource type="AudioStream" uid="uid://d16nd2odajx1e" path="res://assets/audio/Beeps/mixkit-retro-game-emergency-alarm-1000.wav" id="7_tkpib"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ijcxg"]
+bg_color = Color(5.29438e-06, 0.577399, 0.773026, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1iyrn"]
+bg_color = Color(0.258824, 0.709804, 0.270588, 1)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ndxw5"]
 shader = ExtResource("3_vk6e3")
@@ -70,7 +80,25 @@ size_flags_horizontal = 3
 theme = ExtResource("1_c7ybq")
 text = "Score: 0"
 
+[node name="IntegrityBar" type="ProgressBar" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource("1_c7ybq")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ijcxg")
+value = 100.0
+
+[node name="TimerBar" type="ProgressBar" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource("1_c7ybq")
+theme_override_styles/fill = SubResource("StyleBoxFlat_1iyrn")
+max_value = 20.0
+show_percentage = false
+
 [node name="TimerLabel" type="Label" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
+visible = false
 layout_mode = 2
 theme = ExtResource("1_c7ybq")
 text = "Time: 45"
@@ -152,6 +180,7 @@ theme_override_font_sizes/font_size = 128
 text = "Correct!"
 
 [node name="CRTScreen" type="ColorRect" parent="."]
+visible = false
 material = SubResource("ShaderMaterial_ndxw5")
 layout_mode = 1
 anchors_preset = 15
@@ -160,3 +189,23 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
+
+[node name="AudioManager" type="Node" parent="."]
+
+[node name="SFX_BackgroundMusic" type="AudioStreamPlayer2D" parent="AudioManager"]
+visible = false
+stream = ExtResource("4_ndxw5")
+autoplay = true
+
+[node name="SFX_Click" type="AudioStreamPlayer2D" parent="AudioManager"]
+stream = ExtResource("5_ijcxg")
+autoplay = true
+
+[node name="SFX_Correct" type="AudioStreamPlayer2D" parent="AudioManager"]
+stream = ExtResource("6_jfjul")
+autoplay = true
+
+[node name="SFX_Alarm" type="AudioStreamPlayer2D" parent="AudioManager"]
+visible = false
+stream = ExtResource("7_tkpib")
+autoplay = true

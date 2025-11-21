@@ -1,8 +1,12 @@
 extends Control
 
 
+@onready var sfx_click: AudioStreamPlayer2D = $AudioManager/SFX_Click
+@onready var sfx_correct: AudioStreamPlayer2D = $AudioManager/SFX_Correct
+@onready var sfx_alarm: AudioStreamPlayer2D = $AudioManager/SFX_Alarm
 
-# --- 1. NODES ---
+@onready var integrity_bar: ProgressBar = $VBoxContainer/MarginContainer3/HBoxContainer/IntegrityBar
+@onready var timer_bar: ProgressBar = $VBoxContainer/MarginContainer3/HBoxContainer/TimerBar
 @onready var question_label = $VBoxContainer/MarginContainer2/QuestionLabel
 @onready var score_label = $VBoxContainer/MarginContainer3/HBoxContainer/ScoreLabel
 @onready var timer_label = $VBoxContainer/MarginContainer3/HBoxContainer/TimerLabel
@@ -21,11 +25,9 @@ var shake_decay: float = 5.0
 var rng = RandomNumberGenerator.new()
 var camera: Camera2D
 
-
-# --- 2. STATE ---
 var current_q_index: int = 0
 var inputs_locked: bool = false
-# Helper to map Index to Letter
+
 var index_to_letter = { 0: "A", 1: "B", 2: "C", 3: "D" }
 
 func _ready():
@@ -46,6 +48,20 @@ func _ready():
 func _process(delta):
 	if not quiz_timer.is_stopped():
 		timer_label.text = "Time: " + str(ceil(quiz_timer.time_left))
+		
+	if not quiz_timer.is_stopped():
+		var time_left = quiz_timer.time_left
+		timer_bar.value = time_left
+				
+		# Visual Panic: Change color as time runs out
+		var style_box = timer_bar.get_theme_stylebox("fill")
+		if time_left < 5.0:
+			style_box.bg_color = Color(1, 0, 0) # Red
+			if int(time_left * 10) % 2 == 0: # Flicker effect
+				style_box.bg_color = Color(0.5, 0, 0)
+		else:
+			style_box.bg_color = Color(0, 1, 0) # Green
+			
 	# Handle Shake
 	if shake_strength > 0:
 		shake_strength = lerp(shake_strength, 0.0, shake_decay * delta)
@@ -53,6 +69,7 @@ func _process(delta):
 			rng.randf_range(-shake_strength, shake_strength),
 			rng.randf_range(-shake_strength, shake_strength)
 		)
+
 # Add this helper function
 func apply_shake(intensity: float):
 	shake_strength = intensity
@@ -112,6 +129,7 @@ func load_question(index: int):
 
 func _on_button_pressed(selected_idx: int):
 	if inputs_locked: return
+	sfx_click.play()
 	inputs_locked = true
 	quiz_timer.stop()
 	
@@ -155,16 +173,19 @@ func _on_timer_timeout():
 func handle_correct(idx):
 	feedback_label.text = "STATUS: OPTIMAL"
 	feedback_label.modulate = Color.GREEN
-	apply_shake(5.0)
 	GameManager.current_score += 100
+	sfx_correct.play()
+	apply_shake(5.0)
 	update_score_ui()
 	buttons[idx].modulate = Color.GREEN
 
 func handle_wrong(selected_idx, correct_idx):
 	feedback_label.text = "STATUS: FAILURE"
 	feedback_label.modulate = Color.RED
-	apply_shake(20.0)
 	GameManager.current_integrity -= 20
+	sfx_alarm.play()
+	apply_shake(20.0)
+	
 	if selected_idx != -1:
 		buttons[selected_idx].modulate = Color.RED
 	buttons[correct_idx].modulate = Color.GREEN 
