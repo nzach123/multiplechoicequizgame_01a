@@ -14,6 +14,7 @@ extends Control
 @onready var round_timer = $RoundTimer   # Set to 60s in Inspector
 
 @onready var feedback_label = $FeedbackLabel
+@onready var remediation_popup = $RemediationPopup
 @onready var buttons = [
 	$VBoxContainer/MarginContainer/AnswerGridContainer/Button,
 	$VBoxContainer/MarginContainer/AnswerGridContainer/Button2,
@@ -57,6 +58,9 @@ func _ready():
 		sfx_ambience.play()
 		
 	# Load Data and Start
+	# Connect Remediation Signal
+	remediation_popup.acknowledged.connect(_on_remediation_acknowledged)
+
 	# If we have questions loaded (from Main Menu), use them. Otherwise load default (debug/testing).
 	if GameManager.questions_pool.size() > 0:
 		start_game()
@@ -168,16 +172,15 @@ func _on_button_pressed(selected_idx: int):
 	
 	if is_correct: 
 		handle_correct(selected_idx)
+		# If game isn't over, wait and load next
+		if GameManager.current_integrity > 0:
+			await get_tree().create_timer(1.5).timeout
+			# Double check integrity didn't drop while waiting (edge case) and timer didn't run out
+			if not round_timer.is_stopped(): 
+				current_q_index += 1
+				load_question(current_q_index)
 	else: 
 		handle_wrong(selected_idx, correct_idx, q_data, selected_answer_obj["text"])
-	
-	# If game isn't over, wait and load next
-	if GameManager.current_integrity > 0:
-		await get_tree().create_timer(1.5).timeout
-		# Double check integrity didn't drop while waiting (edge case) and timer didn't run out
-		if not round_timer.is_stopped(): 
-			current_q_index += 1
-			load_question(current_q_index)
 
 # --- EVENT HANDLERS ---
 
@@ -198,13 +201,6 @@ func _on_question_timeout():
 		
 	# Handle timeout as a wrong answer
 	handle_wrong(-1, correct_idx, q_data, "TIMEOUT")
-	
-	# Check if we survived the hit
-	if GameManager.current_integrity > 0:
-		await get_tree().create_timer(1.5).timeout
-		if not round_timer.is_stopped():
-			current_q_index += 1
-			load_question(current_q_index)
 
 func _on_round_timeout():
 	# 60 Seconds are up - Immediate Game Over
@@ -251,6 +247,27 @@ func handle_wrong(selected_idx, correct_idx, q_data, user_choice_text):
 	# 4. Check for Game Over triggered by Integrity
 	if GameManager.current_integrity <= 0:
 		finish_game()
+		return
+
+	# 5. Trigger Remediation Loop
+	round_timer.paused = true
+	question_timer.paused = true
+	
+	# Wait for user to process the visual feedback (Green/Red buttons)
+	await get_tree().create_timer(1.5).timeout
+	
+	var explanation = q_data.get("explanation", "No explanation provided.")
+	remediation_popup.set_explanation(explanation)
+	remediation_popup.show()
+
+func _on_remediation_acknowledged():
+	remediation_popup.hide()
+	
+	round_timer.paused = false
+	question_timer.paused = false
+	
+	current_q_index += 1
+	load_question(current_q_index)
 
 func update_score_ui():
 	score_label.text = "Score: " + str(GameManager.current_score)

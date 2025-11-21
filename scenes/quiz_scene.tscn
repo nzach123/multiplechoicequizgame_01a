@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://b74ltasqu7ps5"]
+[gd_scene load_steps=18 format=3 uid="uid://b74ltasqu7ps5"]
 
 [ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_c7ybq"]
 [ext_resource type="Script" uid="uid://bokrq0rpvdy4v" path="res://scripts/GameSession.gd" id="1_yjr3o"]
@@ -10,6 +10,7 @@
 [ext_resource type="AudioStream" uid="uid://c10rpwkshe82c" path="res://assets/audio/Beeps/mixkit-facility-alarm-sound-999.wav" id="7_jfjul"]
 [ext_resource type="Texture2D" uid="uid://cu3bc6hhigkdn" path="res://resources/textures/timer_bg.tres" id="8_timerbg"]
 [ext_resource type="Texture2D" uid="uid://bea340qugpmjo" path="res://resources/textures/timer_fg.tres" id="9_timerfg"]
+[ext_resource type="PackedScene" uid="uid://b8x7y201a3c4d" path="res://scenes/RemediationPopup.tscn" id="10_popup"]
 
 [sub_resource type="Gradient" id="Gradient_ijcxg"]
 offsets = PackedFloat32Array(0.376471, 1)
@@ -227,6 +228,10 @@ grow_vertical = 2
 theme = ExtResource("1_c7ybq")
 theme_override_font_sizes/font_size = 128
 text = "Correct!"
+
+[node name="RemediationPopup" parent="." instance=ExtResource("10_popup")]
+visible = false
+layout_mode = 1
 
 [node name="CRTScreen" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_ndxw5")
