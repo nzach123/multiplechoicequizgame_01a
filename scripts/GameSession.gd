@@ -1,9 +1,11 @@
 extends Control
 
+
+
 # --- 1. NODES ---
 @onready var question_label = $VBoxContainer/MarginContainer2/QuestionLabel
-@onready var score_label = $VBoxContainer/HBoxContainer/ScoreLabel
-@onready var timer_label = $VBoxContainer/HBoxContainer/TimerLabel
+@onready var score_label = $VBoxContainer/MarginContainer3/HBoxContainer/ScoreLabel
+@onready var timer_label = $VBoxContainer/MarginContainer3/HBoxContainer/TimerLabel
 @onready var feedback_label = $FeedbackLabel
 @onready var quiz_timer = $QuizTimer
 
@@ -13,6 +15,11 @@ extends Control
 	$VBoxContainer/MarginContainer/AnswerGridContainer/Button3, # Maps to "C"
 	$VBoxContainer/MarginContainer/AnswerGridContainer/Button4  # Maps to "D"
 ]
+
+var shake_strength: float = 0.0
+var shake_decay: float = 5.0
+var rng = RandomNumberGenerator.new()
+var camera: Camera2D
 
 # --- 2. STATE ---
 var current_q_index: int = 0
@@ -29,10 +36,26 @@ func _ready():
 		start_game()
 	else:
 		question_label.text = "CRITICAL ERROR: DATA NOT FOUND"
-
-func _process(_delta):
+		
+	# Initialize a camera programmatically
+	camera = Camera2D.new()
+	camera.anchor_mode = Camera2D.ANCHOR_MODE_FIXED_TOP_LEFT
+	add_child(camera)
+	
+func _process(delta):
 	if not quiz_timer.is_stopped():
 		timer_label.text = "Time: " + str(ceil(quiz_timer.time_left))
+	# Handle Shake
+	if shake_strength > 0:
+		shake_strength = lerp(shake_strength, 0.0, shake_decay * delta)
+		camera.offset = Vector2(
+			rng.randf_range(-shake_strength, shake_strength),
+			rng.randf_range(-shake_strength, shake_strength)
+		)
+# Add this helper function
+func apply_shake(intensity: float):
+	shake_strength = intensity
+
 
 func start_game():
 	GameManager.reset_stats()
@@ -44,7 +67,16 @@ func start_game():
 	
 	connect_buttons()
 	load_question(0)
-
+	
+func animate_text(label: Label, text_content: String):
+	label.text = text_content
+	label.visible_ratio = 0.0
+	
+	var tween = create_tween()
+	# Calculate duration based on text length (e.g., 0.02 seconds per character)
+	var duration = text_content.length() * 0.02
+	tween.tween_property(label, "visible_ratio", 1.0, duration)
+	
 func connect_buttons():
 	for i in range(buttons.size()):
 		if buttons[i].pressed.is_connected(_on_button_pressed):
@@ -63,7 +95,7 @@ func load_question(index: int):
 	var q_data = GameManager.questions_pool[index]
 	
 	# 1. Set Question Text (using your key: "question")
-	question_label.text = q_data["question"]
+	animate_text(question_label, q_data["question"])
 	
 	# 2. Set Option Text (using your key: "options" -> "A", "B"...)
 	# We force the mapping: Button 0 gets "A", Button 1 gets "B"
@@ -75,7 +107,7 @@ func load_question(index: int):
 	for btn in buttons:
 		btn.show()
 	
-	quiz_timer.start(15)
+	quiz_timer.start()
 
 func _on_button_pressed(selected_idx: int):
 	if inputs_locked: return
@@ -130,7 +162,7 @@ func handle_wrong(selected_idx, correct_idx):
 	feedback_label.text = "STATUS: FAILURE"
 	feedback_label.modulate = Color.RED
 	GameManager.current_integrity -= 20
-	
+	apply_shake(20.0)
 	if selected_idx != -1:
 		buttons[selected_idx].modulate = Color.RED
 	buttons[correct_idx].modulate = Color.GREEN 
