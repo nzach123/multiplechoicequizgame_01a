@@ -4,6 +4,7 @@ extends Control
 @onready var question_label = $VBoxContainer/MarginContainer2/QuestionLabel
 @onready var score_label = $VBoxContainer/MarginContainer3/HBoxContainer/ScoreLabel
 @onready var timer_bar = $VBoxContainer/MarginContainer3/HBoxContainer/TimerBar
+@onready var circular_timer = $VBoxContainer/MarginContainer3/HBoxContainer/TimerContainer/CircularTimer
 @onready var integrity_bar = $VBoxContainer/MarginContainer3/HBoxContainer/IntegrityBar
 # NOTE: If you want to show the total round time remaining, add a Label or Bar for it.
 # For now, we rely on the internal timer.
@@ -56,7 +57,10 @@ func _ready():
 		sfx_ambience.play()
 		
 	# Load Data and Start
-	if GameManager.load_course_data("1110"): # Ensure this matches your JSON filename
+	# If we have questions loaded (from Main Menu), use them. Otherwise load default (debug/testing).
+	if GameManager.questions_pool.size() > 0:
+		start_game()
+	elif GameManager.load_course_data("1110"): 
 		start_game()
 	
 	# Camera Setup
@@ -74,7 +78,11 @@ func _process(delta):
 		else:
 			timer_bar.modulate = Color(1, 1, 1)
 
-	# 2. Handle Screen Shake
+	# 2. Update Round Timer (Circular)
+	if not round_timer.is_stopped():
+		circular_timer.value = round_timer.time_left
+
+	# 3. Handle Screen Shake
 	if shake_strength > 0:
 		shake_strength = lerp(shake_strength, 0.0, shake_decay * delta)
 		camera.offset = Vector2(

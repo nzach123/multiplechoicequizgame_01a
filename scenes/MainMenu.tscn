@@ -1,0 +1,96 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8j7k5m2p1q4n"]
+
+[ext_resource type="Script" uid="uid://bet0vs3tt2bki" path="res://scripts/MainMenu.gd" id="1_menu"]
+[ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_theme"]
+[ext_resource type="Shader" uid="uid://catxjmc45pfvr" path="res://resources/shaders/crt_screen.gdshader" id="2_shader"]
+[ext_resource type="AudioStream" uid="uid://cwi8tg0tp5a6h" path="res://assets/audio/ClickSFX/click_003.ogg" id="3_sfx"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_crt"]
+shader = ExtResource("2_shader")
+shader_parameter/overlay = true
+shader_parameter/scanlines_opacity = 0.2
+shader_parameter/scanlines_width = 0.25
+shader_parameter/grille_opacity = 0.15
+shader_parameter/resolution = Vector2(640, 480)
+shader_parameter/pixelate = true
+shader_parameter/roll = true
+shader_parameter/roll_speed = 0.0
+shader_parameter/roll_size = 15.0
+shader_parameter/roll_variation = 1.8
+shader_parameter/distort_intensity = 0.0
+shader_parameter/noise_opacity = 0.0
+shader_parameter/noise_speed = 5.0
+shader_parameter/static_noise_intensity = 0.02
+shader_parameter/aberration = 0.00500005
+shader_parameter/brightness = 1.4
+shader_parameter/discolor = true
+shader_parameter/warp_amount = 0.11
+shader_parameter/clip_warp = false
+shader_parameter/vignette_intensity = 0.3
+shader_parameter/vignette_opacity = 0.5
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_menu")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0156863, 0.054902, 0.0156863, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="MarginContainer_Title" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 100
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer/MarginContainer_Title"]
+layout_mode = 2
+theme = ExtResource("1_theme")
+theme_override_font_sizes/font_size = 64
+text = "DISASTER MANAGER
+TRAINING SIMULATION"
+horizontal_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 400
+theme_override_constants/margin_right = 400
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Button" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CRTScreen" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_crt")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="AudioManager" type="Node" parent="."]
+
+[node name="SFX_Click" type="AudioStreamPlayer" parent="AudioManager"]
+stream = ExtResource("3_sfx")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://b74ltasqu7ps5"]
+[gd_scene load_steps=17 format=3 uid="uid://b74ltasqu7ps5"]
 
 [ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_c7ybq"]
 [ext_resource type="Script" uid="uid://bokrq0rpvdy4v" path="res://scripts/GameSession.gd" id="1_yjr3o"]
@@ -8,6 +8,8 @@
 [ext_resource type="AudioStream" uid="uid://caspgfmtl7keh" path="res://assets/audio/ClickSFX/confirmation_002.ogg" id="6_jfjul"]
 [ext_resource type="AudioStream" uid="uid://c2unp3p60uc4n" path="res://assets/audio/ClickSFX/error_001.ogg" id="7_ijcxg"]
 [ext_resource type="AudioStream" uid="uid://c10rpwkshe82c" path="res://assets/audio/Beeps/mixkit-facility-alarm-sound-999.wav" id="7_jfjul"]
+[ext_resource type="Texture2D" uid="uid://cu3bc6hhigkdn" path="res://resources/textures/timer_bg.tres" id="8_timerbg"]
+[ext_resource type="Texture2D" uid="uid://bea340qugpmjo" path="res://resources/textures/timer_fg.tres" id="9_timerfg"]
 
 [sub_resource type="Gradient" id="Gradient_ijcxg"]
 offsets = PackedFloat32Array(0.376471, 1)
@@ -110,6 +112,30 @@ size_flags_vertical = 1
 theme = ExtResource("1_c7ybq")
 theme_override_styles/fill = SubResource("StyleBoxFlat_ijcxg")
 value = 100.0
+
+[node name="TimerContainer" type="Control" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="CircularTimer" type="TextureProgressBar" parent="VBoxContainer/MarginContainer3/HBoxContainer/TimerContainer"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+max_value = 60.0
+step = 0.1
+value = 60.0
+fill_mode = 4
+texture_under = ExtResource("8_timerbg")
+texture_progress = ExtResource("9_timerfg")
 
 [node name="TimerBar" type="ProgressBar" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
 layout_mode = 2

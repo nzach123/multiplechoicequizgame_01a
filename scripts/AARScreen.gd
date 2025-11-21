@@ -68,8 +68,8 @@ func _on_retry():
 	get_tree().change_scene_to_file("res://scenes/quiz_scene.tscn")
 
 func _on_menu():
-	# For now, just restart. Later we will link to a Main Menu.
-	get_tree().change_scene_to_file("res://scenes/quiz_scene.tscn")
+	# Return to Main Menu
+	get_tree().change_scene_to_file("res://scenes/MainMenu.tscn")
 	
 func play_click():
 	sfx_click.play()
