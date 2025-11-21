@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://b74ltasqu7ps5"]
+[gd_scene load_steps=15 format=3 uid="uid://b74ltasqu7ps5"]
 
 [ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_c7ybq"]
 [ext_resource type="Script" uid="uid://bokrq0rpvdy4v" path="res://scripts/GameSession.gd" id="1_yjr3o"]
@@ -7,6 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://cwi8tg0tp5a6h" path="res://assets/audio/ClickSFX/click_003.ogg" id="5_ijcxg"]
 [ext_resource type="AudioStream" uid="uid://caspgfmtl7keh" path="res://assets/audio/ClickSFX/confirmation_002.ogg" id="6_jfjul"]
 [ext_resource type="AudioStream" uid="uid://c2unp3p60uc4n" path="res://assets/audio/ClickSFX/error_001.ogg" id="7_ijcxg"]
+[ext_resource type="AudioStream" uid="uid://c10rpwkshe82c" path="res://assets/audio/Beeps/mixkit-facility-alarm-sound-999.wav" id="7_jfjul"]
 
 [sub_resource type="Gradient" id="Gradient_ijcxg"]
 offsets = PackedFloat32Array(0.376471, 1)
@@ -224,4 +225,11 @@ stream = ExtResource("5_ijcxg")
 stream = ExtResource("6_jfjul")
 
 [node name="SFX_Alarm" type="AudioStreamPlayer" parent="AudioManager"]
+stream = ExtResource("7_jfjul")
+
+[node name="SFX_Wrong" type="AudioStreamPlayer" parent="AudioManager"]
 stream = ExtResource("7_ijcxg")
+
+[node name="RoundTimer" type="Timer" parent="."]
+wait_time = 60.0
+one_shot = true
