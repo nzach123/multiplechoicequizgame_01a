@@ -1,0 +1,982 @@
+[
+  {
+	"question": "What is the core mandate of Gender-Based Analysis Plus (GBA+)?",
+	"options": {
+	  "A": "To advocate for specific gender policies.",
+	  "B": "To assess how diverse groups experience policies, programs, and initiatives.",
+	  "C": "To secure funding for women's organizations.",
+	  "D": "To replace existing policy analysis with a focus on gender."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "In what year did the Government of Canada first commit to using Gender-Based Analysis (GBA)?",
+	"options": {
+	  "A": "1995",
+	  "B": "2007",
+	  "C": "2011",
+	  "D": "2018"
+	},
+	"answer": "A"
+  },
+  {
+	"question": "What does the 'Plus' in GBA+ signify?",
+	"options": {
+	  "A": "Additional funding for programs.",
+	  "B": "A focus on international best practices.",
+	  "C": "An intersectional analysis considering multiple identity factors beyond gender.",
+	  "D": "An optional, extra step in the analysis process."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which of the following is NOT listed as an identity factor considered under the 'Plus' in GBA+?",
+	"options": {
+	  "A": "Race",
+	  "B": "Disability",
+	  "C": "Political affiliation",
+	  "D": "Geography"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "According to the report, what is the 'implementation gap' in GBA+?",
+	"options": {
+	  "A": "The time delay between policy creation and implementation.",
+	  "B": "The difference in application between federal and provincial governments.",
+	  "C": "The gap between the framework's mandate and its inconsistent, day-to-day practice.",
+	  "D": "The lack of GBA+ application in the private sector."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What is a major critique of how GBA+ is sometimes treated in bureaucracy?",
+	"options": {
+	  "A": "It is overly complex and requires too much data.",
+	  "B": "It is too focused on academic theory.",
+	  "C": "It is often treated as a bureaucratic 'box-ticking' exercise.",
+	  "D": "It is applied too early in the policy process."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which federal department officially rebranded 'GBA' to 'GBA+' in 2011?",
+	"options": {
+	  "A": "Department of Justice Canada",
+	  "B": "Indigenous Services Canada",
+	  "C": "Status of Women Canada (now WAGE)",
+	  "D": "Public Safety Canada"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The concept of intersectionality, central to GBA+, is rooted in which intellectual tradition?",
+	"options": {
+	  "A": "Neoliberal economics",
+	  "B": "Black feminist scholarship",
+	  "C": "Classical political theory",
+	  "D": "Post-structuralism"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is one of the three fundamental objectives of the GBA+ process?",
+	"options": {
+	  "A": "To guarantee equal outcomes for all groups.",
+	  "B": "To eliminate all forms of discrimination immediately.",
+	  "C": "To create new government programs.",
+	  "D": "To mitigate any potential barriers that prevent groups from benefiting from an initiative."
+	},
+	"answer": "D"
+  },
+  {
+	"question": "What is the first step in the typical five-step GBA+ cycle?",
+	"options": {
+	  "A": "Develop Options",
+	  "B": "Identify the Issue",
+	  "C": "Identify People & Their Needs",
+	  "D": "Implement, Monitor & Evaluate"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "According to the report, vulnerability is understood as:",
+	"options": {
+	  "A": "An inherent or permanent trait of an individual.",
+	  "B": "A condition created by systemic inequities and barriers.",
+	  "C": "A result of poor personal choices.",
+	  "D": "A temporary state that resolves on its own."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is the primary driver of the health and social inequalities experienced by Indigenous Peoples in Canada?",
+	"options": {
+	  "A": "Geographic isolation",
+	  "B": "Lack of individual fortitude",
+	  "C": "The ongoing legacy of colonialism",
+	  "D": "Recent economic downturns"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The report states that what percentage of women in Canada live with a disability?",
+	"options": {
+	  "A": "10%",
+	  "B": "15%",
+	  "C": "24%",
+	  "D": "35%"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What is disaggregated data?",
+	"options": {
+	  "A": "Data that has been proven incorrect.",
+	  "B": "Data collected from a single, homogenous group.",
+	  "C": "Information that has been broken down by factors like gender, race, age, and income.",
+	  "D": "Qualitative data from interviews and focus groups."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The COVID-19 pandemic illustrated the consequences of data gaps, specifically Canada's initial failure to collect what kind of data?",
+	"options": {
+	  "A": "Age-based data",
+	  "B": "Gender-based data",
+	  "C": "Geographic data",
+	  "D": "Race-based health data"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "What does the OCAP® principle, relevant for research with Indigenous communities, stand for?",
+	"options": {
+	  "A": "Opportunity, Collaboration, Access, and Progress",
+	  "B": "Ownership, Control, Access, and Possession",
+	  "C": "Observation, Collection, Analysis, and Publication",
+	  "D": "Organization, Capacity, Accountability, and Partnership"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The report reframes 'vulnerable populations' to a more accurate term. What is it?",
+	"options": {
+	  "A": "Populations at risk",
+	  "B": "Inherently weak populations",
+	  "C": "Populations made vulnerable by systemic barriers",
+	  "D": "Under-supported communities"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "In the context of social policy, resilience is defined as:",
+	"options": {
+	  "A": "An individual's innate toughness.",
+	  "B": "The ability to ignore adversity.",
+	  "C": "A dynamic process of adapting positively in the face of adversity.",
+	  "D": "Returning to the exact same state as before a crisis."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Protective factors that cultivate resilience are inextricably linked to what other concept?",
+	"options": {
+	  "A": "Gross Domestic Product (GDP)",
+	  "B": "Social Determinants of Health (SDOH)",
+	  "C": "Political Stability Index",
+	  "D": "Individual Genetic Makeup"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Which of the following is NOT one of the five key domains of Social Determinants of Health?",
+	"options": {
+	  "A": "Economic Stability",
+	  "B": "Religious Affiliation",
+	  "C": "Health Care Access and Quality",
+	  "D": "Neighborhood and Built Environment"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The report argues that resilience is an outcome of what?",
+	"options": {
+	  "A": "Equity",
+	  "B": "Individualism",
+	  "C": "Economic growth",
+	  "D": "Technological advancement"
+	},
+	"answer": "A"
+  },
+  {
+	"question": "A strengths-based GBA+ approach focuses on:",
+	"options": {
+	  "A": "Identifying only the weaknesses and deficits in a community.",
+	  "B": "Imposing external, expert-driven solutions on a community.",
+	  "C": "Identifying and building upon a community's existing assets and resilience strategies.",
+	  "D": "Ignoring lived experience in favor of quantitative data."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which case study highlighted the development of 'culturally-competent' GBA+ responsive to the needs of First Nations, Inuit, and Métis peoples?",
+	"options": {
+	  "A": "Department of Justice Canada",
+	  "B": "Public Safety Canada",
+	  "C": "Indigenous Services Canada (ISC)",
+	  "D": "Impact Assessment Agency of Canada"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Under the Impact Assessment Act, GBA+ is used to assess the link between large-scale resource projects and what specific issue?",
+	"options": {
+	  "A": "Air pollution",
+	  "B": "Local economic inflation",
+	  "C": "Increased rates of gender-based violence",
+	  "D": "Disruption of wildlife migration patterns"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which city has been a municipal leader in Alberta for implementing GBA+ to strengthen its EndPoverty roadmap?",
+	"options": {
+	  "A": "Calgary",
+	  "B": "Edmonton",
+	  "C": "Red Deer",
+	  "D": "Lethbridge"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The City of Montreal used its intersectional analysis (ADS+) to inform the design of what public facility?",
+	"options": {
+	  "A": "A new library",
+	  "B": "A public transit station",
+	  "C": "An aquatic complex with an all-gender locker room",
+	  "D": "A community sports field"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The City of Burnaby partnered with which initiative to apply a GBA+ framework to its community planning process?",
+	"options": {
+	  "A": "Imagine Canada",
+	  "B": "YWCA City Shift",
+	  "C": "Canadian Red Cross",
+	  "D": "QUEST Canada"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The Ontario Nonprofit Network (ONN) applies a GBA+ lens to what initiative?",
+	"options": {
+	  "A": "Environmental Sustainability",
+	  "B": "Decent Work for Women",
+	  "C": "Digital Literacy for Seniors",
+	  "D": "Youth Engagement in Politics"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is the single most critical and frequently cited barrier to effective GBA+ implementation?",
+	"options": {
+	  "A": "Lack of political will",
+	  "B": "Resistance from community groups",
+	  "C": "Lack of high-quality disaggregated data",
+	  "D": "The framework is too new to be effective"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What is a central academic critique of how the 'Plus' in GBA+ is often interpreted?",
+	"options": {
+	  "A": "It is too complex for public servants to understand.",
+	  "B": "It is interpreted in an additive or tokenistic manner, not as a truly integrated analysis.",
+	  "C": "It focuses too much on geography.",
+	  "D": "It overemphasizes economic factors."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Which organization provides leadership on GBA+ for the federal government?",
+	"options": {
+	  "A": "Privy Council Office",
+	  "B": "Treasury Board of Canada Secretariat",
+	  "C": "Statistics Canada",
+	  "D": "Women and Gender Equality Canada (WAGE)"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "What is the term for the recurring cycle of government commitment to GBA followed by critical review and renewed action?",
+	"options": {
+	  "A": "The Policy Feedback Loop",
+	  "B": "The Implementation Gap",
+	  "C": "The Compliance Paradox",
+	  "D": "The document does not name this cycle."
+	},
+	"answer": "D"
+  },
+  {
+	"question": "What is the 'compliance paradox' described in the GBA+ report?",
+	"options": {
+	  "A": "The more compliant a department is, the less effective its policies become.",
+	  "B": "Departments can be technically compliant by completing a GBA+ without it having any real impact.",
+	  "C": "Compliance with GBA+ is impossible due to a lack of data.",
+	  "D": "The rules for compliance are constantly changing."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "According to the emergency management lesson, 'vulnerable populations' make up approximately what portion of Canada's population?",
+	"options": {
+	  "A": "A small fraction, around 10%",
+	  "B": "About half of the population",
+	  "C": "Only a quarter of the population",
+	  "D": "The vast majority, leaving only about 1/4 of the population outside these groups."
+	},
+	"answer": "D"
+  },
+  {
+	"question": "According to panelist Dr. Maureen Fordham, 'gender' is often incorrectly reduced to mean only what?",
+	"options": {
+	  "A": "Sexuality",
+	  "B": "Women",
+	  "C": "Family structure",
+	  "D": "Gender identity"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What key asset did Claire Harris from HelpAge stress that older people bring to Disaster Risk Reduction (DRR)?",
+	"options": {
+	  "A": "Financial resources",
+	  "B": "Political influence",
+	  "C": "Physical strength",
+	  "D": "Experience and knowledge"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "What was a key criticism made by Dr. Jake Rom Cadag regarding ethnic minorities in disaster frameworks?",
+	"options": {
+	  "A": "There is too much focus on ethnicity.",
+	  "B": "The draft framework does not refer to collecting disaggregated data on ethnicity.",
+	  "C": "Ethnic minorities are always included in planning.",
+	  "D": "Participation methods for ethnic minorities are well-established."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What point did Nick Hall from Save the Children make about the 'children and youth' category?",
+	"options": {
+	  "A": "They are a homogenous group with the same needs.",
+	  "B": "They should not be considered in disaster planning.",
+	  "C": "The group is not homogenous and should be disaggregated by age, sex, and other factors.",
+	  "D": "They have no assets to contribute to DRR."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "According to the Week 3 lesson, in a major disaster, the issues faced by 'vulnerable populations' tend to affect whom?",
+	"options": {
+	  "A": "Only those specific groups.",
+	  "B": "First responders exclusively.",
+	  "C": "The whole of society.",
+	  "D": "Neighboring communities."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Hugh MacLeman from the British Red Cross highlighted that DRR frameworks tend to talk about the vulnerability of what, rather than people?",
+	"options": {
+	  "A": "Infrastructure",
+	  "B": "Countries",
+	  "C": "Ecosystems",
+	  "D": "Economies"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "According to the emergency management definition from Public Safety Canada, what does the field manage?",
+	"options": {
+	  "A": "Only natural disasters",
+	  "B": "Only terrorist attacks",
+	  "C": "Emergencies concerning all-hazards",
+	  "D": "Government communications during a crisis"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Based on the ISO definition, what is 'risk'?",
+	"options": {
+	  "A": "The certainty of a negative outcome.",
+	  "B": "A physical event with the potential to cause harm.",
+	  "C": "The effect of uncertainty on objectives.",
+	  "D": "A property that results in susceptibility to harm."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What are the two primary components of risk in its simplest terms?",
+	"options": {
+	  "A": "Hazard and Vulnerability",
+	  "B": "Threat and Exposure",
+	  "C": "Likelihood and Consequences",
+	  "D": "Prevention and Mitigation"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What is the ISO definition of 'vulnerability'?",
+	"options": {
+	  "A": "The presence of a hazard and an exposure pathway.",
+	  "B": "The intrinsic properties of something resulting in susceptibility to a risk source.",
+	  "C": "An event with the potential to cause fatalities.",
+	  "D": "The effect of uncertainty on financial goals."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Which of the following is an example of a 'technological hazard'?",
+	"options": {
+	  "A": "Earthquake",
+	  "B": "Terrorism",
+	  "C": "Dam failure",
+	  "D": "Wildfire"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which type of vulnerability relates to the health and welfare of the natural environment in a community?",
+	"options": {
+	  "A": "Social Vulnerability",
+	  "B": "Economic Vulnerability",
+	  "C": "Physical Vulnerability",
+	  "D": "Environmental Vulnerability"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "Social vulnerability measures factors that affect a population's susceptibility. Which group is mentioned as an example?",
+	"options": {
+	  "A": "Elected officials",
+	  "B": "The elderly, youth, and medically vulnerable",
+	  "C": "Corporate executives",
+	  "D": "First responders"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Which type of vulnerability focuses on the physical risks of an environment, such as structures and transportation?",
+	"options": {
+	  "A": "Social Vulnerability",
+	  "B": "Economic Vulnerability",
+	  "C": "Physical Vulnerability",
+	  "D": "Environmental Vulnerability"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "According to the text, what determines how vulnerable we are to the hazards producing risk?",
+	"options": {
+	  "A": "Our geographic location only",
+	  "B": "The way we address the risks we face",
+	  "C": "The type of hazard",
+	  "D": "Our level of education"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is the subject of Gerd Gigerenzer's TEDx talk mentioned in the text?",
+	"options": {
+	  "A": "The history of emergency management",
+	  "B": "The difference between relative risk and absolute risk",
+	  "C": "The Sendai Framework for DRR",
+	  "D": "The social determinants of health"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The GBA+ framework evolved from an initial commitment made by Canada following which international event?",
+	"options": {
+	  "A": "The Kyoto Protocol",
+	  "B": "The G7 Summit in Halifax",
+	  "C": "The Fourth World Conference on Women in Beijing",
+	  "D": "The Rio Earth Summit"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "When did providing GBA information become a mandatory requirement for submissions to the Treasury Board of Canada Secretariat?",
+	"options": {
+	  "A": "1995",
+	  "B": "2007",
+	  "C": "2011",
+	  "D": "2015"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The GBA+ report argues that vulnerability is not additive but has what kind of effect?",
+	"options": {
+	  "A": "Subtractive",
+	  "B": "Divisive",
+	  "C": "Exponential",
+	  "D": "Multiplicative"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "Which federal act, passed in 2018, helped institutionalize the GBA+ approach?",
+	"options": {
+	  "A": "The Canadian Human Rights Act",
+	  "B": "The Emergency Management Act",
+	  "C": "The Canadian Gender Budgeting Act",
+	  "D": "The Impact Assessment Act"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What core principle of GBA+ encourages practitioners to reflect on how their own social positions and biases might shape their analysis?",
+	"options": {
+	  "A": "Challenging Assumptions",
+	  "B": "Evidence-Based Analysis",
+	  "C": "Reflexivity",
+	  "D": "Systemic View"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Recent immigrants are how many times more likely than the Canadian average to be poor?",
+	"options": {
+	  "A": "Two times",
+	  "B": "Three times",
+	  "C": "Four times",
+	  "D": "Five times"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Social resilience is captured by the dual objective of 'beating the odds and...' what?",
+	"options": {
+	  "A": "ignoring the odds",
+	  "B": "changing the odds",
+	  "C": "accepting the odds",
+	  "D": "predicting the odds"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is one of the four key capacities involved in the multifaceted process of social resilience?",
+	"options": {
+	  "A": "Resistance",
+	  "B": "Avoidance",
+	  "C": "Isolation",
+	  "D": "Compliance"
+	},
+	"answer": "A"
+  },
+  {
+	"question": "The GBA+ analysis for renewing Canada's National Cyber Security Strategy focused on addressing what significant gap?",
+	"options": {
+	  "A": "Lack of funding for cybersecurity.",
+	  "B": "Lack of international cooperation.",
+	  "C": "Lack of disaggregated data on how different populations experience cyber threats.",
+	  "D": "Lack of advanced technology."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The Government of British Columbia used GBA+ in a landmark report on what topic?",
+	"options": {
+	  "A": "Poverty reduction",
+	  "B": "Climate change adaptation",
+	  "C": "Public transit expansion",
+	  "D": "Healthcare reform"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Which city's 'Women's Equity Strategy' is explicitly designed around an intersectional framework?",
+	"options": {
+	  "A": "Montreal",
+	  "B": "Edmonton",
+	  "C": "Vancouver",
+	  "D": "Burnaby"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The Canadian Center for Women’s Empowerment (CCFWE) applies a GBA+ lens to what specific mission?",
+	"options": {
+	  "A": "Ending economic abuse",
+	  "B": "Promoting women in STEM",
+	  "C": "Increasing female voter turnout",
+	  "D": "Providing childcare services"
+	},
+	"answer": "A"
+  },
+  {
+	"question": "Which independent body has conducted multiple audits (2009, 2015/2016, 2022) finding GBA+ implementation to be inconsistent and incomplete?",
+	"options": {
+	  "A": "The Senate of Canada",
+	  "B": "The Supreme Court of Canada",
+	  "C": "The Office of the Auditor General of Canada (OAG)",
+	  "D": "Women and Gender Equality Canada (WAGE)"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What false belief contributes to cultural resistance against GBA+ in some bureaucratic sectors?",
+	"options": {
+	  "A": "The belief that GBA+ is too expensive to implement.",
+	  "B": "The belief that their work is 'neutral' and GBA+ does not apply.",
+	  "C": "The belief that GBA+ only benefits women.",
+	  "D": "The belief that GBA+ has already been fully implemented."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is a key recommendation for governments to strengthen accountability for GBA+?",
+	"options": {
+	  "A": "Reduce the number of GBA+ reports required.",
+	  "B": "Factor the quality of GBA+ implementation into senior management performance evaluations.",
+	  "C": "Outsource all GBA+ analysis to third-party consultants.",
+	  "D": "Make the introductory GBA+ course optional."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The recommendation for policy managers is to integrate GBA+ at what stage of the policy process?",
+	"options": {
+	  "A": "Only during the final evaluation phase.",
+	  "B": "After a policy has been implemented for one year.",
+	  "C": "At the very beginning, during problem-identification.",
+	  "D": "Just before the policy is submitted for approval."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What is the key argument in the 'EMGT1110_Lessons_Week3' document regarding planning for vulnerable populations?",
+	"options": {
+	  "A": "They should be addressed in separate annexes to the main plan.",
+	  "B": "They should be the primary focus of the main plan, not an afterthought.",
+	  "C": "Planning for them is the sole responsibility of non-profit organizations.",
+	  "D": "They represent a small, manageable portion of the population."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The panel discussion central to the Week 3 lesson was held in 2014 by which organization?",
+	"options": {
+	  "A": "The British Red Cross",
+	  "B": "Save the Children",
+	  "C": "The Overseas Development Institute (ODI)",
+	  "D": "Handicap International"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Annie Patri of Handicap International highlighted that disasters exacerbate what for people with disabilities?",
+	"options": {
+	  "A": "Their access to government benefits.",
+	  "B": "Their community engagement.",
+	  "C": "Impacts related to health and economic opportunities.",
+	  "D": "Their ability to volunteer."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which of these is NOT listed as a barrier faced by so-called 'vulnerable populations' during disasters?",
+	"options": {
+	  "A": "Mobility obstacles",
+	  "B": "Language barriers",
+	  "C": "Excessive media attention",
+	  "D": "Medical care requirements"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "According to the Week 2 lesson, an 'intentional hazard' is exemplified by which of the following?",
+	"options": {
+	  "A": "A power failure",
+	  "B": "A flood",
+	  "C": "A cyber-attack",
+	  "D": "A dam failure"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The Week 2 lesson uses what city as an example for the likelihood vs. consequences of a major earthquake?",
+	"options": {
+	  "A": "Montreal",
+	  "B": "Toronto",
+	  "C": "Vancouver",
+	  "D": "Edmonton"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "Which type of vulnerability measures the financial means available to cope with the effects of a disaster?",
+	"options": {
+	  "A": "Social Vulnerability",
+	  "B": "Economic Vulnerability",
+	  "C": "Physical Vulnerability",
+	  "D": "Environmental Vulnerability"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The GBA+ framework moves from a simple 'gender lens' to a more comprehensive lens described as what?",
+	"options": {
+	  "A": "An economic lens",
+	  "B": "A political lens",
+	  "C": "A vulnerability lens",
+	  "D": "A historical lens"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The reform of which program at Indigenous Services Canada was informed by a First Nations-led engagement process?",
+	"options": {
+	  "A": "Environmental Public Health Program",
+	  "B": "Income Assistance program",
+	  "C": "Post-Secondary Education Program",
+	  "D": "Housing Infrastructure Program"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The Department of Justice Canada's application of GBA+ includes advancing which government-wide plan?",
+	"options": {
+	  "A": "National Housing Strategy",
+	  "B": "Supplier Diversity Action Plan",
+	  "C": "Healthy Eating Strategy",
+	  "D": "National Climate Adaptation Plan"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is the central argument of the 'From Analysis to Action' report on GBA+?",
+	"options": {
+	  "A": "GBA+ is a failed framework and should be replaced.",
+	  "B": "GBA+ is primarily a tool for academic research.",
+	  "C": "GBA+, when rigorously applied, is an indispensable process for dismantling systemic barriers.",
+	  "D": "GBA+ should only be applied to policies directly concerning women."
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What key component must a robust GBA+ be grounded in?",
+	"options": {
+	  "A": "Political opinion",
+	  "B": "Personal anecdotes",
+	  "C": "Evidence, including both quantitative and qualitative data",
+	  "D": "International policy trends"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The report notes that queer people of colour often face racism within 2SLGBTQI+ communities and what in their own racialized communities?",
+	"options": {
+	  "A": "Classism",
+	  "B": "Ageism",
+	  "C": "Ableism",
+	  "D": "Queerphobia"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "According to the report, what is a primary determinant of the health challenges faced by Indigenous peoples today?",
+	"options": {
+	  "A": "Lack of access to technology",
+	  "B": "Intergenerational trauma from colonialism and residential schools",
+	  "C": "A preference for traditional medicine over Western medicine",
+	  "D": "Recent changes in climate"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Statistics Canada has launched which specific hub to improve the availability of disaggregated data?",
+	"options": {
+	  "A": "Economic and Social Statistics Hub",
+	  "B": "Gender, Diversity and Inclusion Statistics Hub",
+	  "C": "National Health Data Hub",
+	  "D": "Environmental Statistics Hub"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is the final step in the five-step GBA+ cycle?",
+	"options": {
+	  "A": "Identify the Issue",
+	  "B": "Develop Options",
+	  "C": "Implement, Monitor & Evaluate",
+	  "D": "Identify People & Their Needs"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "According to the GBA+ report, the non-profit sector often integrates intersectional analysis with frameworks of anti-racism, anti-oppression, and what else?",
+	"options": {
+	  "A": "Fiscal conservatism",
+	  "B": "Market-based solutions",
+	  "C": "Technological innovation",
+	  "D": "Decolonization"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "Imagine Canada, as an umbrella organization, uses an intersectional lens to challenge the charitable sector's own roots in what systems?",
+	"options": {
+	  "A": "Socialism and communism",
+	  "B": "Modernism and post-modernism",
+	  "C": "Colonization and white supremacy",
+	  "D": "Industrialization and urbanization"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "What percentage of the non-profit workforce in the ONN 'Decent Work for Women' initiative consists of women?",
+	"options": {
+	  "A": "50%",
+	  "B": "65%",
+	  "C": "80%",
+	  "D": "95%"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The GBA+ report's table shows that the City of Burnaby's inclusive engagement strategy targeted which vulnerable populations?",
+	"options": {
+	  "A": "Indigenous women and girls",
+	  "B": "Gender-diverse people",
+	  "C": "New immigrants, low-income families, and persons with disabilities",
+	  "D": "Seniors living alone"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "According to the table, what was the specific outcome of the GBA+ process applied by the Impact Assessment Agency of Canada?",
+	"options": {
+	  "A": "Co-developed public health programs.",
+	  "B": "Design of an all-gender locker room.",
+	  "C": "Tailored financial literacy programs.",
+	  "D": "Mandatory assessment of links between resource projects and gender-based violence."
+	},
+	"answer": "D"
+  },
+  {
+	"question": "A 2023 report from which body warned that GBA+ could remain a 'box-ticking exercise' if barriers aren't addressed?",
+	"options": {
+	  "A": "The Office of the Auditor General",
+	  "B": "The Senate Committee on Social Affairs, Science and Technology",
+	  "C": "The Privy Council Office",
+	  "D": "Statistics Canada"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The GBA+ report mentions that the analysis is frequently conducted at what point in the policy process, limiting its influence?",
+	"options": {
+	  "A": "Too early, before the problem is understood",
+	  "B": "Too late to have a meaningful influence on design",
+	  "C": "Only after the policy has failed",
+	  "D": "During budget allocation only"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "What is one key recommendation to build genuine analytical capacity for GBA+ within government?",
+	"options": {
+	  "A": "Rely solely on the introductory online course.",
+	  "B": "Invest in a tiered and sustained training model, including advanced portfolio-specific training.",
+	  "C": "Hire only analysts with PhDs in gender studies.",
+	  "D": "Discourage partnerships with academic experts."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "The recommendations suggest that municipalities should follow the lead of cities like Vancouver, Burnaby, Edmonton, and which other city?",
+	"options": {
+	  "A": "Toronto",
+	  "B": "Calgary",
+	  "C": "Ottawa",
+	  "D": "Montreal"
+	},
+	"answer": "D"
+  },
+  {
+	"question": "The development of which culturally-specific framework is highlighted as essential for decolonizing the analytical process?",
+	"options": {
+	  "A": "The Francophone GBA+ Framework",
+	  "B": "The Urban Youth GBA+ Model",
+	  "C": "The IGBA+ Toolkit (Indigenous GBA+)",
+	  "D": "The Newcomer and Refugee GBA+ Lens"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The emergency management lesson states that to build better plans, professionals must understand what about the communities they serve?",
+	"options": {
+	  "A": "The political affiliations",
+	  "B": "The demographics",
+	  "C": "The average income",
+	  "D": "The preferred news sources"
+	},
+	"answer": "B"
+  },
+  {
+	"question": "According to the Coppola (2015) definition, when does a risk become 'safe' or 'acceptable'?",
+	"options": {
+	  "A": "When the risk is zero.",
+	  "B": "When it is associated with the best of the available alternatives.",
+	  "C": "When the government declares it to be so.",
+	  "D": "When the majority of the population agrees it is safe."
+	},
+	"answer": "B"
+  },
+  {
+	"question": "Which of these concepts is NOT defined in the key terminology of the Week 2 emergency management lesson?",
+	"options": {
+	  "A": "Hazard",
+	  "B": "Threat",
+	  "C": "Resilience",
+	  "D": "Vulnerability"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "The Week 2 lesson explains that vulnerability can increase or decrease depending on the event and what other factor?",
+	"options": {
+	  "A": "The time of day",
+	  "B": "The media coverage",
+	  "C": "Mitigation strategies that have been implemented",
+	  "D": "The political climate"
+	},
+	"answer": "C"
+  },
+  {
+	"question": "An example of physical vulnerability given in the text is:",
+	"options": {
+	  "A": "People living below the poverty line.",
+	  "B": "Youth and medically vulnerable people.",
+	  "C": "The health of the natural environment.",
+	  "D": "Older buildings which are not earthquake ready."
+	},
+	"answer": "D"
+  },
+  {
+	"question": "The central argument of the EMGT1110 Week 3 lesson is that vulnerable populations should be:",
+	"options": {
+	  "A": "The focus of a separate, secondary plan.",
+	  "B": "Evacuated first in every disaster.",
+	  "C": "Treated as a primary focus in the main plan.",
+	  "D": "Handled exclusively by volunteer agencies."
+	},
+	"answer": "C"
+  }
+]

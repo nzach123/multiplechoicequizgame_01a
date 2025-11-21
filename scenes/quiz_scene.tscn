@@ -1,0 +1,122 @@
+[gd_scene load_steps=3 format=3 uid="uid://b74ltasqu7ps5"]
+
+[ext_resource type="Theme" uid="uid://dmi3jf6jonyoq" path="res://resources/themes/title_theme.tres" id="1_c7ybq"]
+[ext_resource type="Script" uid="uid://bokrq0rpvdy4v" path="res://scripts/GameSession.gd" id="1_yjr3o"]
+
+[node name="QuizScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yjr3o")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.295589, 0.22334, 7.21961e-08, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ScoreLabel" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("1_c7ybq")
+text = "Score: 0"
+
+[node name="TimerLabel" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_c7ybq")
+text = "Time: 15"
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_right = 25
+
+[node name="QuestionLabel" type="Label" parent="VBoxContainer/MarginContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_c7ybq")
+text = "Questions"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 25
+
+[node name="AnswerGridContainer" type="GridContainer" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/MarginContainer/AnswerGridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_c7ybq")
+autowrap_mode = 3
+
+[node name="Button2" type="Button" parent="VBoxContainer/MarginContainer/AnswerGridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_c7ybq")
+autowrap_mode = 3
+
+[node name="Button3" type="Button" parent="VBoxContainer/MarginContainer/AnswerGridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_c7ybq")
+autowrap_mode = 3
+
+[node name="Button4" type="Button" parent="VBoxContainer/MarginContainer/AnswerGridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_c7ybq")
+autowrap_mode = 3
+
+[node name="QuizTimer" type="Timer" parent="."]
+wait_time = 15.0
+one_shot = true
+
+[node name="FeedbackLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -30.0
+offset_top = -11.5
+offset_right = 30.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_c7ybq")
+theme_override_font_sizes/font_size = 128
+text = "Correct!"

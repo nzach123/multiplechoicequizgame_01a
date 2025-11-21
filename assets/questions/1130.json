@@ -1,0 +1,972 @@
+[
+  {
+    "question": "According to the International Federation of Red Cross and Red Crescent Societies (IFRC), what is the formula for a disaster?",
+    "options": {
+      "A": "DISASTER = (Vulnerability + Hazard) / Capacity",
+      "B": "DISASTER = Hazard x Exposure x Vulnerability",
+      "C": "DISASTER = Risk - (Preparedness + Response)",
+      "D": "DISASTER = (Hazard + Exposure) / Resilience"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which document is described as a guide for action but does not have the weight of legislation in Canada?",
+    "options": {
+      "A": "The Emergency Management Act",
+      "B": "CSA Z1600",
+      "C": "The Emergency Management Framework for Canada",
+      "D": "NFPA 1600"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the primary focus of the Week 2 lesson on Disaster Risk Reduction (DRR)?",
+    "options": {
+      "A": "Analyzing specific case studies of recent disasters.",
+      "B": "Understanding the legislation governing DRR in Canada.",
+      "C": "Exploring and understanding common terminology used in DRR.",
+      "D": "Identifying the primary stakeholders in DRR."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which stakeholder group is identified as being focused on studying and exposing the drivers of risk to find effective solutions?",
+    "options": {
+      "A": "Government policymakers",
+      "B": "Private sector corporations",
+      "C": "Non-governmental organizations",
+      "D": "Researchers/scientists"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which definition of a disaster explicitly states it is 'essentially a social phenomenon'?",
+    "options": {
+      "A": "International Federation of Red Cross and Red Crescent Societies (IFRC)",
+      "B": "United Nations",
+      "C": "Public Safety Canada",
+      "D": "United Nations Office of Disaster Risk Reduction"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The concept of Disaster Risk Reduction (DRR) evolved from which doctrine?",
+    "options": {
+      "A": "Comprehensive emergency management",
+      "B": "International humanitarian law",
+      "C": "Business continuity planning",
+      "D": "Sustainable development goals"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "What is the risk equation presented in the DRR context?",
+    "options": {
+      "A": "RISK = HAZARD + EXPOSURE + VULNERABILITY",
+      "B": "RISK = (HAZARD + VULNERABILITY) / CAPACITY",
+      "C": "RISK = HAZARD x EXPOSURE x VULNERABILITY",
+      "D": "RISK = PROBABILITY / CONSEQUENCE"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the name of the open-sourced risk assessment tool created by the Inter-Agency Standing Committee and the European Commission?",
+    "options": {
+      "A": "Sendai Monitor",
+      "B": "InfoRM",
+      "C": "DRR Global",
+      "D": "RiskIndex"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Retrofitting critical infrastructure is an example of which type of disaster risk management?",
+    "options": {
+      "A": "Prospective disaster risk management",
+      "B": "Corrective disaster risk management",
+      "C": "Compensatory disaster risk management",
+      "D": "Community-based disaster risk management"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In Canada, who has the primary responsibility for emergency management?",
+    "options": {
+      "A": "The federal government",
+      "B": "Public Safety Canada",
+      "C": "Municipal/provincial/territorial governments",
+      "D": "The Canadian Armed Forces"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the provided text, what is the 'human factor' in the context of a disaster?",
+    "options": {
+      "A": "The fact that most hazards are caused by human error.",
+      "B": "The idea that an event becomes a disaster when it affects people.",
+      "C": "The psychological trauma experienced by survivors.",
+      "D": "The role of human volunteers in disaster response."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The Canadian standard CSA Z1600 was based on which existing standard?",
+    "options": {
+      "A": "ISO 22301",
+      "B": "The Sendai Framework",
+      "C": "NFPA 1600",
+      "D": "The Emergency Management Act"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What does the term 'resilience' describe in the context of DRR?",
+    "options": {
+      "A": "The final outcome of a successful recovery effort.",
+      "B": "The amount of financial aid a community receives after a disaster.",
+      "C": "The capacity of a system to resist, absorb, adapt to, transform, and recover from hazards.",
+      "D": "The ability to prevent all hazards from occurring."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The InfoRM tool uses how many different indicators to measure risk?",
+    "options": {
+      "A": "25",
+      "B": "50",
+      "C": "75",
+      "D": "100"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which type of disaster risk management strengthens the social and economic resilience for residual risk?",
+    "options": {
+      "A": "Prospective",
+      "B": "Corrective",
+      "C": "Compensatory",
+      "D": "Proactive"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What does the text say about the legal status of standards like CSA Z1600 and NFPA 1600?",
+    "options": {
+      "A": "They are always legally binding for all organizations.",
+      "B": "They are voluntary unless formally adopted into legislation.",
+      "C": "They are mandatory for public institutions but not for private companies.",
+      "D": "They are international laws that supersede national legislation."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "According to the text, a naturally occurring forest fire is not a disaster until what happens?",
+    "options": {
+      "A": "It burns for more than 24 hours.",
+      "B": "It receives media coverage.",
+      "C": "It affects people’s homes, health, transportation, or industry.",
+      "D": "It is officially declared a disaster by the government."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What was a key reason for the development of the CSA Z1600 standard?",
+    "options": {
+      "A": "To create a globally accepted standard for all countries.",
+      "B": "To address concerns in the Canadian context and gaps in existing standards.",
+      "C": "To replace the NFPA 1600 standard entirely.",
+      "D": "To focus exclusively on business continuity, separating it from emergency management."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which concept is described as the process that links sustainability to disaster risk management?",
+    "options": {
+      "A": "Capacity",
+      "B": "Vulnerability",
+      "C": "Exposure",
+      "D": "Resilience"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "One of the lesson objectives for Week 3 is to identify different stakeholders and what else?",
+    "options": {
+      "A": "Rank them by importance.",
+      "B": "Allocate funding to each stakeholder group.",
+      "C": "Compare how they use and define DRR terms.",
+      "D": "Create a new communication plan for them."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Activities like better land-use planning or creating disaster-resistant water supply systems are examples of which DRM category?",
+    "options": {
+      "A": "Compensatory DRM",
+      "B": "Corrective DRM",
+      "C": "Reactive DRM",
+      "D": "Prospective DRM"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What is the name of the national, multi-stakeholder group in Canada that provides advice on priority areas for DRR action?",
+    "options": {
+      "A": "The National Emergency Response System",
+      "B": "The Canadian Platform for Disaster Risk Reduction",
+      "C": "The Federal DRR Task Force",
+      "D": "The Canadian Resilience Council"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The word 'capacity' is derived from the Latin adjective 'capacitatem', which translates to what?",
+    "options": {
+      "A": "The ability to lead",
+      "B": "Strength and power",
+      "C": "The capability to hold much",
+      "D": "A readiness to act"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which organization's definition of a disaster includes the phrase '...exceed the community’s or society’s ability to cope using its own resources'?",
+    "options": {
+      "A": "United Nations",
+      "B": "Public Safety Canada",
+      "C": "International Federation of Red Cross and Red Crescent Societies (IFRC)",
+      "D": "United Nations Office of Disaster Risk Reduction"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the title of the Canadian national plan meant to help communities prepare for, respond to, and recover from disasters toward the year 2030?",
+    "options": {
+      "A": "The National Disaster Mitigation Strategy",
+      "B": "Canada's Resilience Framework",
+      "C": "The Emergency Management Strategy for Canada: Toward a Resilient 2030",
+      "D": "The Federal Emergency Management Act of 2030"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The UNISDR defines disaster risk management as the application of DRR policies to achieve what three goals?",
+    "options": {
+      "A": "Prevent new risk, reduce existing risk, and manage residual risk.",
+      "B": "Respond, recover, and rebuild.",
+      "C": "Analyze, plan, and implement.",
+      "D": "Fund, train, and equip."
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which document assigns emergency management responsibilities to the Minister of Public Safety at the federal level in Canada?",
+    "options": {
+      "A": "The Emergency Management Framework for Canada",
+      "B": "The Constitution of Canada",
+      "C": "CSA Z1600",
+      "D": "The Emergency Management Act"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What is meant by the statement that disasters are 'socially constructed'?",
+    "options": {
+      "A": "Disasters are events fabricated by the media.",
+      "B": "Disasters are the result of vulnerability created by human systems, not just natural events.",
+      "C": "Disasters only happen in densely populated social settings.",
+      "D": "Disasters can be entirely prevented by social programs."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which approach to disaster risk management promotes the involvement of potentially affected communities at the local level?",
+    "options": {
+      "A": "Top-down disaster risk management",
+      "B": "Community-based disaster risk management",
+      "C": "Compensatory disaster risk management",
+      "D": "Prospective disaster risk management"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does the NFPA 1600 standard provide to professionals?",
+    "options": {
+      "A": "A step-by-step instruction manual on how to perform emergency management.",
+      "B": "A legally binding set of regulations for all organizations.",
+      "C": "A checklist organized by functions to follow as a guide for best practice.",
+      "D": "A list of certified emergency management vendors."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the provided text, exposure to a hazard means what in relation to vulnerability?",
+    "options": {
+      "A": "Exposure to a hazard automatically makes someone vulnerable.",
+      "B": "Exposure and vulnerability are the same concept.",
+      "C": "Exposure to a hazard does not necessarily make someone vulnerable.",
+      "D": "Exposure and vulnerability are completely unrelated."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is one of the key objectives of the Week 4 lesson on legislation and standards?",
+    "options": {
+      "A": "To draft a new DRR law.",
+      "B": "To define common DRR terminology.",
+      "C": "To discuss the CSA Z1600 and NFPA 1600 sections specific to DRR.",
+      "D": "To identify all DRR stakeholders."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The use of traditional, indigenous, and local knowledge to complement scientific knowledge in disaster risk assessments is part of which approach?",
+    "options": {
+      "A": "Prospective disaster risk management",
+      "B": "Corrective disaster risk management",
+      "C": "Compensatory disaster risk management",
+      "D": "Local and indigenous peoples’ approach to disaster risk management"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which was the first Canadian standard to include both emergency management AND business continuity planning?",
+    "options": {
+      "A": "NFPA 1600",
+      "B": "The Emergency Management Framework",
+      "C": "CSA Z1600",
+      "D": "The Federal Policy for Emergency Management"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the text, risk is generally agreed to be the product of the probability of an occurrence and what else?",
+    "options": {
+      "A": "The capacity of the community.",
+      "B": "The level of resilience.",
+      "C": "The consequence of the occurrence.",
+      "D": "The amount of media attention."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The document states that there is no single law that could fully address all components of DRR, but rather a need for updated and improved laws in which area?",
+    "options": {
+      "A": "International treaties",
+      "B": "Sectoral laws, like construction and land use planning",
+      "C": "Federal criminal codes",
+      "D": "Provincial emergency acts only"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which of these is NOT listed in the United Nations' definition as a potential loss or impact from a disaster?",
+    "options": {
+      "A": "Human",
+      "B": "Material",
+      "C": "Political",
+      "D": "Environmental"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the full, updated name of the NFPA 1600 standard as of 2019?",
+    "options": {
+      "A": "Standard on Emergency Management Programs",
+      "B": "Standard on Disaster/Emergency Management and Business Continuity of Operations Program",
+      "C": "Standard on Preparedness and Response",
+      "D": "Standard for Public and Private Emergency Planning"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Disaster risk management plans, as described by UNISDR, should be guided by which framework?",
+    "options": {
+      "A": "The Hyogo Framework for Action",
+      "B": "The Paris Agreement",
+      "C": "The Sendai Framework for Disaster Risk Reduction 2015-2030",
+      "D": "The Sustainable Development Goals"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is one of the main themes of the Week 3 lesson on stakeholders?",
+    "options": {
+      "A": "The lack of any stakeholder involvement in DRR.",
+      "B": "The discrepancy in how different stakeholder groups define DRR terminology.",
+      "C": "The process for legally mandating stakeholder participation.",
+      "D": "The history of stakeholder engagement since the 1950s."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The differentiation between prospective, corrective, and compensatory DRM is partly based on what?",
+    "options": {
+      "A": "The geographical location of the hazard.",
+      "B": "The respective 'windows of opportunity' in which they exist.",
+      "C": "The budget allocated by the government.",
+      "D": "The type of hazard (natural vs. human-induced)."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is one reason people tend to overlook natural hazards according to the text?",
+    "options": {
+      "A": "They believe technology can prevent all disasters.",
+      "B": "They are more focused on daily life concerns like crime, food, and medicine access.",
+      "C": "Natural hazards receive no media coverage.",
+      "D": "Scientists have declared that the risk of natural hazards is decreasing."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In the car insurance example, what factor increases a driver's exposure?",
+    "options": {
+      "A": "The age of the vehicle.",
+      "B": "The driver's experience.",
+      "C": "Using the vehicle for business to commute long distances.",
+      "D": "The condition of the tires."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What does the text say about the relationship between disasters and natural hazards?",
+    "options": {
+      "A": "Disasters are natural, but hazards are not.",
+      "B": "The terms 'disaster' and 'natural hazard' are interchangeable.",
+      "C": "Disasters are the result of natural hazards being realized; disasters themselves are not natural.",
+      "D": "Natural hazards always result in disasters."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is an example of a human system failing that can cause deaths during an earthquake?",
+    "options": {
+      "A": "The shifting of tectonic plates.",
+      "B": "The creation of a tsunami.",
+      "C": "The time of day the earthquake occurs.",
+      "D": "Collapsed buildings because of poor building codes."
+    },
+    "answer": "D"
+  },
+  {
+    "question": "By the end of the Week 2 lesson, what should students be able to explain the relationship between?",
+    "options": {
+      "A": "Legislation and standards",
+      "B": "Risk and capacity",
+      "C": "Politics and funding",
+      "D": "Media and public perception"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What two organizations collaborated on the InfoRM project?",
+    "options": {
+      "A": "Public Safety Canada and the CSA",
+      "B": "The UN and the World Bank",
+      "C": "The Inter-Agency Standing Committee and the European Commission",
+      "D": "The IFRC and Doctors Without Borders"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The text suggests that DRR is best achieved by reducing people's vulnerability and what other action?",
+    "options": {
+      "A": "Increasing international aid after an event.",
+      "B": "Reducing the likely impact of the hazard through targeted mitigation.",
+      "C": "Focusing only on high-frequency, low-impact events.",
+      "D": "Waiting for political will to be at its highest after a disaster."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The definitions of disaster from the IFRC, UN, and Public Safety Canada all have what common condition?",
+    "options": {
+      "A": "They all require a formal declaration from a national government.",
+      "B": "They all specify that disasters can only be caused by natural events.",
+      "C": "They all reference the impact on people or communities.",
+      "D": "They all use the exact same formula to calculate risk."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the text, a tsunami on its own is not a disaster until it does what?",
+    "options": {
+      "A": "Reaches a certain wave height.",
+      "B": "Travels across an entire ocean basin.",
+      "C": "Is recorded by seismic instruments.",
+      "D": "Harms people, livelihood, infrastructure or supply chain."
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What is the overarching theme of the NFPA 1600 standard?",
+    "options": {
+      "A": "Focusing solely on the response phase of emergency management.",
+      "B": "Preparedness to prevent, mitigate, respond, continue operations, and recover.",
+      "C": "Establishing a global command and control structure for disasters.",
+      "D": "Mandating specific technologies for early warning systems."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In the car insurance example, which of the following is considered a factor of vulnerability?",
+    "options": {
+      "A": "The annual mileage.",
+      "B": "Road conditions.",
+      "C": "The age of the vehicle and the driver's experience.",
+      "D": "The presence of other motorists."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which type of DRM is associated with activities that take place 'largely after an event, when political will and funding is typically at the highest'?",
+    "options": {
+      "A": "Prospective",
+      "B": "Corrective",
+      "C": "Compensatory",
+      "D": "Proactive"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What does the text state about the relationship between exposure and vulnerability?",
+    "options": {
+      "A": "Increased exposure may expose or create greater vulnerability.",
+      "B": "Exposure and vulnerability are inversely proportional.",
+      "C": "If you reduce exposure, vulnerability automatically disappears.",
+      "D": "They are identical concepts."
+    },
+    "answer": "A"
+  },
+  {
+    "question": "What is one of the guiding questions for the Week 4 lesson?",
+    "options": {
+      "A": "What does Disaster Risk Reduction mean?",
+      "B": "Who are the primary stakeholders in DRR?",
+      "C": "What guides DRR activities in Canada and around the world?",
+      "D": "How do we measure resilience?"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the Week 2 lesson objectives, students should be able to define capacity, resiliency, and what other term?",
+    "options": {
+      "A": "Sustainability",
+      "B": "Adaptive capacity",
+      "C": "Political will",
+      "D": "Social capital"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The CSA Z1600 standard is built on what kind of approach?",
+    "options": {
+      "A": "A single-hazard, reactive approach.",
+      "B": "A technology-focused approach.",
+      "C": "A response-centric approach.",
+      "D": "A risk-based, all-hazards approach."
+    },
+    "answer": "D"
+  },
+  {
+    "question": "One of the lesson objectives for Week 3 is to identify different stakeholders in DRR and what else?",
+    "options": {
+      "A": "Analyze their funding sources.",
+      "B": "Compare how different stakeholders use DRR terms.",
+      "C": "Develop a marketing plan to engage them.",
+      "D": "Lobby for new legislation to support them."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In the IFRC's disaster equation, disaster is inversely proportional to which element?",
+    "options": {
+      "A": "Vulnerability",
+      "B": "Hazard",
+      "C": "Capacity",
+      "D": "Exposure"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The Week 3 lesson encourages students to reflect on how stakeholders perceive their role in DRR and in what else?",
+    "options": {
+      "A": "Securing government funding",
+      "B": "Creating risk",
+      "C": "Gaining media attention",
+      "D": "Winning awards"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which entity's definition of disaster is identical to the one provided by the United Nations Office of Disaster Risk Reduction?",
+    "options": {
+      "A": "Public Safety Canada",
+      "B": "The United Nations",
+      "C": "The IFRC",
+      "D": "E.L. Quarantelli"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The guiding question for Week 2 asks students to consider the meaning of what term?",
+    "options": {
+      "A": "Resilience",
+      "B": "Risk Management",
+      "C": "Disaster Risk Reduction",
+      "D": "Capacity Building"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The 'Emergency Management Strategy for Canada: Toward a Resilient 2030' aims to bring governments together with which other groups?",
+    "options": {
+      "A": "Foreign governments and international bodies.",
+      "B": "The media and academic institutions only.",
+      "C": "Indigenous communities, businesses, and organizations.",
+      "D": "The military and national security agencies."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "If disasters are socially constructed, the text states that vulnerability is what?",
+    "options": {
+      "A": "Genetically predetermined",
+      "B": "Geographically random",
+      "C": "Economically irrelevant",
+      "D": "Socially determined"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The Week 4 lesson on legislation is intended as a specific look at DRR, with a more in-depth study of overarching emergency management systems to come in which course?",
+    "options": {
+      "A": "EMGT1120",
+      "B": "EMGT1130",
+      "C": "EMGT1140",
+      "D": "DRR1010"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The UN definition suggests that which element might need to be added to the IFRC's disaster equation?",
+    "options": {
+      "A": "Resilience",
+      "B": "Exposure",
+      "C": "Mitigation",
+      "D": "Recovery"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of the Canadian Platform for Disaster Risk Reduction?",
+    "options": {
+      "A": "To provide emergency funding after disasters.",
+      "B": "To deploy response teams to disaster sites.",
+      "C": "To provide advice on priority areas for action in DRR.",
+      "D": "To certify emergency management professionals."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The Week 3 lesson asks students to consider how discrepancies in terminology among stakeholders might influence what?",
+    "options": {
+      "A": "Their annual budgets.",
+      "B": "Their ability to work together.",
+      "C": "Their media coverage.",
+      "D": "Their political affiliations."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The annotation for Disaster Risk Management (DRM) distinguishes between prospective, corrective, and what other type of DRM?",
+    "options": {
+      "A": "Proactive",
+      "B": "Reactive",
+      "C": "Compensatory",
+      "D": "Preventative"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the provided text, what is the relationship between resilience and sustainability?",
+    "options": {
+      "A": "They are opposing concepts.",
+      "B": "Resilience is what links sustainability to disaster risk management.",
+      "C": "Sustainability is a component of resilience.",
+      "D": "There is no relationship between them."
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does the text say about the federal government's responsibility for emergency management in Canada?",
+    "options": {
+      "A": "It has no responsibility.",
+      "B": "It is only responsible for funding.",
+      "C": "It shares responsibility for areas under federal jurisdiction.",
+      "D": "It has primary responsibility over the provinces."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the UNISDR definition, resilience is considered the process rather than what?",
+    "options": {
+      "A": "The goal",
+      "B": "The strategy",
+      "C": "The outcome",
+      "D": "The plan"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "An interesting read on the definition of a disaster mentioned in the Week 2 lesson was written by whom in 1998?",
+    "options": {
+      "A": "The United Nations",
+      "B": "Public Safety Canada",
+      "C": "E.L. Quarantelli",
+      "D": "The IFRC"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of these is NOT a lesson objective for Week 2?",
+    "options": {
+      "A": "Define standard disaster risk reduction terms.",
+      "B": "Explain the relationship between risk and capacity.",
+      "C": "Outline the legislative requirements for DRR.",
+      "D": "Define capacity, adaptive capacity, and resiliency."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The InfoRM tool is described as measuring the risk for humanitarian crises and disasters from which type of hazards?",
+    "options": {
+      "A": "Only natural hazards.",
+      "B": "Only human-induced hazards.",
+      "C": "All natural and human-induced hazards.",
+      "D": "Only technological and biological hazards."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "In the IFRC's disaster equation, disaster is directly proportional to vulnerability and what else?",
+    "options": {
+      "A": "Capacity",
+      "B": "Hazard",
+      "C": "Resilience",
+      "D": "Exposure"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A key lesson objective for Week 4 is to review standards that focus on DRR domestically and where else?",
+    "options": {
+      "A": "In the private sector",
+      "B": "Abroad",
+      "C": "At the municipal level",
+      "D": "In academia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The text states that resilience is observable through the measurement of what?",
+    "options": {
+      "A": "Economic losses",
+      "B": "Media reports",
+      "C": "Capacities",
+      "D": "Political stability"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The guiding question for the Week 3 lesson asks to identify the primary stakeholders in DRR and what else?",
+    "options": {
+      "A": "Their funding sources.",
+      "B": "Their political leanings.",
+      "C": "Their roles.",
+      "D": "Their historical origins."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Compensatory disaster risk management activities include preparedness, response, recovery, and what else?",
+    "options": {
+      "A": "Land-use planning",
+      "B": "A mix of different financing instruments",
+      "C": "Retrofitting of infrastructure",
+      "D": "Scientific research"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The text poses the question: 'Is it really possible to “do” DRR without addressing the fundamental ______ issues that create vulnerability?'",
+    "options": {
+      "A": "economic",
+      "B": "political",
+      "C": "social",
+      "D": "technological"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The federal government in Canada shares responsibility for emergency management in areas like federal lands and what else?",
+    "options": {
+      "A": "Local policing",
+      "B": "Municipal zoning",
+      "C": "Hospital administration",
+      "D": "Intra-provincial transportation of dangerous goods"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What is the focus of the Week 4 lesson on Emergency Management?",
+    "options": {
+      "A": "Understanding terminology",
+      "B": "Identifying stakeholders",
+      "C": "Understanding legislation and standards",
+      "D": "Analyzing disaster case studies"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "In what year did the Canadian Standards Association first release its Z1600 Standard?",
+    "options": {
+      "A": "1998",
+      "B": "2017",
+      "C": "2008",
+      "D": "2015"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of these is NOT a component of the risk equation (RISK = HAZARD x EXPOSURE x VULNERABILITY)?",
+    "options": {
+      "A": "Hazard",
+      "B": "Exposure",
+      "C": "Capacity",
+      "D": "Vulnerability"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the Week 3 lesson, how do different stakeholders contribute to building resiliency and what other concept?",
+    "options": {
+      "A": "Political power",
+      "B": "Capacity building",
+      "C": "Wealth",
+      "D": "Bureaucracy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The text states that some might argue the differentiation in DRM types is between being proactive and what?",
+    "options": {
+      "A": "Efficient",
+      "B": "Cost-effective",
+      "C": "Reactive",
+      "D": "Sustainable"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to the UNISDR, what should disaster risk management plans be coordinated with?",
+    "options": {
+      "A": "Military operations",
+      "B": "Election cycles",
+      "C": "Relevant development plans, resource allocations and programme activities",
+      "D": "Media and public relations campaigns"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "By the end of the Week 4 lesson, students should be able to outline what regarding DRR?",
+    "options": {
+      "A": "The complete history of DRR",
+      "B": "The legislative requirements for DRR",
+      "C": "The psychological impacts of disasters",
+      "D": "The definition of key DRR terms"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which term is NOT one of the standard DRR terms that the Week 2 lesson aims to define?",
+    "options": {
+      "A": "Disaster",
+      "B": "Risk",
+      "C": "Sustainability",
+      "D": "Disaster risk reduction"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The Public Safety Canada definition of a disaster states that it may be triggered by a naturally occurring phenomenon or by what?",
+    "options": {
+      "A": "Political instability",
+      "B": "Human action or error",
+      "C": "Economic downturns",
+      "D": "Acts of foreign aggression"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the main goal of compensatory disaster risk management?",
+    "options": {
+      "A": "To avoid the development of new risks.",
+      "B": "To remove or reduce disaster risks which are already present.",
+      "C": "To strengthen the social and economic resilience of individuals and societies.",
+      "D": "To involve affected communities in local-level planning."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The text mentions a FEMA training guide as a good summary of scholarly definitions for what term?",
+    "options": {
+      "A": "Risk",
+      "B": "Resilience",
+      "C": "Capacity",
+      "D": "Disaster"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "In what year was the Federal Policy for emergency management mentioned in the Week 4 lesson established?",
+    "options": {
+      "A": "2017",
+      "B": "1998",
+      "C": "2009",
+      "D": "2015"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The lesson on stakeholders (Week 3) asks students to consider the similarities and differences between stakeholders in DRR versus those in what other phases?",
+    "options": {
+      "A": "Planning and mitigation",
+      "B": "Legislation and policy-making",
+      "C": "Response and recovery",
+      "D": "Research and development"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of these concepts is described as a 'process rather than the outcome'?",
+    "options": {
+      "A": "Hazard",
+      "B": "Disaster",
+      "C": "Resilience",
+      "D": "Vulnerability"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What does the text say about the complexity of DRR legislation?",
+    "options": {
+      "A": "It is covered by a single, comprehensive law.",
+      "B": "It is complex and not covered by a single law.",
+      "C": "It is simple and straightforward.",
+      "D": "It is entirely handled at the federal level."
+    },
+    "answer": "B"
+  }
+]
