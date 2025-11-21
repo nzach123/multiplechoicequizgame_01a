@@ -34,7 +34,7 @@ var rng = RandomNumberGenerator.new()
 var camera: Camera2D
 var current_q_index: int = 0
 var inputs_locked: bool = false
-var index_to_letter = { 0: "A", 1: "B", 2: "C", 3: "D" }
+var current_shuffled_answers = []
 
 func _ready():
 	# Connect Timers
@@ -120,12 +120,17 @@ func load_question(index: int):
 	var q_data = GameManager.questions_pool[index]
 	animate_text(question_label, q_data["question"])
 	
-	buttons[0].text = q_data["options"]["A"]
-	buttons[1].text = q_data["options"]["B"]
-	buttons[2].text = q_data["options"]["C"]
-	buttons[3].text = q_data["options"]["D"]
+	# Shuffle answers
+	current_shuffled_answers = q_data["answers"].duplicate()
+	current_shuffled_answers.shuffle()
 	
-	for btn in buttons: btn.show()
+	# Assign answers to buttons
+	for i in range(buttons.size()):
+		if i < current_shuffled_answers.size():
+			buttons[i].text = current_shuffled_answers[i]["text"]
+			buttons[i].show()
+		else:
+			buttons[i].hide()
 	
 	# Restart Question Timer (15s)
 	question_timer.start(15.0)
@@ -150,21 +155,21 @@ func _on_button_pressed(selected_idx: int):
 	inputs_locked = true
 	question_timer.stop() # Stop the 15s timer, but Round Timer keeps ticking
 	
-	var selected_letter = index_to_letter[selected_idx]
 	var q_data = GameManager.questions_pool[current_q_index]
-	var correct_letter = q_data["answer"]
+	var selected_answer_obj = current_shuffled_answers[selected_idx]
+	var is_correct = selected_answer_obj["is_correct"]
 	
 	var correct_idx = -1
-	match correct_letter:
-		"A": correct_idx = 0
-		"B": correct_idx = 1
-		"C": correct_idx = 2
-		"D": correct_idx = 3
+	# Find the index of the correct answer in the shuffled array
+	for i in range(current_shuffled_answers.size()):
+		if current_shuffled_answers[i]["is_correct"]:
+			correct_idx = i
+			break
 	
-	if selected_letter == correct_letter: 
+	if is_correct: 
 		handle_correct(selected_idx)
 	else: 
-		handle_wrong(selected_idx, correct_idx, q_data, selected_letter)
+		handle_wrong(selected_idx, correct_idx, q_data, selected_answer_obj["text"])
 	
 	# If game isn't over, wait and load next
 	if GameManager.current_integrity > 0:
@@ -183,12 +188,13 @@ func _on_question_timeout():
 	play_sound(sfx_alarm)
 	
 	var q_data = GameManager.questions_pool[current_q_index]
-	var correct_letter = q_data["answer"]
+	
 	var correct_idx = 0
-	match correct_letter:
-		"B": correct_idx = 1
-		"C": correct_idx = 2
-		"D": correct_idx = 3
+	# Find the index of the correct answer in the shuffled array
+	for i in range(current_shuffled_answers.size()):
+		if current_shuffled_answers[i]["is_correct"]:
+			correct_idx = i
+			break
 		
 	# Handle timeout as a wrong answer
 	handle_wrong(-1, correct_idx, q_data, "TIMEOUT")
@@ -216,23 +222,31 @@ func handle_correct(idx):
 	update_score_ui()
 	buttons[idx].modulate = Color.GREEN
 
-func handle_wrong(selected_idx, correct_idx, q_data, user_choice):
+func handle_wrong(selected_idx, correct_idx, q_data, user_choice_text):
 	play_sound(sfx_wrong)
 	feedback_label.text = "STATUS: FAILURE - INTEGRITY LOSS"
 	feedback_label.modulate = Color.RED
 	apply_shake(20.0)
 	
+	# Find correct answer text for logging
+	var correct_text = "Unknown"
+	for ans in current_shuffled_answers:
+		if ans["is_correct"]:
+			correct_text = ans["text"]
+			break
+	
 	# 1. Log the mistake
-	GameManager.log_mistake(q_data["question"], user_choice, q_data["options"][q_data["answer"]])
+	GameManager.log_mistake(q_data["question"], user_choice_text, correct_text)
 	
 	# 2. Decrease Integrity
 	GameManager.current_integrity -= 20
 	update_integrity_ui()
 	
 	# 3. Visual Feedback
-	if selected_idx != -1: 
+	if selected_idx != -1 and selected_idx < buttons.size(): 
 		buttons[selected_idx].modulate = Color.RED
-	buttons[correct_idx].modulate = Color.GREEN 
+	if correct_idx != -1 and correct_idx < buttons.size():
+		buttons[correct_idx].modulate = Color.GREEN 
 	
 	# 4. Check for Game Over triggered by Integrity
 	if GameManager.current_integrity <= 0:

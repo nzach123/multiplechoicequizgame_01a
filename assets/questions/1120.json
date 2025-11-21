@@ -1,972 +1,2136 @@
 [
   {
     "question": "According to the EMGT Program's definition, what is a key feature of a 'disaster'?",
-    "options": {
-      "A": "It is a self-inflicted event resulting from management incompetence.",
-      "B": "It is an event that is handled by local authorities without changing procedures.",
-      "C": "It is a phenomenon that overwhelms a community's ability to cope.",
-      "D": "It is an unstable condition that is usually emotional in nature."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "It is a self-inflicted event resulting from management incompetence.",
+        "is_correct": false
+      },
+      {
+        "text": "It is an event that is handled by local authorities without changing procedures.",
+        "is_correct": false
+      },
+      {
+        "text": "It is a phenomenon that overwhelms a community's ability to cope.",
+        "is_correct": true
+      },
+      {
+        "text": "It is an unstable condition that is usually emotional in nature.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following is defined by FEMA as a potential incident resulting from acts of nature?",
-    "options": {
-      "A": "Technological hazard",
-      "B": "Intentional hazard",
-      "C": "Natural hazard",
-      "D": "Industrial hazard"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Technological hazard",
+        "is_correct": false
+      },
+      {
+        "text": "Intentional hazard",
+        "is_correct": false
+      },
+      {
+        "text": "Natural hazard",
+        "is_correct": true
+      },
+      {
+        "text": "Industrial hazard",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the EMGT Program's definition of an 'emergency'?",
-    "options": {
-      "A": "A social phenomenon that exceeds a community's ability to cope.",
-      "B": "An unstable condition involving an impending abrupt or significant change.",
-      "C": "A present or imminent event requiring prompt coordination to protect health and safety.",
-      "D": "A situation where the cause is self-inflicted due to incompetence in management."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "A social phenomenon that exceeds a community's ability to cope.",
+        "is_correct": false
+      },
+      {
+        "text": "An unstable condition involving an impending abrupt or significant change.",
+        "is_correct": false
+      },
+      {
+        "text": "A present or imminent event requiring prompt coordination to protect health and safety.",
+        "is_correct": true
+      },
+      {
+        "text": "A situation where the cause is self-inflicted due to incompetence in management.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The document identifies a 'creeping' hazard that can lead to famine, mass migration, and wildfires. What is this hazard?",
-    "options": {
-      "A": "Flooding",
-      "B": "Drought",
-      "C": "Earthquake",
-      "D": "Extreme Temperatures"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Flooding",
+        "is_correct": false
+      },
+      {
+        "text": "Drought",
+        "is_correct": true
+      },
+      {
+        "text": "Earthquake",
+        "is_correct": false
+      },
+      {
+        "text": "Extreme Temperatures",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the text, what is the key difference between CBRNE materials and HAZMAT/TIMS?",
-    "options": {
-      "A": "The level of toxicity of the materials.",
-      "B": "The material's intended purpose.",
-      "C": "The method of transportation used.",
-      "D": "The country in which the material is produced."
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "The level of toxicity of the materials.",
+        "is_correct": false
+      },
+      {
+        "text": "The material's intended purpose.",
+        "is_correct": true
+      },
+      {
+        "text": "The method of transportation used.",
+        "is_correct": false
+      },
+      {
+        "text": "The country in which the material is produced.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2008 listeriosis outbreak linked to Maple Leaf Foods resulted in how many deaths?",
-    "options": {
-      "A": "11",
-      "B": "23",
-      "C": "35",
-      "D": "234"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "11",
+        "is_correct": false
+      },
+      {
+        "text": "23",
+        "is_correct": true
+      },
+      {
+        "text": "35",
+        "is_correct": false
+      },
+      {
+        "text": "234",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which natural hazard is described as the most common throughout the world?",
-    "options": {
-      "A": "Earthquakes",
-      "B": "Wildfires",
-      "C": "Hurricanes",
-      "D": "Flooding"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Earthquakes",
+        "is_correct": false
+      },
+      {
+        "text": "Wildfires",
+        "is_correct": false
+      },
+      {
+        "text": "Hurricanes",
+        "is_correct": false
+      },
+      {
+        "text": "Flooding",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "FEMA defines a 'technological hazard' as a potential incident resulting from what?",
-    "options": {
-      "A": "The intentional actions of an adversary.",
-      "B": "Accidents or failures of systems or structures.",
-      "C": "The occurrence and movement of freshwater and saltwater.",
-      "D": "Long-lived, large-scale atmospheric processes."
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "The intentional actions of an adversary.",
+        "is_correct": false
+      },
+      {
+        "text": "Accidents or failures of systems or structures.",
+        "is_correct": true
+      },
+      {
+        "text": "The occurrence and movement of freshwater and saltwater.",
+        "is_correct": false
+      },
+      {
+        "text": "Long-lived, large-scale atmospheric processes.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The document states that a hazard becomes a 'threat' only when what two conditions are met?",
-    "options": {
-      "A": "A hazard is present and there is an exposure pathway.",
-      "B": "A hazard is natural and it impacts a large population.",
-      "C": "A hazard is technological and causes economic damage.",
-      "D": "A hazard is intentional and law enforcement is involved."
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "A hazard is present and there is an exposure pathway.",
+        "is_correct": true
+      },
+      {
+        "text": "A hazard is natural and it impacts a large population.",
+        "is_correct": false
+      },
+      {
+        "text": "A hazard is technological and causes economic damage.",
+        "is_correct": false
+      },
+      {
+        "text": "A hazard is intentional and law enforcement is involved.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to Canada's Criminal Code, terrorism is an act committed for a political, religious, or ideological purpose with the intent to do what?",
-    "options": {
-      "A": "Cause damage to government property.",
-      "B": "Achieve a specific financial gain from a corporation.",
-      "C": "Intimidate the public or compel a government to do or not do an act.",
-      "D": "Overthrow the existing government through military force."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Cause damage to government property.",
+        "is_correct": false
+      },
+      {
+        "text": "Achieve a specific financial gain from a corporation.",
+        "is_correct": false
+      },
+      {
+        "text": "Intimidate the public or compel a government to do or not do an act.",
+        "is_correct": true
+      },
+      {
+        "text": "Overthrow the existing government through military force.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the term for a rapidly spinning column of air that originates in clouds, extends downward, and occurs over water?",
-    "options": {
-      "A": "Typhoon",
-      "B": "Haboob",
-      "C": "Waterspout",
-      "D": "Cyclone"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Typhoon",
+        "is_correct": false
+      },
+      {
+        "text": "Haboob",
+        "is_correct": false
+      },
+      {
+        "text": "Waterspout",
+        "is_correct": true
+      },
+      {
+        "text": "Cyclone",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 1998 ice storm in Eastern Ontario and Western Quebec resulted in how many deaths?",
-    "options": {
-      "A": "11",
-      "B": "26",
-      "C": "35",
-      "D": "77"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "11",
+        "is_correct": false
+      },
+      {
+        "text": "26",
+        "is_correct": false
+      },
+      {
+        "text": "35",
+        "is_correct": true
+      },
+      {
+        "text": "77",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following is NOT listed as one of the four sub-categories of technological hazards?",
-    "options": {
-      "A": "Industrial hazards",
-      "B": "Transportation hazards",
-      "C": "Geophysical hazards",
-      "D": "Infrastructure hazards"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Industrial hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Transportation hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Geophysical hazards",
+        "is_correct": true
+      },
+      {
+        "text": "Infrastructure hazards",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In the context of the EMGT Program, an event becomes a disaster when it crosses what critical threshold?",
-    "options": {
-      "A": "When it requires action from the federal government.",
-      "B": "When it causes more than $1 billion in damages.",
-      "C": "When it is featured on international news networks.",
-      "D": "When it overwhelms the local capacity to respond."
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "When it requires action from the federal government.",
+        "is_correct": false
+      },
+      {
+        "text": "When it causes more than $1 billion in damages.",
+        "is_correct": false
+      },
+      {
+        "text": "When it is featured on international news networks.",
+        "is_correct": false
+      },
+      {
+        "text": "When it overwhelms the local capacity to respond.",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the human equivalent of Bovine Spongiform Encephalopathy (BSE), also known as Mad Cow disease?",
-    "options": {
-      "A": "H1N1",
-      "B": "SARS",
-      "C": "Listeriosis",
-      "D": "Variant Creutzfeldt-Jakob Disease"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "H1N1",
+        "is_correct": false
+      },
+      {
+        "text": "SARS",
+        "is_correct": false
+      },
+      {
+        "text": "Listeriosis",
+        "is_correct": false
+      },
+      {
+        "text": "Variant Creutzfeldt-Jakob Disease",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The document debunks the myth that terrorists are 'crazy' by stating that terrorist groups regularly weed out which type of individuals?",
-    "options": {
-      "A": "Physically weak individuals.",
-      "B": "Emotionally unstable individuals.",
-      "C": "Individuals with no military training.",
-      "D": "Individuals from wealthy backgrounds."
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Physically weak individuals.",
+        "is_correct": false
+      },
+      {
+        "text": "Emotionally unstable individuals.",
+        "is_correct": true
+      },
+      {
+        "text": "Individuals with no military training.",
+        "is_correct": false
+      },
+      {
+        "text": "Individuals from wealthy backgrounds.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the term for an epidemic that occurs worldwide or over a very wide area, crossing international boundaries?",
-    "options": {
-      "A": "Infestation",
-      "B": "Outbreak",
-      "C": "Pandemic",
-      "D": "Vector"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Infestation",
+        "is_correct": false
+      },
+      {
+        "text": "Outbreak",
+        "is_correct": false
+      },
+      {
+        "text": "Pandemic",
+        "is_correct": true
+      },
+      {
+        "text": "Vector",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In 2017, MacEwan University in Edmonton was defrauded of how much money?",
-    "options": {
-      "A": "$1.4 billion",
-      "B": "$290 million",
-      "C": "$11.8 million",
-      "D": "$700 million"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "$1.4 billion",
+        "is_correct": false
+      },
+      {
+        "text": "$290 million",
+        "is_correct": false
+      },
+      {
+        "text": "$11.8 million",
+        "is_correct": true
+      },
+      {
+        "text": "$700 million",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "A 'haboob' is the Arabic word for 'strong wind' and is also known as what type of meteorological hazard?",
-    "options": {
-      "A": "Tornado",
-      "B": "Windstorm",
-      "C": "Hurricane",
-      "D": "Sandstorm or Dust Storm"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Tornado",
+        "is_correct": false
+      },
+      {
+        "text": "Windstorm",
+        "is_correct": false
+      },
+      {
+        "text": "Hurricane",
+        "is_correct": false
+      },
+      {
+        "text": "Sandstorm or Dust Storm",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What type of hazard is defined by CRED as originating from solid earth and is used interchangeably with 'geological hazard'?",
-    "options": {
-      "A": "Hydrological hazard",
-      "B": "Geophysical hazard",
-      "C": "Climatological hazard",
-      "D": "Meteorological hazard"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Hydrological hazard",
+        "is_correct": false
+      },
+      {
+        "text": "Geophysical hazard",
+        "is_correct": true
+      },
+      {
+        "text": "Climatological hazard",
+        "is_correct": false
+      },
+      {
+        "text": "Meteorological hazard",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following common elements of disasters, emergencies, and crises means that without an impact on them, events are relatively unimportant?",
-    "options": {
-      "A": "An Event",
-      "B": "People",
-      "C": "Damage",
-      "D": "Sudden Nature"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "An Event",
+        "is_correct": false
+      },
+      {
+        "text": "People",
+        "is_correct": true
+      },
+      {
+        "text": "Damage",
+        "is_correct": false
+      },
+      {
+        "text": "Sudden Nature",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2010 Deepwater Horizon disaster resulted in 11 deaths and the leak of how much oil into the Gulf of Mexico?",
-    "options": {
-      "A": "30 tons",
-      "B": "1.5 million gallons",
-      "C": "210 million gallons",
-      "D": "5 billion gallons"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "30 tons",
+        "is_correct": false
+      },
+      {
+        "text": "1.5 million gallons",
+        "is_correct": false
+      },
+      {
+        "text": "210 million gallons",
+        "is_correct": true
+      },
+      {
+        "text": "5 billion gallons",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is magma called once it reaches the Earth's surface?",
-    "options": {
-      "A": "Ash",
-      "B": "Lava",
-      "C": "Rock",
-      "D": "Tectonic plate"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Ash",
+        "is_correct": false
+      },
+      {
+        "text": "Lava",
+        "is_correct": true
+      },
+      {
+        "text": "Rock",
+        "is_correct": false
+      },
+      {
+        "text": "Tectonic plate",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the World Health Organization, what was the leading cause of death worldwide for people aged 15-29 in 2013?",
-    "options": {
-      "A": "Terrorist attacks",
-      "B": "Opioid overdoses",
-      "C": "Road traffic deaths",
-      "D": "Workplace violence"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Terrorist attacks",
+        "is_correct": false
+      },
+      {
+        "text": "Opioid overdoses",
+        "is_correct": false
+      },
+      {
+        "text": "Road traffic deaths",
+        "is_correct": true
+      },
+      {
+        "text": "Workplace violence",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What does the Japanese word 'tsunami' mean?",
-    "options": {
-      "A": "Big wave",
-      "B": "Harbour wave",
-      "C": "Scary wave",
-      "D": "Ocean wave"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Big wave",
+        "is_correct": false
+      },
+      {
+        "text": "Harbour wave",
+        "is_correct": true
+      },
+      {
+        "text": "Scary wave",
+        "is_correct": false
+      },
+      {
+        "text": "Ocean wave",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which event is used as the primary example of a 'disaster' in the Week 2 lesson?",
-    "options": {
-      "A": "The 100-car pile-up on the highway to Calgary.",
-      "B": "The opioid crisis in Canada.",
-      "C": "The 2016 Horse River Fire (Fort McMurray Wildfire).",
-      "D": "The 2010 Haiti earthquake."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "The 100-car pile-up on the highway to Calgary.",
+        "is_correct": false
+      },
+      {
+        "text": "The opioid crisis in Canada.",
+        "is_correct": false
+      },
+      {
+        "text": "The 2016 Horse River Fire (Fort McMurray Wildfire).",
+        "is_correct": true
+      },
+      {
+        "text": "The 2010 Haiti earthquake.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Space weather, such as solar flares, can cause massive disruptions to systems with what kind of signature?",
-    "options": {
-      "A": "Biological",
-      "B": "Gravitational",
-      "C": "Electromagnetic",
-      "D": "Chemical"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Biological",
+        "is_correct": false
+      },
+      {
+        "text": "Gravitational",
+        "is_correct": false
+      },
+      {
+        "text": "Electromagnetic",
+        "is_correct": true
+      },
+      {
+        "text": "Chemical",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 1987 Edmonton Tornado destroyed more than 300 homes, injured 600 people, and resulted in how many deaths?",
-    "options": {
-      "A": "11",
-      "B": "27",
-      "C": "35",
-      "D": "50"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "11",
+        "is_correct": false
+      },
+      {
+        "text": "27",
+        "is_correct": true
+      },
+      {
+        "text": "35",
+        "is_correct": false
+      },
+      {
+        "text": "50",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of these is NOT one of the four mutually reinforcing elements of Canada's Counter-terrorism Strategy?",
-    "options": {
-      "A": "Prevent",
-      "B": "Detect",
-      "C": "Punish",
-      "D": "Respond"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Prevent",
+        "is_correct": false
+      },
+      {
+        "text": "Detect",
+        "is_correct": false
+      },
+      {
+        "text": "Punish",
+        "is_correct": true
+      },
+      {
+        "text": "Respond",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the term for the process where vibrations from an earthquake increase water pressure in soil, essentially turning it into quicksand?",
-    "options": {
-      "A": "Subduction",
-      "B": "Liquefaction",
-      "C": "Erosion",
-      "D": "Convergence"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Subduction",
+        "is_correct": false
+      },
+      {
+        "text": "Liquefaction",
+        "is_correct": true
+      },
+      {
+        "text": "Erosion",
+        "is_correct": false
+      },
+      {
+        "text": "Convergence",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the US Department of Homeland Security, an 'active aggressor' is an individual actively engaged in doing what?",
-    "options": {
-      "A": "Committing fraud against a large organization.",
-      "B": "Taking hostages for political gain.",
-      "C": "Killing or attempting to kill people in a confined and populated area.",
-      "D": "Hijacking a vehicle for commercial purposes."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Committing fraud against a large organization.",
+        "is_correct": false
+      },
+      {
+        "text": "Taking hostages for political gain.",
+        "is_correct": false
+      },
+      {
+        "text": "Killing or attempting to kill people in a confined and populated area.",
+        "is_correct": true
+      },
+      {
+        "text": "Hijacking a vehicle for commercial purposes.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In the context of plate tectonics, what is the edge where plates interact known as?",
-    "options": {
-      "A": "A convergent boundary",
-      "B": "A divergent boundary",
-      "C": "A subducting plate",
-      "D": "A fault line"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "A convergent boundary",
+        "is_correct": false
+      },
+      {
+        "text": "A divergent boundary",
+        "is_correct": false
+      },
+      {
+        "text": "A subducting plate",
+        "is_correct": false
+      },
+      {
+        "text": "A fault line",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The lesson on intentional hazards states that a humanitarian crisis layered over an ongoing instability or conflict is known as what?",
-    "options": {
-      "A": "A complex humanitarian emergency (CHE)",
-      "B": "A multi-faceted disaster",
-      "C": "A state of war",
-      "D": "A political terrorism event"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "A complex humanitarian emergency (CHE)",
+        "is_correct": true
+      },
+      {
+        "text": "A multi-faceted disaster",
+        "is_correct": false
+      },
+      {
+        "text": "A state of war",
+        "is_correct": false
+      },
+      {
+        "text": "A political terrorism event",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2014 hailstorm in central Alberta resulted in how much in insured losses?",
-    "options": {
-      "A": "Over $6 billion",
-      "B": "Over $700 million",
-      "C": "Over $450 million",
-      "D": "Over $290 million"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Over $6 billion",
+        "is_correct": false
+      },
+      {
+        "text": "Over $700 million",
+        "is_correct": false
+      },
+      {
+        "text": "Over $450 million",
+        "is_correct": true
+      },
+      {
+        "text": "Over $290 million",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What type of hazard are fog, hail, and tornadoes classified as?",
-    "options": {
-      "A": "Climatological",
-      "B": "Hydrological",
-      "C": "Geophysical",
-      "D": "Meteorological"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Climatological",
+        "is_correct": false
+      },
+      {
+        "text": "Hydrological",
+        "is_correct": false
+      },
+      {
+        "text": "Geophysical",
+        "is_correct": false
+      },
+      {
+        "text": "Meteorological",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following is NOT one of the six sub-categories of natural hazards listed in the document?",
-    "options": {
-      "A": "Biological",
-      "B": "Extra-terrestrial",
-      "C": "Atmospheric",
-      "D": "Geophysical"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Biological",
+        "is_correct": false
+      },
+      {
+        "text": "Extra-terrestrial",
+        "is_correct": false
+      },
+      {
+        "text": "Atmospheric",
+        "is_correct": true
+      },
+      {
+        "text": "Geophysical",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What was the cause of the 1992 Westray Coal Mine disaster in Nova Scotia that killed 26 miners?",
-    "options": {
-      "A": "A structural collapse",
-      "B": "A build-up of methane gas",
-      "C": "A flood within the mine",
-      "D": "An earthquake"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "A structural collapse",
+        "is_correct": false
+      },
+      {
+        "text": "A build-up of methane gas",
+        "is_correct": true
+      },
+      {
+        "text": "A flood within the mine",
+        "is_correct": false
+      },
+      {
+        "text": "An earthquake",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the Edmonton Police Service, what has been the leading cause of fires in Edmonton for the last 12 years?",
-    "options": {
-      "A": "Lightning strikes",
-      "B": "Arson",
-      "C": "Electrical failures",
-      "D": "Industrial accidents"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Lightning strikes",
+        "is_correct": false
+      },
+      {
+        "text": "Arson",
+        "is_correct": true
+      },
+      {
+        "text": "Electrical failures",
+        "is_correct": false
+      },
+      {
+        "text": "Industrial accidents",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In plate tectonics, what tends to form where plates come together at convergent boundaries?",
-    "options": {
-      "A": "Deep trenches",
-      "B": "Mountain ranges",
-      "C": "Volcanoes",
-      "D": "Fault lines"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Deep trenches",
+        "is_correct": false
+      },
+      {
+        "text": "Mountain ranges",
+        "is_correct": true
+      },
+      {
+        "text": "Volcanoes",
+        "is_correct": false
+      },
+      {
+        "text": "Fault lines",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of these is listed as a non-violent criminal act?",
-    "options": {
-      "A": "Hijacking",
-      "B": "Active Aggressor",
-      "C": "Fraud",
-      "D": "Riot"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Hijacking",
+        "is_correct": false
+      },
+      {
+        "text": "Active Aggressor",
+        "is_correct": false
+      },
+      {
+        "text": "Fraud",
+        "is_correct": true
+      },
+      {
+        "text": "Riot",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2003 blackout that affected Eastern Canada and the US was initially caused by what event?",
-    "options": {
-      "A": "A lightning strike on a power station.",
-      "B": "A cyber attack on the power grid.",
-      "C": "A solar flare from the sun.",
-      "D": "Trees connecting with a power line in Ohio."
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "A lightning strike on a power station.",
+        "is_correct": false
+      },
+      {
+        "text": "A cyber attack on the power grid.",
+        "is_correct": false
+      },
+      {
+        "text": "A solar flare from the sun.",
+        "is_correct": false
+      },
+      {
+        "text": "Trees connecting with a power line in Ohio.",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the name for a fire that occurs where a wildfire threatens an inhabited community?",
-    "options": {
-      "A": "Structural Fire",
-      "B": "Urban Interface Fire",
-      "C": "Community Wildfire",
-      "D": "Residential Fire"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Structural Fire",
+        "is_correct": false
+      },
+      {
+        "text": "Urban Interface Fire",
+        "is_correct": true
+      },
+      {
+        "text": "Community Wildfire",
+        "is_correct": false
+      },
+      {
+        "text": "Residential Fire",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The EMGT program's definition of a 'crisis' is 'an unstable condition involving an impending abrupt or significant change that requires urgent attention and action to protect...' what?",
-    "options": {
-      "A": "An organization's performance and stakeholder expectancies.",
-      "B": "The health, safety or welfare of people.",
-      "C": "The economy and public confidence.",
-      "D": "Life, assets, property, or the environment."
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "An organization's performance and stakeholder expectancies.",
+        "is_correct": false
+      },
+      {
+        "text": "The health, safety or welfare of people.",
+        "is_correct": false
+      },
+      {
+        "text": "The economy and public confidence.",
+        "is_correct": false
+      },
+      {
+        "text": "Life, assets, property, or the environment.",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the primary motivation for modern-day pirates who attack ships at sea?",
-    "options": {
-      "A": "Political objectives",
-      "B": "Ideological causes",
-      "C": "Commercial gains",
-      "D": "Religious extremism"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Political objectives",
+        "is_correct": false
+      },
+      {
+        "text": "Ideological causes",
+        "is_correct": false
+      },
+      {
+        "text": "Commercial gains",
+        "is_correct": true
+      },
+      {
+        "text": "Religious extremism",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What kind of natural hazard is an insect infestation, such as the Mountain Pine Beetle in Jasper National Park?",
-    "options": {
-      "A": "Biological",
-      "B": "Geophysical",
-      "C": "Climatological",
-      "D": "Meteorological"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "Biological",
+        "is_correct": true
+      },
+      {
+        "text": "Geophysical",
+        "is_correct": false
+      },
+      {
+        "text": "Climatological",
+        "is_correct": false
+      },
+      {
+        "text": "Meteorological",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What does the 'progression model' described in the Week 2 lesson suggest?",
-    "options": {
-      "A": "A disaster always leads to a crisis, which then becomes an emergency.",
-      "B": "All disasters start as small, manageable events.",
-      "C": "A crisis or emergency can develop into a disaster if neglected or mismanaged.",
-      "D": "Emergencies, crises, and disasters are completely separate and unrelated events."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "A disaster always leads to a crisis, which then becomes an emergency.",
+        "is_correct": false
+      },
+      {
+        "text": "All disasters start as small, manageable events.",
+        "is_correct": false
+      },
+      {
+        "text": "A crisis or emergency can develop into a disaster if neglected or mismanaged.",
+        "is_correct": true
+      },
+      {
+        "text": "Emergencies, crises, and disasters are completely separate and unrelated events.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The document defines a storm with winds between 62 km/h and 119 km/h as what?",
-    "options": {
-      "A": "A tropical depression",
-      "B": "A tropical storm",
-      "C": "A hurricane",
-      "D": "A typhoon"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "A tropical depression",
+        "is_correct": false
+      },
+      {
+        "text": "A tropical storm",
+        "is_correct": true
+      },
+      {
+        "text": "A hurricane",
+        "is_correct": false
+      },
+      {
+        "text": "A typhoon",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In which city did the 2012 Algo Centre Mall collapse occur?",
-    "options": {
-      "A": "Edmonton, Alberta",
-      "B": "Elliot Lake, Ontario",
-      "C": "Mississauga, Ontario",
-      "D": "Pictou County, Nova Scotia"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Edmonton, Alberta",
+        "is_correct": false
+      },
+      {
+        "text": "Elliot Lake, Ontario",
+        "is_correct": true
+      },
+      {
+        "text": "Mississauga, Ontario",
+        "is_correct": false
+      },
+      {
+        "text": "Pictou County, Nova Scotia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the text, a storm with winds reaching 119 km/h in the Northwest Pacific Ocean west of the dateline is called a what?",
-    "options": {
-      "A": "Hurricane",
-      "B": "Cyclone",
-      "C": "Typhoon",
-      "D": "Tornado"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Hurricane",
+        "is_correct": false
+      },
+      {
+        "text": "Cyclone",
+        "is_correct": false
+      },
+      {
+        "text": "Typhoon",
+        "is_correct": true
+      },
+      {
+        "text": "Tornado",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the first priority for international NGOs when addressing a Complex Humanitarian Emergency (CHE)?",
-    "options": {
-      "A": "Food and nutrition",
-      "B": "Rapid needs assessment",
-      "C": "Shelter and site planning",
-      "D": "Healthcare"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Food and nutrition",
+        "is_correct": false
+      },
+      {
+        "text": "Rapid needs assessment",
+        "is_correct": true
+      },
+      {
+        "text": "Shelter and site planning",
+        "is_correct": false
+      },
+      {
+        "text": "Healthcare",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2004 Indian Ocean Tsunami claimed more than how many lives?",
-    "options": {
-      "A": "20,000",
-      "B": "90,000",
-      "C": "150,000",
-      "D": "230,000"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "20,000",
+        "is_correct": false
+      },
+      {
+        "text": "90,000",
+        "is_correct": false
+      },
+      {
+        "text": "150,000",
+        "is_correct": false
+      },
+      {
+        "text": "230,000",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The document states that the 2011 Slave Lake Fire, which caused over $700 million in damage, was caused by what?",
-    "options": {
-      "A": "A lightning strike",
-      "B": "Arson",
-      "C": "A campfire",
-      "D": "A train derailment"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "A lightning strike",
+        "is_correct": false
+      },
+      {
+        "text": "Arson",
+        "is_correct": true
+      },
+      {
+        "text": "A campfire",
+        "is_correct": false
+      },
+      {
+        "text": "A train derailment",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The catastrophic 1984 industrial accident in Bhopal, India, involved the accidental release of 30 tons of what?",
-    "options": {
-      "A": "Radioactive material",
-      "B": "Crude oil",
-      "C": "Pesticide gas",
-      "D": "Methane gas"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Radioactive material",
+        "is_correct": false
+      },
+      {
+        "text": "Crude oil",
+        "is_correct": false
+      },
+      {
+        "text": "Pesticide gas",
+        "is_correct": true
+      },
+      {
+        "text": "Methane gas",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following events is used as an example of a 'crisis' in the Week 2 lesson?",
-    "options": {
-      "A": "The Fort McMurray Wildfire",
-      "B": "The opioid crisis in Canada",
-      "C": "The 100-car pile-up",
-      "D": "The 2003 blackout"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "The Fort McMurray Wildfire",
+        "is_correct": false
+      },
+      {
+        "text": "The opioid crisis in Canada",
+        "is_correct": true
+      },
+      {
+        "text": "The 100-car pile-up",
+        "is_correct": false
+      },
+      {
+        "text": "The 2003 blackout",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the term for non-violent acts in which individuals deliberately break laws to protest perceived injustices, as practiced by Mahatma Gandhi?",
-    "options": {
-      "A": "Riot",
-      "B": "Demonstration",
-      "C": "Civil disobedience",
-      "D": "Protest"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Riot",
+        "is_correct": false
+      },
+      {
+        "text": "Demonstration",
+        "is_correct": false
+      },
+      {
+        "text": "Civil disobedience",
+        "is_correct": true
+      },
+      {
+        "text": "Protest",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What technological failure led to the grounding of British Airways flights in 2017?",
-    "options": {
-      "A": "A power grid failure.",
-      "B": "An IT failure with their booking system.",
-      "C": "A telecommunications system failure.",
-      "D": "A structural failure at the airport."
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "A power grid failure.",
+        "is_correct": false
+      },
+      {
+        "text": "An IT failure with their booking system.",
+        "is_correct": true
+      },
+      {
+        "text": "A telecommunications system failure.",
+        "is_correct": false
+      },
+      {
+        "text": "A structural failure at the airport.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the text, a drought on Mars has no impact on people and therefore does not constitute a disaster, emergency, or crisis. This illustrates which key common element?",
-    "options": {
-      "A": "An Event",
-      "B": "Sudden Nature",
-      "C": "Action is Required",
-      "D": "People"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "An Event",
+        "is_correct": false
+      },
+      {
+        "text": "Sudden Nature",
+        "is_correct": false
+      },
+      {
+        "text": "Action is Required",
+        "is_correct": false
+      },
+      {
+        "text": "People",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the most common form of technological hazard, though most incidents do not escalate to the 'disaster' level?",
-    "options": {
-      "A": "Rail accidents",
-      "B": "Airline accidents",
-      "C": "Road traffic accidents",
-      "D": "Dam failures"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Rail accidents",
+        "is_correct": false
+      },
+      {
+        "text": "Airline accidents",
+        "is_correct": false
+      },
+      {
+        "text": "Road traffic accidents",
+        "is_correct": true
+      },
+      {
+        "text": "Dam failures",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The Front de Libération du Québec (FLQ) is given as a historical Canadian example of which type of terrorism?",
-    "options": {
-      "A": "Religious Extremist Terrorism",
-      "B": "Single-Issue Terrorism",
-      "C": "Pathological Terrorism",
-      "D": "Separatist Terrorism"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Religious Extremist Terrorism",
+        "is_correct": false
+      },
+      {
+        "text": "Single-Issue Terrorism",
+        "is_correct": false
+      },
+      {
+        "text": "Pathological Terrorism",
+        "is_correct": false
+      },
+      {
+        "text": "Separatist Terrorism",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In what year was Canada's worst terrorist attack, the Air India bombing, perpetrated?",
-    "options": {
-      "A": "1970",
-      "B": "1985",
-      "C": "2001",
-      "D": "2017"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "1970",
+        "is_correct": false
+      },
+      {
+        "text": "1985",
+        "is_correct": true
+      },
+      {
+        "text": "2001",
+        "is_correct": false
+      },
+      {
+        "text": "2017",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following is NOT one of the five categories of chemical agents mentioned in the text?",
-    "options": {
-      "A": "Choking",
-      "B": "Blister",
-      "C": "Corrosive",
-      "D": "Nerve"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Choking",
+        "is_correct": false
+      },
+      {
+        "text": "Blister",
+        "is_correct": false
+      },
+      {
+        "text": "Corrosive",
+        "is_correct": true
+      },
+      {
+        "text": "Nerve",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the lesson, where is Canada's official definition of terrorism found?",
-    "options": {
-      "A": "In a CSIS publication",
-      "B": "In the Criminal Code of Canada",
-      "C": "In a Canadian Armed Forces manual",
-      "D": "In a Public Safety Canada framework"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "In a CSIS publication",
+        "is_correct": false
+      },
+      {
+        "text": "In the Criminal Code of Canada",
+        "is_correct": true
+      },
+      {
+        "text": "In a Canadian Armed Forces manual",
+        "is_correct": false
+      },
+      {
+        "text": "In a Public Safety Canada framework",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the estimated annual cost of employee theft to Canadian retail businesses?",
-    "options": {
-      "A": "$290 million",
-      "B": "$450 million",
-      "C": "$1.4 billion",
-      "D": "$5 billion"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "$290 million",
+        "is_correct": false
+      },
+      {
+        "text": "$450 million",
+        "is_correct": false
+      },
+      {
+        "text": "$1.4 billion",
+        "is_correct": true
+      },
+      {
+        "text": "$5 billion",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What are the two most dangerous times for aircraft and those around them?",
-    "options": {
-      "A": "Cruising and descent",
-      "B": "Boarding and taxiing",
-      "C": "Takeoff and landing",
-      "D": "Refueling and maintenance"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Cruising and descent",
+        "is_correct": false
+      },
+      {
+        "text": "Boarding and taxiing",
+        "is_correct": false
+      },
+      {
+        "text": "Takeoff and landing",
+        "is_correct": true
+      },
+      {
+        "text": "Refueling and maintenance",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which biological agent was sent through the mail to US elected officials and news organizations in 2001?",
-    "options": {
-      "A": "Listeria",
-      "B": "Anthrax",
-      "C": "H1N1",
-      "D": "Zika Virus"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Listeria",
+        "is_correct": false
+      },
+      {
+        "text": "Anthrax",
+        "is_correct": true
+      },
+      {
+        "text": "H1N1",
+        "is_correct": false
+      },
+      {
+        "text": "Zika Virus",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The document mentions a 2013 meteor that exploded over Russia. What were the effects of this event?",
-    "options": {
-      "A": "A large crater was formed and several buildings were destroyed.",
-      "B": "It caused a massive tsunami in the Baltic Sea.",
-      "C": "It caused disruptions to the power grid and telecommunications networks.",
-      "D": "It caused widespread wildfires across Siberia."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "A large crater was formed and several buildings were destroyed.",
+        "is_correct": false
+      },
+      {
+        "text": "It caused a massive tsunami in the Baltic Sea.",
+        "is_correct": false
+      },
+      {
+        "text": "It caused disruptions to the power grid and telecommunications networks.",
+        "is_correct": true
+      },
+      {
+        "text": "It caused widespread wildfires across Siberia.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following natural hazards falls under the 'Climatological' sub-category?",
-    "options": {
-      "A": "Tsunami",
-      "B": "Volcano",
-      "C": "Tornado",
-      "D": "Drought"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Tsunami",
+        "is_correct": false
+      },
+      {
+        "text": "Volcano",
+        "is_correct": false
+      },
+      {
+        "text": "Tornado",
+        "is_correct": false
+      },
+      {
+        "text": "Drought",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What term does the ISO use to define a hazard, which is considered too broad for the EMGT Program's purposes?",
-    "options": {
-      "A": "A source of potential harm",
-      "B": "An event that overwhelms capacity",
-      "C": "An accident or failure of a system",
-      "D": "An intentional act by an adversary"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "A source of potential harm",
+        "is_correct": true
+      },
+      {
+        "text": "An event that overwhelms capacity",
+        "is_correct": false
+      },
+      {
+        "text": "An accident or failure of a system",
+        "is_correct": false
+      },
+      {
+        "text": "An intentional act by an adversary",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2018 mudslides in California were exacerbated by what preceding event?",
-    "options": {
-      "A": "A major earthquake",
-      "B": "Record-breaking rainfall",
-      "C": "The preceding summer's wildfires",
-      "D": "A volcanic eruption"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "A major earthquake",
+        "is_correct": false
+      },
+      {
+        "text": "Record-breaking rainfall",
+        "is_correct": false
+      },
+      {
+        "text": "The preceding summer's wildfires",
+        "is_correct": true
+      },
+      {
+        "text": "A volcanic eruption",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What does CRED define a meteorological hazard as being caused by?",
-    "options": {
-      "A": "Long-lived, large-scale atmospheric processes.",
-      "B": "Movements of the hard surfaces of the Earth.",
-      "C": "Short-lived, small-to-medium scale extreme weather.",
-      "D": "The exposure to living organisms and their toxic substances."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Long-lived, large-scale atmospheric processes.",
+        "is_correct": false
+      },
+      {
+        "text": "Movements of the hard surfaces of the Earth.",
+        "is_correct": false
+      },
+      {
+        "text": "Short-lived, small-to-medium scale extreme weather.",
+        "is_correct": true
+      },
+      {
+        "text": "The exposure to living organisms and their toxic substances.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What distinction does the document make between kidnapping and hostage-taking?",
-    "options": {
-      "A": "Kidnapping involves one person, while hostage-taking involves many.",
-      "B": "Kidnapping is for financial gain, while hostage-taking is for political objectives.",
-      "C": "Kidnapping is done by criminals, while hostage-taking is done by terrorists.",
-      "D": "Kidnapping occurs in vehicles, while hostage-taking occurs in buildings."
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Kidnapping involves one person, while hostage-taking involves many.",
+        "is_correct": false
+      },
+      {
+        "text": "Kidnapping is for financial gain, while hostage-taking is for political objectives.",
+        "is_correct": true
+      },
+      {
+        "text": "Kidnapping is done by criminals, while hostage-taking is done by terrorists.",
+        "is_correct": false
+      },
+      {
+        "text": "Kidnapping occurs in vehicles, while hostage-taking occurs in buildings.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is Canada's primary method for shipping hazardous materials and cargo across the country?",
-    "options": {
-      "A": "Road",
-      "B": "Air",
-      "C": "Rail",
-      "D": "Maritime"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Road",
+        "is_correct": false
+      },
+      {
+        "text": "Air",
+        "is_correct": false
+      },
+      {
+        "text": "Rail",
+        "is_correct": true
+      },
+      {
+        "text": "Maritime",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The eruption of Iceland’s Eyjafjallajökull volcano in 2010 massively disrupted what industry?",
-    "options": {
-      "A": "Shipping",
-      "B": "Air travel",
-      "C": "Telecommunications",
-      "D": "Fishing"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Shipping",
+        "is_correct": false
+      },
+      {
+        "text": "Air travel",
+        "is_correct": true
+      },
+      {
+        "text": "Telecommunications",
+        "is_correct": false
+      },
+      {
+        "text": "Fishing",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In 2015, the global death rate from road accidents was 18.2 deaths per 100,000 people. What was the global death rate from terrorism in the same year?",
-    "options": {
-      "A": "0.39 deaths per 100,000 people",
-      "B": "1.82 deaths per 100,000 people",
-      "C": "5.50 deaths per 100,000 people",
-      "D": "10.1 deaths per 100,000 people"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "0.39 deaths per 100,000 people",
+        "is_correct": true
+      },
+      {
+        "text": "1.82 deaths per 100,000 people",
+        "is_correct": false
+      },
+      {
+        "text": "5.50 deaths per 100,000 people",
+        "is_correct": false
+      },
+      {
+        "text": "10.1 deaths per 100,000 people",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of the following is NOT one of the three main hazard categories identified in the lessons?",
-    "options": {
-      "A": "Natural hazards",
-      "B": "Technological hazards",
-      "C": "Environmental hazards",
-      "D": "Intentional hazards"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Natural hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Technological hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Environmental hazards",
+        "is_correct": true
+      },
+      {
+        "text": "Intentional hazards",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the name for specialized response teams, such as those required for building collapses like the Rana Plaza factory?",
-    "options": {
-      "A": "Emergency Medical Services (EMS)",
-      "B": "Special Weapons and Tactics (SWAT)",
-      "C": "Urban Search and Rescue (USAR)",
-      "D": "Disaster Assistance Response Team (DART)"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Emergency Medical Services (EMS)",
+        "is_correct": false
+      },
+      {
+        "text": "Special Weapons and Tactics (SWAT)",
+        "is_correct": false
+      },
+      {
+        "text": "Urban Search and Rescue (USAR)",
+        "is_correct": true
+      },
+      {
+        "text": "Disaster Assistance Response Team (DART)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which natural hazard has often been cited as Canada’s costliest?",
-    "options": {
-      "A": "Flooding",
-      "B": "Wildfires",
-      "C": "Hail",
-      "D": "Ice Storms"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Flooding",
+        "is_correct": false
+      },
+      {
+        "text": "Wildfires",
+        "is_correct": false
+      },
+      {
+        "text": "Hail",
+        "is_correct": true
+      },
+      {
+        "text": "Ice Storms",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "A 'Radiological Dispersion Device' is more commonly known as what?",
-    "options": {
-      "A": "A nuclear weapon",
-      "B": "A dirty bomb",
-      "C": "A conventional explosive",
-      "D": "An improvised explosive device"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "A nuclear weapon",
+        "is_correct": false
+      },
+      {
+        "text": "A dirty bomb",
+        "is_correct": true
+      },
+      {
+        "text": "A conventional explosive",
+        "is_correct": false
+      },
+      {
+        "text": "An improvised explosive device",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What hazard is CRED describing as 'caused by the occurrence, movement, and distribution of surface and subsurface freshwater and saltwater'?",
-    "options": {
-      "A": "Hydrological hazards",
-      "B": "Geophysical hazards",
-      "C": "Climatological hazards",
-      "D": "Meteorological hazards"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "Hydrological hazards",
+        "is_correct": true
+      },
+      {
+        "text": "Geophysical hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Climatological hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Meteorological hazards",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the lesson, where did 'modern firefighting' originate in the 18th-century?",
-    "options": {
-      "A": "The Roman Empire",
-      "B": "Great Britain",
-      "C": "The United States",
-      "D": "France"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "The Roman Empire",
+        "is_correct": false
+      },
+      {
+        "text": "Great Britain",
+        "is_correct": false
+      },
+      {
+        "text": "The United States",
+        "is_correct": false
+      },
+      {
+        "text": "France",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The lesson on intentional hazards clarifies that riots do not usually occur during which type of event?",
-    "options": {
-      "A": "Sports championships",
-      "B": "Political protests",
-      "C": "Disasters",
-      "D": "Mass gatherings"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Sports championships",
+        "is_correct": false
+      },
+      {
+        "text": "Political protests",
+        "is_correct": false
+      },
+      {
+        "text": "Disasters",
+        "is_correct": true
+      },
+      {
+        "text": "Mass gatherings",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What definition for 'hazard' does the EMGT program adopt from FEMA?",
-    "options": {
-      "A": "A source of potential harm.",
-      "B": "A potential incident resulting from the intentional actions of an adversary.",
-      "C": "An event or physical condition that has the potential to cause fatalities, injuries, or other harm.",
-      "D": "A social phenomenon that results when it intersects with a vulnerable community."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "A source of potential harm.",
+        "is_correct": false
+      },
+      {
+        "text": "A potential incident resulting from the intentional actions of an adversary.",
+        "is_correct": false
+      },
+      {
+        "text": "An event or physical condition that has the potential to cause fatalities, injuries, or other harm.",
+        "is_correct": true
+      },
+      {
+        "text": "A social phenomenon that results when it intersects with a vulnerable community.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "In what country did the 2013 Rana Plaza factory collapse occur?",
-    "options": {
-      "A": "India",
-      "B": "Bangladesh",
-      "C": "Pakistan",
-      "D": "China"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "India",
+        "is_correct": false
+      },
+      {
+        "text": "Bangladesh",
+        "is_correct": true
+      },
+      {
+        "text": "Pakistan",
+        "is_correct": false
+      },
+      {
+        "text": "China",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The Oklahoma City bombing, the largest terrorist attack in the US other than 9/11, was carried out by whom?",
-    "options": {
-      "A": "Al-Qaeda operatives",
-      "B": "Sikh extremists",
-      "C": "The Unabomber",
-      "D": "Timothy McVeigh"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Al-Qaeda operatives",
+        "is_correct": false
+      },
+      {
+        "text": "Sikh extremists",
+        "is_correct": false
+      },
+      {
+        "text": "The Unabomber",
+        "is_correct": false
+      },
+      {
+        "text": "Timothy McVeigh",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2003 European heatwave resulted in how many deaths?",
-    "options": {
-      "A": "Approximately 2,000",
-      "B": "Approximately 5,000",
-      "C": "More than 10,000",
-      "D": "More than 20,000"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Approximately 2,000",
+        "is_correct": false
+      },
+      {
+        "text": "Approximately 5,000",
+        "is_correct": false
+      },
+      {
+        "text": "More than 10,000",
+        "is_correct": false
+      },
+      {
+        "text": "More than 20,000",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the key thing to remember about a hazard, according to the lesson?",
-    "options": {
-      "A": "It is an event that has already happened.",
-      "B": "It is an event that has not happened yet.",
-      "C": "It is always preventable.",
-      "D": "It is always caused by human error."
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "It is an event that has already happened.",
+        "is_correct": false
+      },
+      {
+        "text": "It is an event that has not happened yet.",
+        "is_correct": true
+      },
+      {
+        "text": "It is always preventable.",
+        "is_correct": false
+      },
+      {
+        "text": "It is always caused by human error.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What type of hazard do dam failures, power failures, and computer network failures fall under?",
-    "options": {
-      "A": "Industrial hazards",
-      "B": "Infrastructure hazards",
-      "C": "Structural failures",
-      "D": "Transportation hazards"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "Industrial hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Infrastructure hazards",
+        "is_correct": true
+      },
+      {
+        "text": "Structural failures",
+        "is_correct": false
+      },
+      {
+        "text": "Transportation hazards",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of these is NOT one of the three 'types' of Political Terrorism discussed?",
-    "options": {
-      "A": "Separatist Terrorism",
-      "B": "Religious Extremist Terrorism",
-      "C": "Single-Issue Terrorism",
-      "D": "Criminal Terrorism"
-    },
-    "answer": "D"
+    "answers": [
+      {
+        "text": "Separatist Terrorism",
+        "is_correct": false
+      },
+      {
+        "text": "Religious Extremist Terrorism",
+        "is_correct": false
+      },
+      {
+        "text": "Single-Issue Terrorism",
+        "is_correct": false
+      },
+      {
+        "text": "Criminal Terrorism",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What does Public Safety Canada define as 'processes, systems, facilities, technologies, networks, assets and services essential to Canadians' health, safety, security or economic well-being'?",
-    "options": {
-      "A": "Public Utilities",
-      "B": "Government Infrastructure",
-      "C": "Critical Infrastructure",
-      "D": "Essential Services"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Public Utilities",
+        "is_correct": false
+      },
+      {
+        "text": "Government Infrastructure",
+        "is_correct": false
+      },
+      {
+        "text": "Critical Infrastructure",
+        "is_correct": true
+      },
+      {
+        "text": "Essential Services",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the common name for Avian influenza?",
-    "options": {
-      "A": "Mad Cow Disease",
-      "B": "Swine Flu",
-      "C": "Bird Flu",
-      "D": "SARS"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Mad Cow Disease",
+        "is_correct": false
+      },
+      {
+        "text": "Swine Flu",
+        "is_correct": false
+      },
+      {
+        "text": "Bird Flu",
+        "is_correct": true
+      },
+      {
+        "text": "SARS",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which one of these hazards is described as being entirely preventable, unlike the majority of natural hazards?",
-    "options": {
-      "A": "Technological hazards",
-      "B": "Geophysical hazards",
-      "C": "Extra-terrestrial hazards",
-      "D": "Meteorological hazards"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "Technological hazards",
+        "is_correct": true
+      },
+      {
+        "text": "Geophysical hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Extra-terrestrial hazards",
+        "is_correct": false
+      },
+      {
+        "text": "Meteorological hazards",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "According to the lesson, what type of incident was the 100-car pile-up between Calgary and Edmonton on March 22nd, 2013?",
-    "options": {
-      "A": "A disaster",
-      "B": "An emergency",
-      "C": "A crisis",
-      "D": "A hazard"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "A disaster",
+        "is_correct": false
+      },
+      {
+        "text": "An emergency",
+        "is_correct": true
+      },
+      {
+        "text": "A crisis",
+        "is_correct": false
+      },
+      {
+        "text": "A hazard",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which of these events is an example of an extra-terrestrial hazard?",
-    "options": {
-      "A": "An earthquake",
-      "B": "A volcanic eruption",
-      "C": "A major solar flare",
-      "D": "A severe thunderstorm"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "An earthquake",
+        "is_correct": false
+      },
+      {
+        "text": "A volcanic eruption",
+        "is_correct": false
+      },
+      {
+        "text": "A major solar flare",
+        "is_correct": true
+      },
+      {
+        "text": "A severe thunderstorm",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "What is the purpose of Canada's Integrated National Security Enforcement Teams (INSETs)?",
-    "options": {
-      "A": "To respond to natural disasters.",
-      "B": "To manage industrial accidents.",
-      "C": "For intelligence sharing and apprehension of terrorism targets.",
-      "D": "To conduct urban search and rescue operations."
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "To respond to natural disasters.",
+        "is_correct": false
+      },
+      {
+        "text": "To manage industrial accidents.",
+        "is_correct": false
+      },
+      {
+        "text": "For intelligence sharing and apprehension of terrorism targets.",
+        "is_correct": true
+      },
+      {
+        "text": "To conduct urban search and rescue operations.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Which term is defined as 'the unlawful use or threat of violence against civilian populations to gain political or ideological objectives'?",
-    "options": {
-      "A": "War",
-      "B": "Terrorism",
-      "C": "Riot",
-      "D": "Civil Disobedience"
-    },
-    "answer": "B"
+    "answers": [
+      {
+        "text": "War",
+        "is_correct": false
+      },
+      {
+        "text": "Terrorism",
+        "is_correct": true
+      },
+      {
+        "text": "Riot",
+        "is_correct": false
+      },
+      {
+        "text": "Civil Disobedience",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "Mass movement events like landslides and avalanches are categorized as what type of natural hazard?",
-    "options": {
-      "A": "Hydrological",
-      "B": "Meteorological",
-      "C": "Geophysical",
-      "D": "Climatological"
-    },
-    "answer": "C"
+    "answers": [
+      {
+        "text": "Hydrological",
+        "is_correct": false
+      },
+      {
+        "text": "Meteorological",
+        "is_correct": false
+      },
+      {
+        "text": "Geophysical",
+        "is_correct": true
+      },
+      {
+        "text": "Climatological",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   },
   {
     "question": "The 2017 grounding of British Airways flights was caused by an IT failure. What kind of hazard does this exemplify?",
-    "options": {
-      "A": "Infrastructure Hazard (Computer Network Failure)",
-      "B": "Transportation Hazard (Airline Accident)",
-      "C": "Industrial Hazard (Explosion)",
-      "D": "Intentional Hazard (Cyber Attack)"
-    },
-    "answer": "A"
+    "answers": [
+      {
+        "text": "Infrastructure Hazard (Computer Network Failure)",
+        "is_correct": true
+      },
+      {
+        "text": "Transportation Hazard (Airline Accident)",
+        "is_correct": false
+      },
+      {
+        "text": "Industrial Hazard (Explosion)",
+        "is_correct": false
+      },
+      {
+        "text": "Intentional Hazard (Cyber Attack)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct!"
   }
 ]

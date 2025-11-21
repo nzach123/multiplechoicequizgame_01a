@@ -20,8 +20,13 @@ func load_course_data(course_id: String):
 		var json = JSON.new()
 		var error = json.parse(json_text)
 		if error == OK:
-			questions_pool = json.data
-			return true
+			# Basic validation for new schema
+			if json.data.size() > 0 and json.data[0].has("answers") and json.data[0]["answers"] is Array:
+				questions_pool = json.data
+				return true
+			else:
+				print("Error: Loaded data does not match expected schema.")
+				return false
 	return false
 
 func reset_stats():
