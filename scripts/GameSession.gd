@@ -1,5 +1,6 @@
 extends Control
 
+@onready var sfx_background_music: AudioStreamPlayer = $AudioManager/SFX_BackgroundMusic
 
 @onready var sfx_click: AudioStreamPlayer = $AudioManager/SFX_Click
 @onready var sfx_correct: AudioStreamPlayer = $AudioManager/SFX_Correct
@@ -31,6 +32,7 @@ var inputs_locked: bool = false
 var index_to_letter = { 0: "A", 1: "B", 2: "C", 3: "D" }
 
 func _ready():
+	
 	if not quiz_timer.timeout.is_connected(_on_timer_timeout):
 		quiz_timer.timeout.connect(_on_timer_timeout)
 
@@ -76,6 +78,7 @@ func apply_shake(intensity: float):
 
 
 func start_game():
+	play_sound(sfx_background_music)
 	GameManager.reset_stats()
 	update_score_ui()
 	current_q_index = 0
@@ -132,7 +135,6 @@ func _on_button_pressed(selected_idx: int):
 	play_sound(sfx_click)
 	inputs_locked = true
 	quiz_timer.stop()
-	
 	# Convert the button index (0) to the letter ("A")
 	var selected_letter = index_to_letter[selected_idx]
 	var correct_letter = GameManager.questions_pool[current_q_index]["answer"]
@@ -144,11 +146,14 @@ func _on_button_pressed(selected_idx: int):
 	elif correct_letter == "C": correct_idx = 2
 	elif correct_letter == "D": correct_idx = 3
 	
-	if selected_letter == correct_letter:
+		
+	if selected_letter == correct_letter: 
 		handle_correct(selected_idx)
 	else:
-		handle_wrong(selected_idx, correct_idx)
-	
+		# Pass the question data so we can log it
+		var q_data = GameManager.questions_pool[current_q_index]
+		handle_wrong(selected_idx, correct_idx, q_data, selected_letter)
+		
 	await get_tree().create_timer(1.5).timeout
 	current_q_index += 1
 	load_question(current_q_index)
@@ -156,7 +161,7 @@ func _on_button_pressed(selected_idx: int):
 func _on_timer_timeout():
 	if inputs_locked: return
 	inputs_locked = true
-	
+
 	# Find the correct index to show them what they missed
 	var correct_letter = GameManager.questions_pool[current_q_index]["answer"]
 	var correct_idx = 0
@@ -164,7 +169,9 @@ func _on_timer_timeout():
 	elif correct_letter == "C": correct_idx = 2
 	elif correct_letter == "D": correct_idx = 3
 	
-	handle_wrong(-1, correct_idx)
+	var q_data = GameManager.questions_pool[current_q_index]
+	# Pass "TIMEOUT" as the selected letter
+	handle_wrong(-1, correct_idx, q_data, "TIMEOUT")
 	
 	await get_tree().create_timer(1.5).timeout
 	current_q_index += 1
@@ -179,14 +186,22 @@ func handle_correct(idx):
 	update_score_ui()
 	buttons[idx].modulate = Color.GREEN
 
-func handle_wrong(selected_idx, correct_idx):
+func handle_wrong(selected_idx, correct_idx, q_data, user_choice_letter):
+	play_sound(sfx_alarm)
 	feedback_label.text = "STATUS: FAILURE"
 	feedback_label.modulate = Color.RED
-	GameManager.current_integrity -= 20
-	play_sound(sfx_alarm)
-	apply_shake(20.0)
 	
-	if selected_idx != -1:
+	GameManager.log_mistake(
+		q_data["question"], 
+		user_choice_letter, 
+		q_data["options"][q_data["answer"]]
+	)
+
+	apply_shake(20.0)
+	GameManager.current_integrity -= 20
+	#update_integrity_ui()
+	
+	if selected_idx != -1: 
 		buttons[selected_idx].modulate = Color.RED
 	buttons[correct_idx].modulate = Color.GREEN 
 
@@ -206,8 +221,7 @@ func update_score_ui():
 
 func finish_game():
 	quiz_timer.stop()
-	question_label.text = "SIMULATION COMPLETE"
-	feedback_label.text = "Final Score: " + str(GameManager.current_score)
-	timer_label.text = "Time: --"
-	for btn in buttons:
-		btn.hide()
+	sfx_background_music.stop()
+	# Wait a brief moment for the player to realize it's over
+	await get_tree().create_timer(1.0).timeout
+	get_tree().change_scene_to_file("res://scenes/GameOver.tscn")

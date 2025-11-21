@@ -215,6 +215,7 @@ mouse_filter = 2
 
 [node name="SFX_BackgroundMusic" type="AudioStreamPlayer" parent="AudioManager"]
 stream = ExtResource("4_ndxw5")
+volume_db = -12.0
 
 [node name="SFX_Click" type="AudioStreamPlayer" parent="AudioManager"]
 stream = ExtResource("5_ijcxg")
