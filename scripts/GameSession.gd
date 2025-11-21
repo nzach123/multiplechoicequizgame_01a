@@ -21,6 +21,7 @@ var shake_decay: float = 5.0
 var rng = RandomNumberGenerator.new()
 var camera: Camera2D
 
+
 # --- 2. STATE ---
 var current_q_index: int = 0
 var inputs_locked: bool = false
@@ -154,6 +155,7 @@ func _on_timer_timeout():
 func handle_correct(idx):
 	feedback_label.text = "STATUS: OPTIMAL"
 	feedback_label.modulate = Color.GREEN
+	apply_shake(5.0)
 	GameManager.current_score += 100
 	update_score_ui()
 	buttons[idx].modulate = Color.GREEN
@@ -161,8 +163,8 @@ func handle_correct(idx):
 func handle_wrong(selected_idx, correct_idx):
 	feedback_label.text = "STATUS: FAILURE"
 	feedback_label.modulate = Color.RED
-	GameManager.current_integrity -= 20
 	apply_shake(20.0)
+	GameManager.current_integrity -= 20
 	if selected_idx != -1:
 		buttons[selected_idx].modulate = Color.RED
 	buttons[correct_idx].modulate = Color.GREEN 
