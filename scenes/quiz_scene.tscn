@@ -106,13 +106,12 @@ size_flags_horizontal = 3
 theme = ExtResource("1_c7ybq")
 text = "Score: 0"
 
-[node name="IntegrityBar" type="ProgressBar" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
+[node name="RescueBar" type="ProgressBar" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 1
 theme = ExtResource("1_c7ybq")
 theme_override_styles/fill = SubResource("StyleBoxFlat_ijcxg")
-value = 100.0
 
 [node name="TimerContainer" type="Control" parent="VBoxContainer/MarginContainer3/HBoxContainer"]
 layout_mode = 2
