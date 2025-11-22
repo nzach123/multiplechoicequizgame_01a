@@ -1,2158 +1,252 @@
 [
   {
-	"question": "What is the core mandate of Gender-Based Analysis Plus (GBA+)?",
+	"question": "How is 'Risk' formally defined in the context of emergency management?",
 	"answers": [
-	  {
-		"text": "To advocate for specific gender policies.",
-		"is_correct": false
-	  },
-	  {
-		"text": "To assess how diverse groups experience policies, programs, and initiatives.",
-		"is_correct": true
-	  },
-	  {
-		"text": "To secure funding for women's organizations.",
-		"is_correct": false
-	  },
-	  {
-		"text": "To replace existing policy analysis with a focus on gender.",
-		"is_correct": false
-	  }
+	  { "text": "Intrinsic susceptibility to a hazard.", "is_correct": false },
+	  { "text": "Effect of uncertainty on objectives.", "is_correct": true },
+	  { "text": "Conditions causing fatalities or damage.", "is_correct": false },
+	  { "text": "Presence of hazard and exposure.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Risk is formally defined as 'the effect of uncertainty on objectives,' which is practically understood as a combination of the likelihood of an event occurring and the consequences of that event."
   },
   {
-	"question": "In what year did the Government of Canada first commit to using Gender-Based Analysis (GBA)?",
+	"question": "Why is it argued that 'vulnerable populations' should not be treated merely as annexes to a disaster plan?",
 	"answers": [
-	  {
-		"text": "1995",
-		"is_correct": true
-	  },
-	  {
-		"text": "2007",
-		"is_correct": false
-	  },
-	  {
-		"text": "2011",
-		"is_correct": false
-	  },
-	  {
-		"text": "2018",
-		"is_correct": false
-	  }
+	  { "text": "They are statistically insignificant.", "is_correct": false },
+	  { "text": "The 'healthy and wealthy' panic more.", "is_correct": false },
+	  { "text": "They are a majority; needs become universal.", "is_correct": true },
+	  { "text": "Regulations forbid using annexes.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Removing groups like the elderly and disabled means the plan only accounts for a fraction of the population. In major disasters, issues like mobility and medical needs affect the whole of society."
   },
   {
-	"question": "What does the 'Plus' in GBA+ signify?",
+	"question": "What was the primary 'faulty mental model' observed regarding the public's reaction to Hurricane Sandy?",
 	"answers": [
-	  {
-		"text": "Additional funding for programs.",
-		"is_correct": false
-	  },
-	  {
-		"text": "A focus on international best practices.",
-		"is_correct": false
-	  },
-	  {
-		"text": "An intersectional analysis considering multiple identity factors beyond gender.",
-		"is_correct": true
-	  },
-	  {
-		"text": "An optional, extra step in the analysis process.",
-		"is_correct": false
-	  }
+	  { "text": "Focused on wind speed, ignoring flood risks.", "is_correct": true },
+	  { "text": "Overestimated severity; evacuated too early.", "is_correct": false },
+	  { "text": "Relied too heavily on social media.", "is_correct": false },
+	  { "text": "Assumed immediate government supply drops.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Because hurricanes are categorized by wind speed, residents focused on wind damage and significantly underestimated the far greater threats of flooding and extended power outages."
   },
   {
-	"question": "Which of the following is NOT listed as an identity factor considered under the 'Plus' in GBA+?",
+	"question": "In the context of individual risk, what is the difference between Temperament and Attitude?",
 	"answers": [
-	  {
-		"text": "Race",
-		"is_correct": false
-	  },
-	  {
-		"text": "Disability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Political affiliation",
-		"is_correct": true
-	  },
-	  {
-		"text": "Geography",
-		"is_correct": false
-	  }
+	  { "text": "Temperament changes daily; Attitude is permanent.", "is_correct": false },
+	  { "text": "Temperament is hard-wired; Attitude is situational.", "is_correct": true },
+	  { "text": "Temperament is financial; Attitude is physical.", "is_correct": false },
+	  { "text": "Temperament is peer-driven; Attitude is genetic.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Risk Temperament is a natural, deep-rooted disposition (factory settings), whereas Risk Attitude varies depending on the specific situation and domain (like driving habits)."
   },
   {
-	"question": "According to the report, what is the 'implementation gap' in GBA+?",
+	"question": "Which behavioral reaction to disaster is described as the most common among the public?",
 	"answers": [
-	  {
-		"text": "The time delay between policy creation and implementation.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The difference in application between federal and provincial governments.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The gap between the framework's mandate and its inconsistent, day-to-day practice.",
-		"is_correct": true
-	  },
-	  {
-		"text": "The lack of GBA+ application in the private sector.",
-		"is_correct": false
-	  }
+	  { "text": "Fear-driven avoidance.", "is_correct": false },
+	  { "text": "Altruism (Neighbor helps neighbor).", "is_correct": true },
+	  { "text": "Competition for resources.", "is_correct": false },
+	  { "text": "Apathy (Neighbor ignores neighbor).", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Altruism is identified as the most common reaction, driven by empathy and a desire to assist, though significant fear can eventually shift behavior toward avoidance or competition."
   },
   {
-	"question": "What is a major critique of how GBA+ is sometimes treated in bureaucracy?",
+	"question": "In disaster response psychology, what characterizes the 'milling' phase?",
 	"answers": [
-	  {
-		"text": "It is overly complex and requires too much data.",
-		"is_correct": false
-	  },
-	  {
-		"text": "It is too focused on academic theory.",
-		"is_correct": false
-	  },
-	  {
-		"text": "It is often treated as a bureaucratic 'box-ticking' exercise.",
-		"is_correct": true
-	  },
-	  {
-		"text": "It is applied too early in the policy process.",
-		"is_correct": false
-	  }
+	  { "text": "Immediate, hysterical flight.", "is_correct": false },
+	  { "text": "Freezing or 'negative panic'.", "is_correct": false },
+	  { "text": "Seeking info and social confirmation.", "is_correct": true },
+	  { "text": "Returning home to loot supplies.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Milling is the deliberation phase following denial, where people seek information and consult with others to confirm the threat before taking action."
   },
   {
-	"question": "Which federal department officially rebranded 'GBA' to 'GBA+' in 2011?",
+	"question": "How does modern crowd psychology challenge the traditional view of 'mob mentality'?",
 	"answers": [
-	  {
-		"text": "Department of Justice Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "Indigenous Services Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "Status of Women Canada (now WAGE)",
-		"is_correct": true
-	  },
-	  {
-		"text": "Public Safety Canada",
-		"is_correct": false
-	  }
+	  { "text": "Crowds are inherently violent.", "is_correct": false },
+	  { "text": "Anonymity always causes moral loss.", "is_correct": false },
+	  { "text": "Crowds act on shared identity, not chaos.", "is_correct": true },
+	  { "text": "Crowds only form during protests.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The 'madness' view is largely incorrect; crowds often enact a shared collective identity, and actions—even violent ones—are usually selective rather than random."
   },
   {
-	"question": "The concept of intersectionality, central to GBA+, is rooted in which intellectual tradition?",
+	"question": "Which of the following is a persistent 'disaster myth' regarding public behavior?",
 	"answers": [
-	  {
-		"text": "Neoliberal economics",
-		"is_correct": false
-	  },
-	  {
-		"text": "Black feminist scholarship",
-		"is_correct": true
-	  },
-	  {
-		"text": "Classical political theory",
-		"is_correct": false
-	  },
-	  {
-		"text": "Post-structuralism",
-		"is_correct": false
-	  }
+	  { "text": "Most people evacuate if warned.", "is_correct": false },
+	  { "text": "Crime rates usually decrease.", "is_correct": false },
+	  { "text": "Survivors act as first responders.", "is_correct": false },
+	  { "text": "Victims are helpless and in 'disaster shock'.", "is_correct": true }
 	],
-	"explanation": "Correct!"
+	"explanation": "The idea that victims are helpless and dependent (disaster shock) is a damaging myth; in reality, survivors are the first to respond and assist others."
   },
   {
-	"question": "What is one of the three fundamental objectives of the GBA+ process?",
+	"question": "What does research indicate about 'Role Abandonment' among emergency workers during disasters?",
 	"answers": [
-	  {
-		"text": "To guarantee equal outcomes for all groups.",
-		"is_correct": false
-	  },
-	  {
-		"text": "To eliminate all forms of discrimination immediately.",
-		"is_correct": false
-	  },
-	  {
-		"text": "To create new government programs.",
-		"is_correct": false
-	  },
-	  {
-		"text": "To mitigate any potential barriers that prevent groups from benefiting from an initiative.",
-		"is_correct": true
-	  }
+	  { "text": "Most abandon posts for family.", "is_correct": false },
+	  { "text": "Unreliable without martial law.", "is_correct": false },
+	  { "text": "Responders are reliable and report voluntarily.", "is_correct": true },
+	  { "text": "Common only among volunteers.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The 'post abandonment' myth is unsupported by evidence; it is much more common for personnel to report for duty voluntarily, sometimes creating an overabundance of staff."
   },
   {
-	"question": "What is the first step in the typical five-step GBA+ cycle?",
+	"question": "Regarding hospital usage during a disaster, what logistical reality often occurs?",
 	"answers": [
-	  {
-		"text": "Develop Options",
-		"is_correct": false
-	  },
-	  {
-		"text": "Identify the Issue",
-		"is_correct": true
-	  },
-	  {
-		"text": "Identify People & Their Needs",
-		"is_correct": false
-	  },
-	  {
-		"text": "Implement, Monitor & Evaluate",
-		"is_correct": false
-	  }
+	  { "text": "Patients evenly distributed regionally.", "is_correct": false },
+	  { "text": "Closest hospitals overloaded by survivor transport.", "is_correct": true },
+	  { "text": "Hospitals remain empty due to fear.", "is_correct": false },
+	  { "text": "Only ambulances transport victims.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Most initial casualty transport is done by untrained survivors who take victims to the closest hospital, causing overcrowding while other facilities have capacity."
   },
   {
-	"question": "According to the report, vulnerability is understood as:",
+	"question": "How does media 'framing' typically differ between sudden-onset and slow-onset disasters?",
 	"answers": [
-	  {
-		"text": "An inherent or permanent trait of an individual.",
-		"is_correct": false
-	  },
-	  {
-		"text": "A condition created by systemic inequities and barriers.",
-		"is_correct": true
-	  },
-	  {
-		"text": "A result of poor personal choices.",
-		"is_correct": false
-	  },
-	  {
-		"text": "A temporary state that resolves on its own.",
-		"is_correct": false
-	  }
+	  { "text": "Sudden is 'repulsive'; Slow is 'attractive'.", "is_correct": false },
+	  { "text": "Sudden is 'attractive'; Slow is 'repulsive'.", "is_correct": true },
+	  { "text": "Both covered equally.", "is_correct": false },
+	  { "text": "Slow-onset gets more airtime.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Sudden-onset disasters (e.g., earthquakes) are framed to attract donations, while slow-onset ones (e.g., droughts) are framed around violence and state failure, discouraging involvement."
   },
   {
-	"question": "What is the primary driver of the health and social inequalities experienced by Indigenous Peoples in Canada?",
+	"question": "What is the 'core social threat' associated with using social media in emergency management?",
 	"answers": [
-	  {
-		"text": "Geographic isolation",
-		"is_correct": false
-	  },
-	  {
-		"text": "Lack of individual fortitude",
-		"is_correct": false
-	  },
-	  {
-		"text": "The ongoing legacy of colonialism",
-		"is_correct": true
-	  },
-	  {
-		"text": "Recent economic downturns",
-		"is_correct": false
-	  }
+	  { "text": "High advertising costs.", "is_correct": false },
+	  { "text": "Rapid spread of misinformation.", "is_correct": true },
+	  { "text": "Inability to upload high-res photos.", "is_correct": false },
+	  { "text": "Lack of younger users.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The speed of social media is a double-edged sword, where the rapid spread of misinformation, rumors, and outdated facts poses the primary social challenge."
   },
   {
-	"question": "The report states that what percentage of women in Canada live with a disability?",
+	"question": "What factor has been found to significantly increase the risk of dying from stress?",
 	"answers": [
-	  {
-		"text": "10%",
-		"is_correct": false
-	  },
-	  {
-		"text": "15%",
-		"is_correct": false
-	  },
-	  {
-		"text": "24%",
-		"is_correct": true
-	  },
-	  {
-		"text": "35%",
-		"is_correct": false
-	  }
+	  { "text": "Intensity of the event.", "is_correct": false },
+	  { "text": "Duration of the stress.", "is_correct": false },
+	  { "text": "Believing stress is harmful.", "is_correct": true },
+	  { "text": "Lack of sleep.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Studies show that high stress correlates with increased death risk primarily when the person *believes* stress is harmful; those who don't view it as harmful have much lower risk."
   },
   {
-	"question": "What is disaggregated data?",
+	"question": "In the Mental Health Continuum Model, which color represents 'Reacting' (mild distress)?",
 	"answers": [
-	  {
-		"text": "Data that has been proven incorrect.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Data collected from a single, homogenous group.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Information that has been broken down by factors like gender, race, age, and income.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Qualitative data from interviews and focus groups.",
-		"is_correct": false
-	  }
+	  { "text": "Green", "is_correct": false },
+	  { "text": "Yellow", "is_correct": true },
+	  { "text": "Orange", "is_correct": false },
+	  { "text": "Red", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The continuum represents states of mental health moving from Healthy (Green) to Reacting (Yellow) to Injured (Orange) to Ill (Red)."
   },
   {
-	"question": "The COVID-19 pandemic illustrated the consequences of data gaps, specifically Canada's initial failure to collect what kind of data?",
+	"question": "In the context of disaster recovery, how is resilience defined beyond just 'bouncing back'?",
 	"answers": [
-	  {
-		"text": "Age-based data",
-		"is_correct": false
-	  },
-	  {
-		"text": "Gender-based data",
-		"is_correct": false
-	  },
-	  {
-		"text": "Geographic data",
-		"is_correct": false
-	  },
-	  {
-		"text": "Race-based health data",
-		"is_correct": true
-	  }
+	  { "text": "Ignoring emotions to focus on mission.", "is_correct": false },
+	  { "text": "Navigating to and negotiating for resources.", "is_correct": true },
+	  { "text": "Armoring up to avoid vulnerability.", "is_correct": false },
+	  { "text": "Using the limbic system to react.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Resilience is defined operationally as the capacity to *navigate* to resources for well-being and *negotiate* for those resources to be offered in meaningful ways."
   },
   {
-	"question": "What does the OCAP® principle, relevant for research with Indigenous communities, stand for?",
+	"question": "What are the 'Big 4' healthy coping strategies for mental resilience?",
 	"answers": [
-	  {
-		"text": "Opportunity, Collaboration, Access, and Progress",
-		"is_correct": false
-	  },
-	  {
-		"text": "Ownership, Control, Access, and Possession",
-		"is_correct": true
-	  },
-	  {
-		"text": "Observation, Collection, Analysis, and Publication",
-		"is_correct": false
-	  },
-	  {
-		"text": "Organization, Capacity, Accountability, and Partnership",
-		"is_correct": false
-	  }
+	  { "text": "Meditation, Exercise, Diet, Sleep.", "is_correct": false },
+	  { "text": "Goals, Visualization, Self-Talk, Box Breathing.", "is_correct": true },
+	  { "text": "Debriefing, Venting, Distraction, Isolation.", "is_correct": false },
+	  { "text": "Sympathy, Empathy, Compassion, Pity.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The 'Big 4' strategies are specifically identified as Goal Setting, Mental Rehearsal/Visualization, Positive Self-Talk, and Arousal Management (Box Breathing)."
   },
   {
-	"question": "The report reframes 'vulnerable populations' to a more accurate term. What is it?",
+	"question": "What is the 'negativity bias' in the context of cognitive processing?",
 	"answers": [
-	  {
-		"text": "Populations at risk",
-		"is_correct": false
-	  },
-	  {
-		"text": "Inherently weak populations",
-		"is_correct": false
-	  },
-	  {
-		"text": "Populations made vulnerable by systemic barriers",
-		"is_correct": true
-	  },
-	  {
-		"text": "Under-supported communities",
-		"is_correct": false
-	  }
+	  { "text": "Tendency to panic during crisis.", "is_correct": false },
+	  { "text": "Mind 'sticks' to negatives; hard to shift.", "is_correct": true },
+	  { "text": "Leadership refusing bad news.", "is_correct": false },
+	  { "text": "Media preference for slow-onset disasters.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Negativity bias is the cognitive phenomenon where the mind tilts toward the negative and 'sticks' there, requiring deliberate effort to shift back to a positive frame."
   },
   {
-	"question": "In the context of social policy, resilience is defined as:",
+	"question": "How does a positive mindset affect professional performance?",
 	"answers": [
-	  {
-		"text": "An individual's innate toughness.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The ability to ignore adversity.",
-		"is_correct": false
-	  },
-	  {
-		"text": "A dynamic process of adapting positively in the face of adversity.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Returning to the exact same state as before a crisis.",
-		"is_correct": false
-	  }
+	  { "text": "Causes complacency.", "is_correct": false },
+	  { "text": "Increases productivity (31%) and accuracy.", "is_correct": true },
+	  { "text": "No measurable impact.", "is_correct": false },
+	  { "text": "Reduces productivity via distraction.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Data indicates that a positive brain is 31% more productive and significantly faster and more accurate at diagnosis because dopamine activates the brain's learning centers."
   },
   {
-	"question": "Protective factors that cultivate resilience are inextricably linked to what other concept?",
+	"question": "What is the key difference between Empathy and Compassion?",
 	"answers": [
-	  {
-		"text": "Gross Domestic Product (GDP)",
-		"is_correct": false
-	  },
-	  {
-		"text": "Social Determinants of Health (SDOH)",
-		"is_correct": true
-	  },
-	  {
-		"text": "Political Stability Index",
-		"is_correct": false
-	  },
-	  {
-		"text": "Individual Genetic Makeup",
-		"is_correct": false
-	  }
+	  { "text": "Empathy for family; Compassion for strangers.", "is_correct": false },
+	  { "text": "Empathy feels; Compassion acts to help.", "is_correct": true },
+	  { "text": "Compassion is condescending.", "is_correct": false },
+	  { "text": "They are synonyms.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Empathy is defined as sharing the emotions of another, while Compassion is 'more engaged' and associated with an active desire to alleviate that suffering."
   },
   {
-	"question": "Which of the following is NOT one of the five key domains of Social Determinants of Health?",
+	"question": "What is the correct use of the Ad Hoc Incident Review (AIR)?",
 	"answers": [
-	  {
-		"text": "Economic Stability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Religious Affiliation",
-		"is_correct": true
-	  },
-	  {
-		"text": "Health Care Access and Quality",
-		"is_correct": false
-	  },
-	  {
-		"text": "Neighborhood and Built Environment",
-		"is_correct": false
-	  }
+	  { "text": "Formal therapy by a psychiatrist.", "is_correct": false },
+	  { "text": "Mandatory error investigation.", "is_correct": false },
+	  { "text": "Formal 7-step PTSD prevention.", "is_correct": false },
+	  { "text": "Immediate, informal leader-led check-in.", "is_correct": true }
 	],
-	"explanation": "Correct!"
+	"explanation": "AIR is a tool used by leaders to 'structure a supportive intervention' immediately after a threat has passed; it is short, informal, and non-medical."
   },
   {
-	"question": "The report argues that resilience is an outcome of what?",
+	"question": "How does Critical Incident Stress Debriefing (CISD) differ from general stress management?",
 	"answers": [
-	  {
-		"text": "Equity",
-		"is_correct": true
-	  },
-	  {
-		"text": "Individualism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Economic growth",
-		"is_correct": false
-	  },
-	  {
-		"text": "Technological advancement",
-		"is_correct": false
-	  }
+	  { "text": "It is psychotherapy for victims.", "is_correct": false },
+	  { "text": "It is a specific tactic for emergency responders.", "is_correct": true },
+	  { "text": "It is an untrained peer venting session.", "is_correct": false },
+	  { "text": "It is a strategy to assign blame.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "CISD is a specific *tactic* (not a comprehensive program) designed for secondary responders (not victims) and is explicitly not psychotherapy."
   },
   {
-	"question": "A strengths-based GBA+ approach focuses on:",
+	"question": "What two factors significantly influence a team's ability to adapt to complex environments?",
 	"answers": [
-	  {
-		"text": "Identifying only the weaknesses and deficits in a community.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Imposing external, expert-driven solutions on a community.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Identifying and building upon a community's existing assets and resilience strategies.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Ignoring lived experience in favor of quantitative data.",
-		"is_correct": false
-	  }
+	  { "text": "Budget (positive) and hierarchy (positive).", "is_correct": false },
+	  { "text": "Size (negative) and social density (positive).", "is_correct": true },
+	  { "text": "Size (positive) and social density (negative).", "is_correct": false },
+	  { "text": "Tech (positive) and age (negative).", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "Research shows that team size negatively affects resilience (due to coordination costs), while the density of social interactions positively influences it."
   },
   {
-	"question": "Which case study highlighted the development of 'culturally-competent' GBA+ responsive to the needs of First Nations, Inuit, and Métis peoples?",
+	"question": "Which area is NOT one of the four specific areas of business vulnerability identified in the lessons?",
 	"answers": [
-	  {
-		"text": "Department of Justice Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "Public Safety Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "Indigenous Services Canada (ISC)",
-		"is_correct": true
-	  },
-	  {
-		"text": "Impact Assessment Agency of Canada",
-		"is_correct": false
-	  }
+	  { "text": "Stock Market fluctuations", "is_correct": true },
+	  { "text": "Critical Infrastructure disruptions", "is_correct": false },
+	  { "text": "Supply Chain disruptions", "is_correct": false },
+	  { "text": "Employees", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The lessons explicitly list critical infrastructure, employees, customers, and supply chains as the four vulnerability areas. Stock market fluctuations are not included."
   },
   {
-	"question": "Under the Impact Assessment Act, GBA+ is used to assess the link between large-scale resource projects and what specific issue?",
+	"question": "What does the 'Layer of Cork' metaphor describe in organizational risk management?",
 	"answers": [
-	  {
-		"text": "Air pollution",
-		"is_correct": false
-	  },
-	  {
-		"text": "Local economic inflation",
-		"is_correct": false
-	  },
-	  {
-		"text": "Increased rates of gender-based violence",
-		"is_correct": true
-	  },
-	  {
-		"text": "Disruption of wildlife migration patterns",
-		"is_correct": false
-	  }
+	  { "text": "Barrier stopping external threats.", "is_correct": false },
+	  { "text": "Risk info blocked from reaching leadership.", "is_correct": true },
+	  { "text": "Buoyancy during floods.", "is_correct": false },
+	  { "text": "Redundancy of supply chains.", "is_correct": false }
 	],
-	"explanation": "Correct!"
+	"explanation": "The 'Layer of Cork' describes the cultural or structural barrier that prevents critical risk information known by frontline staff from flowing up to senior decision-makers."
   },
   {
-	"question": "Which city has been a municipal leader in Alberta for implementing GBA+ to strengthen its EndPoverty roadmap?",
+	"question": "What is the primary function of a Business Impact Analysis (BIA)?",
 	"answers": [
-	  {
-		"text": "Calgary",
-		"is_correct": false
-	  },
-	  {
-		"text": "Edmonton",
-		"is_correct": true
-	  },
-	  {
-		"text": "Red Deer",
-		"is_correct": false
-	  },
-	  {
-		"text": "Lethbridge",
-		"is_correct": false
-	  }
+	  { "text": "Identify cultural reporting barriers.", "is_correct": false },
+	  { "text": "Manage media during crisis.", "is_correct": false },
+	  { "text": "Identify/quantify impact of business disruptions.", "is_correct": true },
+	  { "text": "Provide legal protection.", "is_correct": false }
 	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The City of Montreal used its intersectional analysis (ADS+) to inform the design of what public facility?",
-	"answers": [
-	  {
-		"text": "A new library",
-		"is_correct": false
-	  },
-	  {
-		"text": "A public transit station",
-		"is_correct": false
-	  },
-	  {
-		"text": "An aquatic complex with an all-gender locker room",
-		"is_correct": true
-	  },
-	  {
-		"text": "A community sports field",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The City of Burnaby partnered with which initiative to apply a GBA+ framework to its community planning process?",
-	"answers": [
-	  {
-		"text": "Imagine Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "YWCA City Shift",
-		"is_correct": true
-	  },
-	  {
-		"text": "Canadian Red Cross",
-		"is_correct": false
-	  },
-	  {
-		"text": "QUEST Canada",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The Ontario Nonprofit Network (ONN) applies a GBA+ lens to what initiative?",
-	"answers": [
-	  {
-		"text": "Environmental Sustainability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Decent Work for Women",
-		"is_correct": true
-	  },
-	  {
-		"text": "Digital Literacy for Seniors",
-		"is_correct": false
-	  },
-	  {
-		"text": "Youth Engagement in Politics",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the single most critical and frequently cited barrier to effective GBA+ implementation?",
-	"answers": [
-	  {
-		"text": "Lack of political will",
-		"is_correct": false
-	  },
-	  {
-		"text": "Resistance from community groups",
-		"is_correct": false
-	  },
-	  {
-		"text": "Lack of high-quality disaggregated data",
-		"is_correct": true
-	  },
-	  {
-		"text": "The framework is too new to be effective",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is a central academic critique of how the 'Plus' in GBA+ is often interpreted?",
-	"answers": [
-	  {
-		"text": "It is too complex for public servants to understand.",
-		"is_correct": false
-	  },
-	  {
-		"text": "It is interpreted in an additive or tokenistic manner, not as a truly integrated analysis.",
-		"is_correct": true
-	  },
-	  {
-		"text": "It focuses too much on geography.",
-		"is_correct": false
-	  },
-	  {
-		"text": "It overemphasizes economic factors.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which organization provides leadership on GBA+ for the federal government?",
-	"answers": [
-	  {
-		"text": "Privy Council Office",
-		"is_correct": false
-	  },
-	  {
-		"text": "Treasury Board of Canada Secretariat",
-		"is_correct": false
-	  },
-	  {
-		"text": "Statistics Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "Women and Gender Equality Canada (WAGE)",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the term for the recurring cycle of government commitment to GBA followed by critical review and renewed action?",
-	"answers": [
-	  {
-		"text": "The Policy Feedback Loop",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Implementation Gap",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Compliance Paradox",
-		"is_correct": false
-	  },
-	  {
-		"text": "The document does not name this cycle.",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the 'compliance paradox' described in the GBA+ report?",
-	"answers": [
-	  {
-		"text": "The more compliant a department is, the less effective its policies become.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Departments can be technically compliant by completing a GBA+ without it having any real impact.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Compliance with GBA+ is impossible due to a lack of data.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The rules for compliance are constantly changing.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the emergency management lesson, 'vulnerable populations' make up approximately what portion of Canada's population?",
-	"answers": [
-	  {
-		"text": "A small fraction, around 10%",
-		"is_correct": false
-	  },
-	  {
-		"text": "About half of the population",
-		"is_correct": false
-	  },
-	  {
-		"text": "Only a quarter of the population",
-		"is_correct": false
-	  },
-	  {
-		"text": "The vast majority, leaving only about 1/4 of the population outside these groups.",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to panelist Dr. Maureen Fordham, 'gender' is often incorrectly reduced to mean only what?",
-	"answers": [
-	  {
-		"text": "Sexuality",
-		"is_correct": false
-	  },
-	  {
-		"text": "Women",
-		"is_correct": true
-	  },
-	  {
-		"text": "Family structure",
-		"is_correct": false
-	  },
-	  {
-		"text": "Gender identity",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What key asset did Claire Harris from HelpAge stress that older people bring to Disaster Risk Reduction (DRR)?",
-	"answers": [
-	  {
-		"text": "Financial resources",
-		"is_correct": false
-	  },
-	  {
-		"text": "Political influence",
-		"is_correct": false
-	  },
-	  {
-		"text": "Physical strength",
-		"is_correct": false
-	  },
-	  {
-		"text": "Experience and knowledge",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What was a key criticism made by Dr. Jake Rom Cadag regarding ethnic minorities in disaster frameworks?",
-	"answers": [
-	  {
-		"text": "There is too much focus on ethnicity.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The draft framework does not refer to collecting disaggregated data on ethnicity.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Ethnic minorities are always included in planning.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Participation methods for ethnic minorities are well-established.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What point did Nick Hall from Save the Children make about the 'children and youth' category?",
-	"answers": [
-	  {
-		"text": "They are a homogenous group with the same needs.",
-		"is_correct": false
-	  },
-	  {
-		"text": "They should not be considered in disaster planning.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The group is not homogenous and should be disaggregated by age, sex, and other factors.",
-		"is_correct": true
-	  },
-	  {
-		"text": "They have no assets to contribute to DRR.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the Week 3 lesson, in a major disaster, the issues faced by 'vulnerable populations' tend to affect whom?",
-	"answers": [
-	  {
-		"text": "Only those specific groups.",
-		"is_correct": false
-	  },
-	  {
-		"text": "First responders exclusively.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The whole of society.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Neighboring communities.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Hugh MacLeman from the British Red Cross highlighted that DRR frameworks tend to talk about the vulnerability of what, rather than people?",
-	"answers": [
-	  {
-		"text": "Infrastructure",
-		"is_correct": false
-	  },
-	  {
-		"text": "Countries",
-		"is_correct": true
-	  },
-	  {
-		"text": "Ecosystems",
-		"is_correct": false
-	  },
-	  {
-		"text": "Economies",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the emergency management definition from Public Safety Canada, what does the field manage?",
-	"answers": [
-	  {
-		"text": "Only natural disasters",
-		"is_correct": false
-	  },
-	  {
-		"text": "Only terrorist attacks",
-		"is_correct": false
-	  },
-	  {
-		"text": "Emergencies concerning all-hazards",
-		"is_correct": true
-	  },
-	  {
-		"text": "Government communications during a crisis",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Based on the ISO definition, what is 'risk'?",
-	"answers": [
-	  {
-		"text": "The certainty of a negative outcome.",
-		"is_correct": false
-	  },
-	  {
-		"text": "A physical event with the potential to cause harm.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The effect of uncertainty on objectives.",
-		"is_correct": true
-	  },
-	  {
-		"text": "A property that results in susceptibility to harm.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What are the two primary components of risk in its simplest terms?",
-	"answers": [
-	  {
-		"text": "Hazard and Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Threat and Exposure",
-		"is_correct": false
-	  },
-	  {
-		"text": "Likelihood and Consequences",
-		"is_correct": true
-	  },
-	  {
-		"text": "Prevention and Mitigation",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the ISO definition of 'vulnerability'?",
-	"answers": [
-	  {
-		"text": "The presence of a hazard and an exposure pathway.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The intrinsic properties of something resulting in susceptibility to a risk source.",
-		"is_correct": true
-	  },
-	  {
-		"text": "An event with the potential to cause fatalities.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The effect of uncertainty on financial goals.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which of the following is an example of a 'technological hazard'?",
-	"answers": [
-	  {
-		"text": "Earthquake",
-		"is_correct": false
-	  },
-	  {
-		"text": "Terrorism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Dam failure",
-		"is_correct": true
-	  },
-	  {
-		"text": "Wildfire",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which type of vulnerability relates to the health and welfare of the natural environment in a community?",
-	"answers": [
-	  {
-		"text": "Social Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Economic Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Physical Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Environmental Vulnerability",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Social vulnerability measures factors that affect a population's susceptibility. Which group is mentioned as an example?",
-	"answers": [
-	  {
-		"text": "Elected officials",
-		"is_correct": false
-	  },
-	  {
-		"text": "The elderly, youth, and medically vulnerable",
-		"is_correct": true
-	  },
-	  {
-		"text": "Corporate executives",
-		"is_correct": false
-	  },
-	  {
-		"text": "First responders",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which type of vulnerability focuses on the physical risks of an environment, such as structures and transportation?",
-	"answers": [
-	  {
-		"text": "Social Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Economic Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Physical Vulnerability",
-		"is_correct": true
-	  },
-	  {
-		"text": "Environmental Vulnerability",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the text, what determines how vulnerable we are to the hazards producing risk?",
-	"answers": [
-	  {
-		"text": "Our geographic location only",
-		"is_correct": false
-	  },
-	  {
-		"text": "The way we address the risks we face",
-		"is_correct": true
-	  },
-	  {
-		"text": "The type of hazard",
-		"is_correct": false
-	  },
-	  {
-		"text": "Our level of education",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the subject of Gerd Gigerenzer's TEDx talk mentioned in the text?",
-	"answers": [
-	  {
-		"text": "The history of emergency management",
-		"is_correct": false
-	  },
-	  {
-		"text": "The difference between relative risk and absolute risk",
-		"is_correct": true
-	  },
-	  {
-		"text": "The Sendai Framework for DRR",
-		"is_correct": false
-	  },
-	  {
-		"text": "The social determinants of health",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The GBA+ framework evolved from an initial commitment made by Canada following which international event?",
-	"answers": [
-	  {
-		"text": "The Kyoto Protocol",
-		"is_correct": false
-	  },
-	  {
-		"text": "The G7 Summit in Halifax",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Fourth World Conference on Women in Beijing",
-		"is_correct": true
-	  },
-	  {
-		"text": "The Rio Earth Summit",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "When did providing GBA information become a mandatory requirement for submissions to the Treasury Board of Canada Secretariat?",
-	"answers": [
-	  {
-		"text": "1995",
-		"is_correct": false
-	  },
-	  {
-		"text": "2007",
-		"is_correct": true
-	  },
-	  {
-		"text": "2011",
-		"is_correct": false
-	  },
-	  {
-		"text": "2015",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The GBA+ report argues that vulnerability is not additive but has what kind of effect?",
-	"answers": [
-	  {
-		"text": "Subtractive",
-		"is_correct": false
-	  },
-	  {
-		"text": "Divisive",
-		"is_correct": false
-	  },
-	  {
-		"text": "Exponential",
-		"is_correct": false
-	  },
-	  {
-		"text": "Multiplicative",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which federal act, passed in 2018, helped institutionalize the GBA+ approach?",
-	"answers": [
-	  {
-		"text": "The Canadian Human Rights Act",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Emergency Management Act",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Canadian Gender Budgeting Act",
-		"is_correct": true
-	  },
-	  {
-		"text": "The Impact Assessment Act",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What core principle of GBA+ encourages practitioners to reflect on how their own social positions and biases might shape their analysis?",
-	"answers": [
-	  {
-		"text": "Challenging Assumptions",
-		"is_correct": false
-	  },
-	  {
-		"text": "Evidence-Based Analysis",
-		"is_correct": false
-	  },
-	  {
-		"text": "Reflexivity",
-		"is_correct": true
-	  },
-	  {
-		"text": "Systemic View",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Recent immigrants are how many times more likely than the Canadian average to be poor?",
-	"answers": [
-	  {
-		"text": "Two times",
-		"is_correct": false
-	  },
-	  {
-		"text": "Three times",
-		"is_correct": true
-	  },
-	  {
-		"text": "Four times",
-		"is_correct": false
-	  },
-	  {
-		"text": "Five times",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Social resilience is captured by the dual objective of 'beating the odds and...' what?",
-	"answers": [
-	  {
-		"text": "ignoring the odds",
-		"is_correct": false
-	  },
-	  {
-		"text": "changing the odds",
-		"is_correct": true
-	  },
-	  {
-		"text": "accepting the odds",
-		"is_correct": false
-	  },
-	  {
-		"text": "predicting the odds",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is one of the four key capacities involved in the multifaceted process of social resilience?",
-	"answers": [
-	  {
-		"text": "Resistance",
-		"is_correct": true
-	  },
-	  {
-		"text": "Avoidance",
-		"is_correct": false
-	  },
-	  {
-		"text": "Isolation",
-		"is_correct": false
-	  },
-	  {
-		"text": "Compliance",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The GBA+ analysis for renewing Canada's National Cyber Security Strategy focused on addressing what significant gap?",
-	"answers": [
-	  {
-		"text": "Lack of funding for cybersecurity.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Lack of international cooperation.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Lack of disaggregated data on how different populations experience cyber threats.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Lack of advanced technology.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The Government of British Columbia used GBA+ in a landmark report on what topic?",
-	"answers": [
-	  {
-		"text": "Poverty reduction",
-		"is_correct": false
-	  },
-	  {
-		"text": "Climate change adaptation",
-		"is_correct": true
-	  },
-	  {
-		"text": "Public transit expansion",
-		"is_correct": false
-	  },
-	  {
-		"text": "Healthcare reform",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which city's 'Women's Equity Strategy' is explicitly designed around an intersectional framework?",
-	"answers": [
-	  {
-		"text": "Montreal",
-		"is_correct": false
-	  },
-	  {
-		"text": "Edmonton",
-		"is_correct": false
-	  },
-	  {
-		"text": "Vancouver",
-		"is_correct": true
-	  },
-	  {
-		"text": "Burnaby",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The Canadian Center for Women’s Empowerment (CCFWE) applies a GBA+ lens to what specific mission?",
-	"answers": [
-	  {
-		"text": "Ending economic abuse",
-		"is_correct": true
-	  },
-	  {
-		"text": "Promoting women in STEM",
-		"is_correct": false
-	  },
-	  {
-		"text": "Increasing female voter turnout",
-		"is_correct": false
-	  },
-	  {
-		"text": "Providing childcare services",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which independent body has conducted multiple audits (2009, 2015/2016, 2022) finding GBA+ implementation to be inconsistent and incomplete?",
-	"answers": [
-	  {
-		"text": "The Senate of Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Supreme Court of Canada",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Office of the Auditor General of Canada (OAG)",
-		"is_correct": true
-	  },
-	  {
-		"text": "Women and Gender Equality Canada (WAGE)",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What false belief contributes to cultural resistance against GBA+ in some bureaucratic sectors?",
-	"answers": [
-	  {
-		"text": "The belief that GBA+ is too expensive to implement.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The belief that their work is 'neutral' and GBA+ does not apply.",
-		"is_correct": true
-	  },
-	  {
-		"text": "The belief that GBA+ only benefits women.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The belief that GBA+ has already been fully implemented.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is a key recommendation for governments to strengthen accountability for GBA+?",
-	"answers": [
-	  {
-		"text": "Reduce the number of GBA+ reports required.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Factor the quality of GBA+ implementation into senior management performance evaluations.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Outsource all GBA+ analysis to third-party consultants.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Make the introductory GBA+ course optional.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The recommendation for policy managers is to integrate GBA+ at what stage of the policy process?",
-	"answers": [
-	  {
-		"text": "Only during the final evaluation phase.",
-		"is_correct": false
-	  },
-	  {
-		"text": "After a policy has been implemented for one year.",
-		"is_correct": false
-	  },
-	  {
-		"text": "At the very beginning, during problem-identification.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Just before the policy is submitted for approval.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the key argument in the 'EMGT1110_Lessons_Week3' document regarding planning for vulnerable populations?",
-	"answers": [
-	  {
-		"text": "They should be addressed in separate annexes to the main plan.",
-		"is_correct": false
-	  },
-	  {
-		"text": "They should be the primary focus of the main plan, not an afterthought.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Planning for them is the sole responsibility of non-profit organizations.",
-		"is_correct": false
-	  },
-	  {
-		"text": "They represent a small, manageable portion of the population.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The panel discussion central to the Week 3 lesson was held in 2014 by which organization?",
-	"answers": [
-	  {
-		"text": "The British Red Cross",
-		"is_correct": false
-	  },
-	  {
-		"text": "Save the Children",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Overseas Development Institute (ODI)",
-		"is_correct": true
-	  },
-	  {
-		"text": "Handicap International",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Annie Patri of Handicap International highlighted that disasters exacerbate what for people with disabilities?",
-	"answers": [
-	  {
-		"text": "Their access to government benefits.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Their community engagement.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Impacts related to health and economic opportunities.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Their ability to volunteer.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which of these is NOT listed as a barrier faced by so-called 'vulnerable populations' during disasters?",
-	"answers": [
-	  {
-		"text": "Mobility obstacles",
-		"is_correct": false
-	  },
-	  {
-		"text": "Language barriers",
-		"is_correct": false
-	  },
-	  {
-		"text": "Excessive media attention",
-		"is_correct": true
-	  },
-	  {
-		"text": "Medical care requirements",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the Week 2 lesson, an 'intentional hazard' is exemplified by which of the following?",
-	"answers": [
-	  {
-		"text": "A power failure",
-		"is_correct": false
-	  },
-	  {
-		"text": "A flood",
-		"is_correct": false
-	  },
-	  {
-		"text": "A cyber-attack",
-		"is_correct": true
-	  },
-	  {
-		"text": "A dam failure",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The Week 2 lesson uses what city as an example for the likelihood vs. consequences of a major earthquake?",
-	"answers": [
-	  {
-		"text": "Montreal",
-		"is_correct": false
-	  },
-	  {
-		"text": "Toronto",
-		"is_correct": false
-	  },
-	  {
-		"text": "Vancouver",
-		"is_correct": true
-	  },
-	  {
-		"text": "Edmonton",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which type of vulnerability measures the financial means available to cope with the effects of a disaster?",
-	"answers": [
-	  {
-		"text": "Social Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Economic Vulnerability",
-		"is_correct": true
-	  },
-	  {
-		"text": "Physical Vulnerability",
-		"is_correct": false
-	  },
-	  {
-		"text": "Environmental Vulnerability",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The GBA+ framework moves from a simple 'gender lens' to a more comprehensive lens described as what?",
-	"answers": [
-	  {
-		"text": "An economic lens",
-		"is_correct": false
-	  },
-	  {
-		"text": "A political lens",
-		"is_correct": false
-	  },
-	  {
-		"text": "A vulnerability lens",
-		"is_correct": true
-	  },
-	  {
-		"text": "A historical lens",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The reform of which program at Indigenous Services Canada was informed by a First Nations-led engagement process?",
-	"answers": [
-	  {
-		"text": "Environmental Public Health Program",
-		"is_correct": false
-	  },
-	  {
-		"text": "Income Assistance program",
-		"is_correct": true
-	  },
-	  {
-		"text": "Post-Secondary Education Program",
-		"is_correct": false
-	  },
-	  {
-		"text": "Housing Infrastructure Program",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The Department of Justice Canada's application of GBA+ includes advancing which government-wide plan?",
-	"answers": [
-	  {
-		"text": "National Housing Strategy",
-		"is_correct": false
-	  },
-	  {
-		"text": "Supplier Diversity Action Plan",
-		"is_correct": true
-	  },
-	  {
-		"text": "Healthy Eating Strategy",
-		"is_correct": false
-	  },
-	  {
-		"text": "National Climate Adaptation Plan",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the central argument of the 'From Analysis to Action' report on GBA+?",
-	"answers": [
-	  {
-		"text": "GBA+ is a failed framework and should be replaced.",
-		"is_correct": false
-	  },
-	  {
-		"text": "GBA+ is primarily a tool for academic research.",
-		"is_correct": false
-	  },
-	  {
-		"text": "GBA+, when rigorously applied, is an indispensable process for dismantling systemic barriers.",
-		"is_correct": true
-	  },
-	  {
-		"text": "GBA+ should only be applied to policies directly concerning women.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What key component must a robust GBA+ be grounded in?",
-	"answers": [
-	  {
-		"text": "Political opinion",
-		"is_correct": false
-	  },
-	  {
-		"text": "Personal anecdotes",
-		"is_correct": false
-	  },
-	  {
-		"text": "Evidence, including both quantitative and qualitative data",
-		"is_correct": true
-	  },
-	  {
-		"text": "International policy trends",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The report notes that queer people of colour often face racism within 2SLGBTQI+ communities and what in their own racialized communities?",
-	"answers": [
-	  {
-		"text": "Classism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Ageism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Ableism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Queerphobia",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the report, what is a primary determinant of the health challenges faced by Indigenous peoples today?",
-	"answers": [
-	  {
-		"text": "Lack of access to technology",
-		"is_correct": false
-	  },
-	  {
-		"text": "Intergenerational trauma from colonialism and residential schools",
-		"is_correct": true
-	  },
-	  {
-		"text": "A preference for traditional medicine over Western medicine",
-		"is_correct": false
-	  },
-	  {
-		"text": "Recent changes in climate",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Statistics Canada has launched which specific hub to improve the availability of disaggregated data?",
-	"answers": [
-	  {
-		"text": "Economic and Social Statistics Hub",
-		"is_correct": false
-	  },
-	  {
-		"text": "Gender, Diversity and Inclusion Statistics Hub",
-		"is_correct": true
-	  },
-	  {
-		"text": "National Health Data Hub",
-		"is_correct": false
-	  },
-	  {
-		"text": "Environmental Statistics Hub",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is the final step in the five-step GBA+ cycle?",
-	"answers": [
-	  {
-		"text": "Identify the Issue",
-		"is_correct": false
-	  },
-	  {
-		"text": "Develop Options",
-		"is_correct": false
-	  },
-	  {
-		"text": "Implement, Monitor & Evaluate",
-		"is_correct": true
-	  },
-	  {
-		"text": "Identify People & Their Needs",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the GBA+ report, the non-profit sector often integrates intersectional analysis with frameworks of anti-racism, anti-oppression, and what else?",
-	"answers": [
-	  {
-		"text": "Fiscal conservatism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Market-based solutions",
-		"is_correct": false
-	  },
-	  {
-		"text": "Technological innovation",
-		"is_correct": false
-	  },
-	  {
-		"text": "Decolonization",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Imagine Canada, as an umbrella organization, uses an intersectional lens to challenge the charitable sector's own roots in what systems?",
-	"answers": [
-	  {
-		"text": "Socialism and communism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Modernism and post-modernism",
-		"is_correct": false
-	  },
-	  {
-		"text": "Colonization and white supremacy",
-		"is_correct": true
-	  },
-	  {
-		"text": "Industrialization and urbanization",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What percentage of the non-profit workforce in the ONN 'Decent Work for Women' initiative consists of women?",
-	"answers": [
-	  {
-		"text": "50%",
-		"is_correct": false
-	  },
-	  {
-		"text": "65%",
-		"is_correct": false
-	  },
-	  {
-		"text": "80%",
-		"is_correct": true
-	  },
-	  {
-		"text": "95%",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The GBA+ report's table shows that the City of Burnaby's inclusive engagement strategy targeted which vulnerable populations?",
-	"answers": [
-	  {
-		"text": "Indigenous women and girls",
-		"is_correct": false
-	  },
-	  {
-		"text": "Gender-diverse people",
-		"is_correct": false
-	  },
-	  {
-		"text": "New immigrants, low-income families, and persons with disabilities",
-		"is_correct": true
-	  },
-	  {
-		"text": "Seniors living alone",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the table, what was the specific outcome of the GBA+ process applied by the Impact Assessment Agency of Canada?",
-	"answers": [
-	  {
-		"text": "Co-developed public health programs.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Design of an all-gender locker room.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Tailored financial literacy programs.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Mandatory assessment of links between resource projects and gender-based violence.",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "A 2023 report from which body warned that GBA+ could remain a 'box-ticking exercise' if barriers aren't addressed?",
-	"answers": [
-	  {
-		"text": "The Office of the Auditor General",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Senate Committee on Social Affairs, Science and Technology",
-		"is_correct": true
-	  },
-	  {
-		"text": "The Privy Council Office",
-		"is_correct": false
-	  },
-	  {
-		"text": "Statistics Canada",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The GBA+ report mentions that the analysis is frequently conducted at what point in the policy process, limiting its influence?",
-	"answers": [
-	  {
-		"text": "Too early, before the problem is understood",
-		"is_correct": false
-	  },
-	  {
-		"text": "Too late to have a meaningful influence on design",
-		"is_correct": true
-	  },
-	  {
-		"text": "Only after the policy has failed",
-		"is_correct": false
-	  },
-	  {
-		"text": "During budget allocation only",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "What is one key recommendation to build genuine analytical capacity for GBA+ within government?",
-	"answers": [
-	  {
-		"text": "Rely solely on the introductory online course.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Invest in a tiered and sustained training model, including advanced portfolio-specific training.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Hire only analysts with PhDs in gender studies.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Discourage partnerships with academic experts.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The recommendations suggest that municipalities should follow the lead of cities like Vancouver, Burnaby, Edmonton, and which other city?",
-	"answers": [
-	  {
-		"text": "Toronto",
-		"is_correct": false
-	  },
-	  {
-		"text": "Calgary",
-		"is_correct": false
-	  },
-	  {
-		"text": "Ottawa",
-		"is_correct": false
-	  },
-	  {
-		"text": "Montreal",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The development of which culturally-specific framework is highlighted as essential for decolonizing the analytical process?",
-	"answers": [
-	  {
-		"text": "The Francophone GBA+ Framework",
-		"is_correct": false
-	  },
-	  {
-		"text": "The Urban Youth GBA+ Model",
-		"is_correct": false
-	  },
-	  {
-		"text": "The IGBA+ Toolkit (Indigenous GBA+)",
-		"is_correct": true
-	  },
-	  {
-		"text": "The Newcomer and Refugee GBA+ Lens",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The emergency management lesson states that to build better plans, professionals must understand what about the communities they serve?",
-	"answers": [
-	  {
-		"text": "The political affiliations",
-		"is_correct": false
-	  },
-	  {
-		"text": "The demographics",
-		"is_correct": true
-	  },
-	  {
-		"text": "The average income",
-		"is_correct": false
-	  },
-	  {
-		"text": "The preferred news sources",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "According to the Coppola (2015) definition, when does a risk become 'safe' or 'acceptable'?",
-	"answers": [
-	  {
-		"text": "When the risk is zero.",
-		"is_correct": false
-	  },
-	  {
-		"text": "When it is associated with the best of the available alternatives.",
-		"is_correct": true
-	  },
-	  {
-		"text": "When the government declares it to be so.",
-		"is_correct": false
-	  },
-	  {
-		"text": "When the majority of the population agrees it is safe.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "Which of these concepts is NOT defined in the key terminology of the Week 2 emergency management lesson?",
-	"answers": [
-	  {
-		"text": "Hazard",
-		"is_correct": false
-	  },
-	  {
-		"text": "Threat",
-		"is_correct": false
-	  },
-	  {
-		"text": "Resilience",
-		"is_correct": true
-	  },
-	  {
-		"text": "Vulnerability",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The Week 2 lesson explains that vulnerability can increase or decrease depending on the event and what other factor?",
-	"answers": [
-	  {
-		"text": "The time of day",
-		"is_correct": false
-	  },
-	  {
-		"text": "The media coverage",
-		"is_correct": false
-	  },
-	  {
-		"text": "Mitigation strategies that have been implemented",
-		"is_correct": true
-	  },
-	  {
-		"text": "The political climate",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "An example of physical vulnerability given in the text is:",
-	"answers": [
-	  {
-		"text": "People living below the poverty line.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Youth and medically vulnerable people.",
-		"is_correct": false
-	  },
-	  {
-		"text": "The health of the natural environment.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Older buildings which are not earthquake ready.",
-		"is_correct": true
-	  }
-	],
-	"explanation": "Correct!"
-  },
-  {
-	"question": "The central argument of the EMGT1110 Week 3 lesson is that vulnerable populations should be:",
-	"answers": [
-	  {
-		"text": "The focus of a separate, secondary plan.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Evacuated first in every disaster.",
-		"is_correct": false
-	  },
-	  {
-		"text": "Treated as a primary focus in the main plan.",
-		"is_correct": true
-	  },
-	  {
-		"text": "Handled exclusively by volunteer agencies.",
-		"is_correct": false
-	  }
-	],
-	"explanation": "Correct!"
+	"explanation": "A BIA is the process used to identify and quantify the operational and financial impacts of a disruption, providing the data needed to build continuity strategies."
   }
 ]

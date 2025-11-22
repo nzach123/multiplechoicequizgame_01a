@@ -1,2092 +1,252 @@
 [
   {
-    "question": "What is the primary function of the Logistics section in the Incident Command System (ICS)?",
+    "question": "What legal tool do municipalities use to formalize their emergency management responsibilities?",
     "answers": [
-      {
-        "text": "To develop the Incident Action Plan and maintain resource status.",
-        "is_correct": false
-      },
-      {
-        "text": "To monitor costs related to the incident and provide accounting.",
-        "is_correct": false
-      },
-      {
-        "text": "To provide resources and all other services needed to support the incident.",
-        "is_correct": true
-      },
-      {
-        "text": "To conduct tactical operations to carry out the plan.",
-        "is_correct": false
-      }
+      { "text": "Federal Statute", "is_correct": false },
+      { "text": "Municipal Bylaw", "is_correct": true },
+      { "text": "Provincial Regulation", "is_correct": false },
+      { "text": "Ministerial Order", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Municipalities formalize their emergency management responsibilities through a municipal bylaw, which allows them to address local issues and comply with provincial legislation."
   },
   {
-    "question": "According to the provided document, the Incident Command System (ICS) was initially developed in the 1970s to address problems related to what type of events?",
+    "question": "What distinguishes 'Regulations' from 'Acts' in Canadian legislation?",
     "answers": [
-      {
-        "text": "Urban flooding in New York",
-        "is_correct": false
-      },
-      {
-        "text": "Massive wildfire suppression efforts in California",
-        "is_correct": true
-      },
-      {
-        "text": "Terrorist attacks on the World Trade Center",
-        "is_correct": false
-      },
-      {
-        "text": "Hazardous materials spills on major highways",
-        "is_correct": false
-      }
+      { "text": "Regulations are harder to change", "is_correct": false },
+      { "text": "Regulations are high-level laws", "is_correct": false },
+      { "text": "Regulations define application details", "is_correct": true },
+      { "text": "Regulations are draft bills", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Regulations are subordinate legislation made under the authority of an Act to define the specific application and enforcement of that legislation."
   },
   {
-    "question": "Which of the following is NOT listed as a weakness in incident management that led to the development of ICS?",
+    "question": "In Alberta, how long does a State of Local Emergency (SOLE) last before it expires?",
     "answers": [
-      {
-        "text": "Poor communication due to conflicting codes and terminology.",
-        "is_correct": false
-      },
-      {
-        "text": "Lack of an orderly, systematic planning process.",
-        "is_correct": false
-      },
-      {
-        "text": "An overabundance of available resources and personnel.",
-        "is_correct": true
-      },
-      {
-        "text": "Freelancing by individuals without direction from the Incident Commander.",
-        "is_correct": false
-      }
+      { "text": "24 hours", "is_correct": false },
+      { "text": "7 days", "is_correct": true },
+      { "text": "14 days", "is_correct": false },
+      { "text": "30 days", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "In Alberta, a SOLE expires automatically in 7 days unless it is renewed by the local authority."
   },
   {
-    "question": "The five primary management functions of the Incident Command System (ICS) are Command, Operations, Planning, Logistics, and what other function?",
+    "question": "Which federal entity houses the Government Operations Centre (GOC)?",
     "answers": [
-      {
-        "text": "Media Relations",
-        "is_correct": false
-      },
-      {
-        "text": "Public Information",
-        "is_correct": false
-      },
-      {
-        "text": "Finance and Administration",
-        "is_correct": true
-      },
-      {
-        "text": "Intelligence and Investigation",
-        "is_correct": false
-      }
+      { "text": "Department of National Defence", "is_correct": false },
+      { "text": "Public Safety Canada", "is_correct": true },
+      { "text": "Privy Council Office", "is_correct": false },
+      { "text": "Treasury Board", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Public Safety Canada houses the Government Operations Centre, which provides strategic coordination for events affecting the national interest."
   },
   {
-    "question": "In the ICS structure, which position is responsible for monitoring incident operations and advising the Incident Commander on all matters relating to operational safety?",
+    "question": "Under the UK Civil Contingencies Act, which group includes core emergency services like police and ambulance?",
     "answers": [
-      {
-        "text": "Liaison Officer",
-        "is_correct": false
-      },
-      {
-        "text": "Safety Officer",
-        "is_correct": true
-      },
-      {
-        "text": "Operations Section Chief",
-        "is_correct": false
-      },
-      {
-        "text": "Information Officer",
-        "is_correct": false
-      }
+      { "text": "Category 1 Responders", "is_correct": true },
+      { "text": "Category 2 Responders", "is_correct": false },
+      { "text": "Local Resilience Forums", "is_correct": false },
+      { "text": "Cooperating Bodies", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Category 1 responders are the core organizations, such as police and ambulance, required to assess risk and maintain emergency plans."
   },
   {
-    "question": "The CSA Z1600 standard aligns with which continual improvement model?",
+    "question": "Which US Act is the primary statutory authority for federal disaster response and assistance?",
     "answers": [
-      {
-        "text": "SMART (Specific, Measurable, Actionable, Realistic, Time-sensitive)",
-        "is_correct": false
-      },
-      {
-        "text": "AIIMS (Australasian Inter-service Incident Management System)",
-        "is_correct": false
-      },
-      {
-        "text": "PDCA (plan-do-check-act)",
-        "is_correct": true
-      },
-      {
-        "text": "NIMS (National Incident Management System)",
-        "is_correct": false
-      }
+      { "text": "Homeland Security Act", "is_correct": false },
+      { "text": "Stafford Act", "is_correct": true },
+      { "text": "Sandy Reform Act", "is_correct": false },
+      { "text": "Patriot Act", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "The Robert T. Stafford Disaster Relief and Emergency Assistance Act (Stafford Act) authorizes most federal disaster response activities and FEMA operations."
   },
   {
-    "question": "In Alberta, the Local Authority Emergency Management Regulation (LAEMR) mandates that all local authorities must follow which incident management system?",
+    "question": "What specific event history triggered the initial development of the Incident Command System (ICS)?",
     "answers": [
-      {
-        "text": "National Incident Management System (NIMS)",
-        "is_correct": false
-      },
-      {
-        "text": "Gold–Silver–Bronze Command Structure",
-        "is_correct": false
-      },
-      {
-        "text": "Alberta Incident Management System (AIMS)",
-        "is_correct": true
-      },
-      {
-        "text": "United Nations Disaster Assessment & Coordination (UNDAC)",
-        "is_correct": false
-      }
+      { "text": "Hurricane Katrina", "is_correct": false },
+      { "text": "9/11 Terrorist Attacks", "is_correct": false },
+      { "text": "California Wildfires", "is_correct": true },
+      { "text": "Three Mile Island", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "ICS was developed in the 1970s following massive wildfire suppression efforts in California to address management and communication deficiencies."
   },
   {
-    "question": "What is the key difference between the Emergencies Act and the Emergency Management Act in Canada?",
+    "question": "In ICS, which section is referred to as 'The Thinkers'?",
     "answers": [
-      {
-        "text": "The Emergency Management Act grants extraordinary powers, while the Emergencies Act focuses on planning.",
-        "is_correct": false
-      },
-      {
-        "text": "The Emergencies Act is a last resort for national emergencies, while the Emergency Management Act establishes ongoing federal leadership and coordination.",
-        "is_correct": true
-      },
-      {
-        "text": "The Emergency Management Act applies only to natural disasters, while the Emergencies Act covers all hazards.",
-        "is_correct": false
-      },
-      {
-        "text": "The Emergencies Act was replaced by the Emergency Management Act in 2007.",
-        "is_correct": false
-      }
+      { "text": "Operations Section", "is_correct": false },
+      { "text": "Logistics Section", "is_correct": false },
+      { "text": "Planning Section", "is_correct": true },
+      { "text": "Finance Section", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "The Planning Section is known as 'The Thinkers' because they collect information, evaluate data, and develop the Incident Action Plan."
   },
   {
-    "question": "According to the provided document, which level of government in Canada is typically the first to respond to a disaster?",
+    "question": "What does the ICS principle 'Span of Control' primarily manage?",
     "answers": [
-      {
-        "text": "Federal government",
-        "is_correct": false
-      },
-      {
-        "text": "Provincial/Territorial government",
-        "is_correct": false
-      },
-      {
-        "text": "Municipal government or local authority",
-        "is_correct": true
-      },
-      {
-        "text": "Regional coalitions of governments",
-        "is_correct": false
-      }
+      { "text": "Budget allocation", "is_correct": false },
+      { "text": "Geographic territory", "is_correct": false },
+      { "text": "Supervision ratios", "is_correct": true },
+      { "text": "Equipment inventory", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Span of Control refers to the number of subordinates one supervisor can adequately manage to ensure effective command and safety."
   },
   {
-    "question": "In Alberta, a State of Local Emergency (SOLE) expires after how many days unless it is renewed?",
+    "question": "Which continuous improvement model does the CSA Z1600 standard align with?",
     "answers": [
-      {
-        "text": "3 days",
-        "is_correct": false
-      },
-      {
-        "text": "7 days",
-        "is_correct": true
-      },
-      {
-        "text": "14 days",
-        "is_correct": false
-      },
-      {
-        "text": "30 days",
-        "is_correct": false
-      }
+      { "text": "Plan-Do-Check-Act", "is_correct": true },
+      { "text": "Observe-Orient-Decide-Act", "is_correct": false },
+      { "text": "Analyze-Design-Develop", "is_correct": false },
+      { "text": "Stop-Look-Listen", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "CSA Z1600 aligns with the Plan-Do-Check-Act (PDCA) model to ensure the continual improvement of emergency management programs."
   },
   {
-    "question": "Which federal body in Canada houses a Government Operations Centre (GOC) that operates 24/7 to provide strategic level coordination for events affecting national interest?",
+    "question": "What defines a 'Lead Agency' in emergency management?",
     "answers": [
-      {
-        "text": "Department of National Defence",
-        "is_correct": false
-      },
-      {
-        "text": "Privy Council Office",
-        "is_correct": false
-      },
-      {
-        "text": "Indigenous Services Canada (ISC)",
-        "is_correct": false
-      },
-      {
-        "text": "Public Safety Canada (PSC)",
-        "is_correct": true
-      }
+      { "text": "First agency on scene", "is_correct": false },
+      { "text": "Legislated accountability", "is_correct": true },
+      { "text": "Highest budget agency", "is_correct": false },
+      { "text": "Federal government entity", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "A Lead Agency is the organization assigned by legislation, regulation, or policy to direct the operations for a specific hazard."
   },
   {
-    "question": "Which piece of legislation is the primary statutory authority for most Federal disaster response and assistance activities in the United States?",
+    "question": "In the Calgary snowstorm example, which department was the Lead Agency?",
     "answers": [
-      {
-        "text": "The Homeland Security Act",
-        "is_correct": false
-      },
-      {
-        "text": "The Robert T. Stafford Disaster Relief and Emergency Assistance Act",
-        "is_correct": true
-      },
-      {
-        "text": "The Disaster Recovery Reform Act",
-        "is_correct": false
-      },
-      {
-        "text": "The Pandemic and All-Hazards Preparedness Act (PAHPA)",
-        "is_correct": false
-      }
+      { "text": "Police Service", "is_correct": false },
+      { "text": "Fire Department", "is_correct": false },
+      { "text": "Parks Department", "is_correct": true },
+      { "text": "Roads Department", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "The Parks Department was the Lead Agency because the snowstorm primarily impacted trees and vegetation, making them the subject matter experts."
   },
   {
-    "question": "In the UK, the Civil Contingencies Act 2004 divides local responders into two categories. What are organizations like utility and transport companies classified as?",
+    "question": "What is the primary role of a 'Coordinating Agency'?",
     "answers": [
-      {
-        "text": "Category 1 responders",
-        "is_correct": false
-      },
-      {
-        "text": "Category 2 'cooperating bodies'",
-        "is_correct": true
-      },
-      {
-        "text": "Ancillary support units",
-        "is_correct": false
-      },
-      {
-        "text": "Local resilience forums",
-        "is_correct": false
-      }
+      { "text": "Tactical site command", "is_correct": false },
+      { "text": "Providing specific resources", "is_correct": false },
+      { "text": "Integrating overall efforts", "is_correct": true },
+      { "text": "Enforcing federal laws", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "A Coordinating Agency (like AEMA) integrates efforts, builds partnerships, and supports the lead agency rather than directing tactical operations."
   },
   {
-    "question": "What major event prompted the creation of the Department of Homeland Security in the U.S.A.?",
+    "question": "According to the 'Whole Community' approach, what is a resource often overlooked?",
     "answers": [
-      {
-        "text": "Hurricane Katrina",
-        "is_correct": false
-      },
-      {
-        "text": "The 1993 World Trade Center attack",
-        "is_correct": false
-      },
-      {
-        "text": "The September 11, 2001 terrorist attacks",
-        "is_correct": true
-      },
-      {
-        "text": "Widespread wildfires in California",
-        "is_correct": false
-      }
+      { "text": "Federal grants", "is_correct": false },
+      { "text": "Social capital", "is_correct": true },
+      { "text": "Heavy machinery", "is_correct": false },
+      { "text": "Military stockpiles", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "The Whole Community approach views social capital—networks, trust, and community groups—as a vital resource alongside physical assets."
   },
   {
-    "question": "According to the document, emergency management in the UK is described as being what?",
+    "question": "Which two attributes characterize a 'Dominant' stakeholder?",
     "answers": [
-      {
-        "text": "Centralized, with all decisions made by the Civil Contingencies Secretariat.",
-        "is_correct": false
-      },
-      {
-        "text": "Federalized, with power shared between national and regional governments.",
-        "is_correct": false
-      },
-      {
-        "text": "Decentralized, with most events handled at the local level.",
-        "is_correct": true
-      },
-      {
-        "text": "Privatized, with response managed by non-governmental organizations.",
-        "is_correct": false
-      }
+      { "text": "Power and Urgency", "is_correct": false },
+      { "text": "Legitimacy and Urgency", "is_correct": false },
+      { "text": "Power and Legitimacy", "is_correct": true },
+      { "text": "Urgency and Money", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Dominant stakeholders possess both Power and Legitimacy (e.g., a city planning office) but often lack Urgency until a disaster occurs."
   },
   {
-    "question": "The ICS principle 'Unity of Command' means that...",
+    "question": "Which stakeholder attribute is the primary driver of 'Reactive' behavior?",
     "answers": [
-      {
-        "text": "All agencies work together effectively without affecting individual agency authority.",
-        "is_correct": false
-      },
-      {
-        "text": "All individuals have a designated supervisor to whom they report at the scene.",
-        "is_correct": true
-      },
-      {
-        "text": "The command function is clearly established from the beginning of operations.",
-        "is_correct": false
-      },
-      {
-        "text": "A common communications plan is used to link all units.",
-        "is_correct": false
-      }
+      { "text": "Legitimacy", "is_correct": false },
+      { "text": "Power", "is_correct": false },
+      { "text": "Urgency", "is_correct": true },
+      { "text": "Funding", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Urgency is the attribute that calls for immediate attention, often triggering reactive behavior when a disaster strikes."
   },
   {
-    "question": "What does the acronym SMART stand for in the context of incident objectives?",
+    "question": "What characterizes a 'Definitive' stakeholder?",
     "answers": [
-      {
-        "text": "Systematic, Manageable, Accountable, Resourceful, Timely",
-        "is_correct": false
-      },
-      {
-        "text": "Strategic, Modular, Adaptable, Rational, Tactical",
-        "is_correct": false
-      },
-      {
-        "text": "Specific, Measurable, Actionable, Realistic, Time-sensitive",
-        "is_correct": true
-      },
-      {
-        "text": "Simple, Motivating, Achievable, Relevant, Trackable",
-        "is_correct": false
-      }
+      { "text": "Power only", "is_correct": false },
+      { "text": "Legitimacy only", "is_correct": false },
+      { "text": "Power, Legitimacy, Urgency", "is_correct": true },
+      { "text": "Urgency and Power", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Definitive stakeholders possess all three attributes: Power, Legitimacy, and Urgency, making them critical to manage closely."
   },
   {
-    "question": "The National Fire Protection Association (NFPA) 1600 standard is harmonized with which Canadian standard?",
+    "question": "In Tuckman’s model, which stage is characterized by conflict over roles and goals?",
     "answers": [
-      {
-        "text": "CSA Z1000",
-        "is_correct": false
-      },
-      {
-        "text": "AIMS 2024",
-        "is_correct": false
-      },
-      {
-        "text": "ISO 22301",
-        "is_correct": false
-      },
-      {
-        "text": "CSA Z1600",
-        "is_correct": true
-      }
+      { "text": "Forming", "is_correct": false },
+      { "text": "Norming", "is_correct": false },
+      { "text": "Storming", "is_correct": true },
+      { "text": "Performing", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "The 'Storming' phase is defined by necessary conflict where team members wrestle over roles, goals, and processes."
   },
   {
-    "question": "Which ISO standard provides a structured approach to managing incidents, including command and control, coordination, and information sharing?",
+    "question": "What does the 'V' in the VOCAB conflict framework stand for?",
     "answers": [
-      {
-        "text": "ISO 22301",
-        "is_correct": false
-      },
-      {
-        "text": "ISO 31000",
-        "is_correct": false
-      },
-      {
-        "text": "ISO 22320:2018",
-        "is_correct": true
-      },
-      {
-        "text": "ISO 22325:2016",
-        "is_correct": false
-      }
+      { "text": "Victory", "is_correct": false },
+      { "text": "Validation", "is_correct": false },
+      { "text": "Vulnerability", "is_correct": true },
+      { "text": "Velocity", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "In the VOCAB framework, 'V' stands for Vulnerability, which refers to the willingness to be seen and admit mistakes."
   },
   {
-    "question": "In Canada, what is a proposed piece of legislation called before it is passed in the legislature?",
+    "question": "What is the single greatest poison in an EOC that destroys collaboration?",
     "answers": [
-      {
-        "text": "An Act",
-        "is_correct": false
-      },
-      {
-        "text": "A Regulation",
-        "is_correct": false
-      },
-      {
-        "text": "A Bill",
-        "is_correct": true
-      },
-      {
-        "text": "A Statute",
-        "is_correct": false
-      }
+      { "text": "Lack of funding", "is_correct": false },
+      { "text": "Defensiveness", "is_correct": true },
+      { "text": "Over-planning", "is_correct": false },
+      { "text": "Software failure", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Defensiveness is identified as the element that destroys collaboration because it lowers IQ and prevents problem-solving."
   },
   {
-    "question": "Which Canadian federal entity is described as the arm of the government that holds authority for emergency management?",
+    "question": "What is the defining characteristic of a 'Red Zone' environment?",
     "answers": [
-      {
-        "text": "Department of National Defence",
-        "is_correct": false
-      },
-      {
-        "text": "Public Safety Canada (PSC)",
-        "is_correct": true
-      },
-      {
-        "text": "Emergency Measures Organization (EMO)",
-        "is_correct": false
-      },
-      {
-        "text": "Indigenous Services Canada (ISC)",
-        "is_correct": false
-      }
+      { "text": "High collaboration", "is_correct": false },
+      { "text": "Aggressive competition", "is_correct": true },
+      { "text": "Passive support", "is_correct": false },
+      { "text": "Slow decision making", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "'Red Zone' environments are hostile and aggressive, prioritizing 'star performers' over collaboration, which ultimately kills productivity."
   },
   {
-    "question": "What is the name of the Canadian federal government's all-hazard emergency response plan?",
+    "question": "What type of conflict occurs between two distinct groups?",
     "answers": [
-      {
-        "text": "The National Response Framework (NRF)",
-        "is_correct": false
-      },
-      {
-        "text": "The National Emergency Response System (NERS)",
-        "is_correct": false
-      },
-      {
-        "text": "The Federal Emergency Response Plan (FERP)",
-        "is_correct": true
-      },
-      {
-        "text": "The Federal Policy for Emergency Management",
-        "is_correct": false
-      }
+      { "text": "Intrapersonal", "is_correct": false },
+      { "text": "Interpersonal", "is_correct": false },
+      { "text": "Intergroup", "is_correct": true },
+      { "text": "Intragroup", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "Intergroup conflict is defined as conflict occurring between distinct, yet interdependent groups."
   },
   {
-    "question": "What power is granted to a local authority in Alberta upon declaring a State of Local Emergency (SOLE)?",
+    "question": "Which ISO standard focuses on Public Warning guidelines?",
     "answers": [
-      {
-        "text": "The power to amend federal legislation.",
-        "is_correct": false
-      },
-      {
-        "text": "The power to request international aid directly.",
-        "is_correct": false
-      },
-      {
-        "text": "The power to conscript people and control or prohibit travel.",
-        "is_correct": true
-      },
-      {
-        "text": "The power to override the provincial government's authority.",
-        "is_correct": false
-      }
+      { "text": "ISO 22301", "is_correct": false },
+      { "text": "ISO 22320", "is_correct": false },
+      { "text": "ISO 22322", "is_correct": true },
+      { "text": "ISO 31000", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "ISO 22322 provides guidelines for the development, management, and implementation of public warning systems."
   },
   {
-    "question": "In the U.S.A., what organization was formed in 1979 by an executive order that merged all Federal disaster-related statutory authority?",
+    "question": "What is the main function of the ICS 'Logistics' section?",
     "answers": [
-      {
-        "text": "Department of Homeland Security (DHS)",
-        "is_correct": false
-      },
-      {
-        "text": "Office of the Assistant Secretary for Preparedness and Response (ASPR)",
-        "is_correct": false
-      },
-      {
-        "text": "Federal Emergency Management Agency (FEMA)",
-        "is_correct": true
-      },
-      {
-        "text": "National Fire Protection Association (NFPA)",
-        "is_correct": false
-      }
+      { "text": "Paying the bills", "is_correct": false },
+      { "text": "Providing resources", "is_correct": true },
+      { "text": "Setting objectives", "is_correct": false },
+      { "text": "Analyzing data", "is_correct": false }
     ],
-    "explanation": "Correct!"
+    "explanation": "The Logistics Section (The Getters) is responsible for providing all services, support, and resources to meet incident needs."
   },
   {
-    "question": "The 2018 Disaster Recovery Reform Act in the U.S.A. marked a major shift in D&EM by emphasizing what?",
+    "question": "Which document outlines the 'bottom-up' approach to EM in Canada?",
     "answers": [
-      {
-        "text": "Response and recovery operations only.",
-        "is_correct": false
-      },
-      {
-        "text": "International cooperation and aid.",
-        "is_correct": false
-      },
-      {
-        "text": "Preparedness, mitigation, and shared responsibilities.",
-        "is_correct": true
-      },
-      {
-        "text": "The authority of the President to act without state requests.",
-        "is_correct": false
-      }
+      { "text": "Emergencies Act", "is_correct": false },
+      { "text": "EM Framework for Canada", "is_correct": true },
+      { "text": "National Defence Act", "is_correct": false },
+      { "text": "The Red Book", "is_correct": false }
     ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is a defining feature of the UK's Civil Contingencies Act 2004 regarding the definition of an 'emergency'?",
-    "answers": [
-      {
-        "text": "It is defined by its causes, such as terrorism or natural disaster.",
-        "is_correct": false
-      },
-      {
-        "text": "It is defined by its consequences, not its causes.",
-        "is_correct": true
-      },
-      {
-        "text": "It only applies to emergencies that occur entirely within UK borders.",
-        "is_correct": false
-      },
-      {
-        "text": "It must be declared by the Minister of the Crown to be considered an emergency.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What does the ICS principle 'Manageable Span of Control' refer to?",
-    "answers": [
-      {
-        "text": "The ability of an organization to expand or contract as needed.",
-        "is_correct": false
-      },
-      {
-        "text": "The ability of a supervisor to adequately manage and communicate with their subordinates.",
-        "is_correct": true
-      },
-      {
-        "text": "The use of common terminology across all agencies.",
-        "is_correct": false
-      },
-      {
-        "text": "The orderly line of authority within the incident management organization.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the purpose of an Incident Action Plan (IAP) in ICS?",
-    "answers": [
-      {
-        "text": "To document costs and provide financial accountability for the incident.",
-        "is_correct": false
-      },
-      {
-        "text": "To provide a concise means of capturing and communicating overall incident priorities, objectives, and tactics.",
-        "is_correct": true
-      },
-      {
-        "text": "To serve as a permanent legal record of all actions taken during an incident.",
-        "is_correct": false
-      },
-      {
-        "text": "To establish the chain of command for the first operational period only.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which ICS section is nicknamed 'the doers' because it conducts tactical operations to carry out the plan?",
-    "answers": [
-      {
-        "text": "Planning",
-        "is_correct": false
-      },
-      {
-        "text": "Logistics",
-        "is_correct": false
-      },
-      {
-        "text": "Finance/Admin",
-        "is_correct": false
-      },
-      {
-        "text": "Operations",
-        "is_correct": true
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The concept for the Incident Command System (ICS) was first formed in 1968 at a meeting of Fire Chiefs in what city?",
-    "answers": [
-      {
-        "text": "Los Angeles, California",
-        "is_correct": false
-      },
-      {
-        "text": "Phoenix, Arizona",
-        "is_correct": true
-      },
-      {
-        "text": "New York, New York",
-        "is_correct": false
-      },
-      {
-        "text": "Washington, D.C.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the primary difference between the NFPA 1600 standard and the ISO 22301 standard mentioned in the text?",
-    "answers": [
-      {
-        "text": "NFPA is for public agencies while ISO is for private companies.",
-        "is_correct": false
-      },
-      {
-        "text": "NFPA focuses on fire response, while ISO focuses on business continuity.",
-        "is_correct": false
-      },
-      {
-        "text": "NFPA is US-based, while ISO has international recognition.",
-        "is_correct": true
-      },
-      {
-        "text": "There are no significant differences; they are identical standards.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "According to Canadian law definitions, which term refers to a type of law, also called 'subordinate legislation', that defines the application and enforcement of an Act?",
-    "answers": [
-      {
-        "text": "Bylaw",
-        "is_correct": false
-      },
-      {
-        "text": "Regulation",
-        "is_correct": true
-      },
-      {
-        "text": "Policy",
-        "is_correct": false
-      },
-      {
-        "text": "Framework",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which Canadian Act was replaced by the Emergency Management Act in 2007?",
-    "answers": [
-      {
-        "text": "The Emergencies Act",
-        "is_correct": false
-      },
-      {
-        "text": "The Emergency Preparedness Act",
-        "is_correct": true
-      },
-      {
-        "text": "The Civil Protection Act",
-        "is_correct": false
-      },
-      {
-        "text": "The National Defence Act",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the name of the guiding principle in the Emergency Management Framework for Canada that calls for a systematic approach to translate lessons 'observed' into lessons 'learned'?",
-    "answers": [
-      {
-        "text": "Resilience",
-        "is_correct": false
-      },
-      {
-        "text": "Comprehensive",
-        "is_correct": false
-      },
-      {
-        "text": "Continuous Improvement",
-        "is_correct": true
-      },
-      {
-        "text": "Coherency of Action",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What are agreements established between nearby municipalities to share resources during an emergency called?",
-    "answers": [
-      {
-        "text": "State of Local Emergency (SOLE)",
-        "is_correct": false
-      },
-      {
-        "text": "Memorandum of Understanding (MOU)",
-        "is_correct": false
-      },
-      {
-        "text": "Mutual Aid Agreements",
-        "is_correct": true
-      },
-      {
-        "text": "Federal Emergency Response Plans (FERP)",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The department of Indigenous Services Canada (ISC) works to ensure First Nations communities have access to services that are what?",
-    "answers": [
-      {
-        "text": "Identical to those provided by the federal government.",
-        "is_correct": false
-      },
-      {
-        "text": "Superior to those in other jurisdictions.",
-        "is_correct": false
-      },
-      {
-        "text": "Comparable to those in local jurisdictions.",
-        "is_correct": true
-      },
-      {
-        "text": "Funded entirely by provincial governments.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What was the situation regarding federal disaster relief legislation in the U.S.A. before 1950?",
-    "answers": [
-      {
-        "text": "The Stafford Act provided a comprehensive framework.",
-        "is_correct": false
-      },
-      {
-        "text": "There was no comprehensive legislation; Congress passed a separate law for each disaster.",
-        "is_correct": true
-      },
-      {
-        "text": "FEMA managed all disaster relief efforts through executive orders.",
-        "is_correct": false
-      },
-      {
-        "text": "A single, permanent law covered all types of disasters.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In the UK, Category 1 responders under the Civil Contingencies Act 2004 are required to perform which of the following duties?",
-    "answers": [
-      {
-        "text": "Cooperate and share information only when requested.",
-        "is_correct": false
-      },
-      {
-        "text": "Assess the risk of emergencies and put in place emergency plans.",
-        "is_correct": true
-      },
-      {
-        "text": "Provide funding for Category 2 responders.",
-        "is_correct": false
-      },
-      {
-        "text": "Report directly to the Civil Contingencies Secretariat for all incidents.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The organization known today as ISO began in 1926 under what name?",
-    "answers": [
-      {
-        "text": "United Nations Standards Coordinating Committee (UNSCC)",
-        "is_correct": false
-      },
-      {
-        "text": "International Federation of the National Standardizing Associations (ISA)",
-        "is_correct": true
-      },
-      {
-        "text": "The Geneva Standards Body (GSB)",
-        "is_correct": false
-      },
-      {
-        "text": "International Organization for Standardization (ISO)",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In the ICS structure, the term for the orderly line of authority within the ranks of the incident management organization is:",
-    "answers": [
-      {
-        "text": "Unity of Command",
-        "is_correct": false
-      },
-      {
-        "text": "Span of Control",
-        "is_correct": false
-      },
-      {
-        "text": "Chain of Command",
-        "is_correct": true
-      },
-      {
-        "text": "Unified Command",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the role of the Liaison Officer on the Command Staff in ICS?",
-    "answers": [
-      {
-        "text": "To monitor safety and advise the Incident Commander on health matters.",
-        "is_correct": false
-      },
-      {
-        "text": "To interface with the public and media.",
-        "is_correct": false
-      },
-      {
-        "text": "To coordinate with representatives from cooperating and assisting agencies.",
-        "is_correct": true
-      },
-      {
-        "text": "To manage all incident tactical activities.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What does the term 'demobilization' mean in the context of ICS?",
-    "answers": [
-      {
-        "text": "The process of activating and dispatching resources to an incident.",
-        "is_correct": false
-      },
-      {
-        "text": "The orderly, safe, and efficient return of an incident resource to its original location and status.",
-        "is_correct": true
-      },
-      {
-        "text": "The transfer of command from one Incident Commander to another.",
-        "is_correct": false
-      },
-      {
-        "text": "The establishment of functional elements to enhance organizational management.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is one of the key features of the Alberta Incident Management System (AIMS)?",
-    "answers": [
-      {
-        "text": "It is only used for oil and gas industry emergencies.",
-        "is_correct": false
-      },
-      {
-        "text": "It replaces the Incident Command System with a unique Alberta model.",
-        "is_correct": false
-      },
-      {
-        "text": "It can be scaled up or down depending on the size and type of emergency.",
-        "is_correct": true
-      },
-      {
-        "text": "It mandates that the provincial government always takes command.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In the Canadian timeline of EM, what organization was created in 2003, causing OCIPEP to cease to exist?",
-    "answers": [
-      {
-        "text": "Emergency Measures Organization (EMO)",
-        "is_correct": false
-      },
-      {
-        "text": "Emergency Planning Canada (EPC)",
-        "is_correct": false
-      },
-      {
-        "text": "Public Safety and Emergency Preparedness Canada (PSEPC)",
-        "is_correct": true
-      },
-      {
-        "text": "Privy Council Office (PCO)",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which level of government in Canada creates bylaws to address local issues like emergency management?",
-    "answers": [
-      {
-        "text": "Federal",
-        "is_correct": false
-      },
-      {
-        "text": "Provincial/Territorial",
-        "is_correct": false
-      },
-      {
-        "text": "Municipal",
-        "is_correct": true
-      },
-      {
-        "text": "Indigenous",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "According to the Emergency Management Framework for Canada, the principle of 'All-Hazards' means what?",
-    "answers": [
-      {
-        "text": "Recognizing and integrating EM elements across all hazard types.",
-        "is_correct": true
-      },
-      {
-        "text": "Focusing solely on the most likely hazard for a given area.",
-        "is_correct": false
-      },
-      {
-        "text": "Having a separate, unique plan for every possible hazard.",
-        "is_correct": false
-      },
-      {
-        "text": "Prioritizing human-induced hazards over natural ones.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which of the following is a function of the Government Operations Centre (GOC) in Canada?",
-    "answers": [
-      {
-        "text": "Deploying first responders to local incidents.",
-        "is_correct": false
-      },
-      {
-        "text": "Providing direct financial assistance to disaster victims.",
-        "is_correct": false
-      },
-      {
-        "text": "Conducting risk assessments to provide information to senior officials.",
-        "is_correct": true
-      },
-      {
-        "text": "Passing new emergency management legislation.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "A Provincial Emergency Operations Centre is likely to be activated if...",
-    "answers": [
-      {
-        "text": "A single household experiences a basement flood.",
-        "is_correct": false
-      },
-      {
-        "text": "A planned event like a royal visit requires activation.",
-        "is_correct": true
-      },
-      {
-        "text": "A municipality successfully manages an incident with its own resources.",
-        "is_correct": false
-      },
-      {
-        "text": "The federal government declares a national emergency.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The Stafford Act in the U.S.A. was revised in 2010 to designate what as essential services, making them eligible for temporary relocation facilities during disasters?",
-    "answers": [
-      {
-        "text": "Movie theaters",
-        "is_correct": false
-      },
-      {
-        "text": "Sports stadiums",
-        "is_correct": false
-      },
-      {
-        "text": "Libraries",
-        "is_correct": true
-      },
-      {
-        "text": "Shopping malls",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What do Category 1 and Category 2 responders in the UK form to help coordinate activities at the local level?",
-    "answers": [
-      {
-        "text": "Local resilience forums",
-        "is_correct": true
-      },
-      {
-        "text": "Civil Contingencies Secretariats",
-        "is_correct": false
-      },
-      {
-        "text": "National Exercise Programmes",
-        "is_correct": false
-      },
-      {
-        "text": "Ministerial response teams",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which American organization's standards are widely adopted by Canadian provinces for their fire and rescue services?",
-    "answers": [
-      {
-        "text": "Federal Emergency Management Agency (FEMA)",
-        "is_correct": false
-      },
-      {
-        "text": "Occupational Safety and Health Administration (OSHA)",
-        "is_correct": false
-      },
-      {
-        "text": "Department of Homeland Security (DHS)",
-        "is_correct": false
-      },
-      {
-        "text": "National Fire Protection Administration (NFPA)",
-        "is_correct": true
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The ICS organizational structure develops in what kind of fashion based on the size and complexity of the incident?",
-    "answers": [
-      {
-        "text": "Hierarchical",
-        "is_correct": false
-      },
-      {
-        "text": "Linear",
-        "is_correct": false
-      },
-      {
-        "text": "Modular",
-        "is_correct": true
-      },
-      {
-        "text": "Circular",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The General Staff in ICS normally consists of the Section Chiefs for Operations, Planning, Logistics, and what other section?",
-    "answers": [
-      {
-        "text": "Command",
-        "is_correct": false
-      },
-      {
-        "text": "Safety",
-        "is_correct": false
-      },
-      {
-        "text": "Finance/Administration",
-        "is_correct": true
-      },
-      {
-        "text": "Information",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the typical length of an 'operational period' in ICS?",
-    "answers": [
-      {
-        "text": "1 to 2 hours",
-        "is_correct": false
-      },
-      {
-        "text": "4 to 6 hours",
-        "is_correct": false
-      },
-      {
-        "text": "12 to 24 hours",
-        "is_correct": true
-      },
-      {
-        "text": "48 to 72 hours",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The International Organization for Standardization (ISO) is based in which city?",
-    "answers": [
-      {
-        "text": "New York, USA",
-        "is_correct": false
-      },
-      {
-        "text": "London, UK",
-        "is_correct": false
-      },
-      {
-        "text": "Geneva, Switzerland",
-        "is_correct": true
-      },
-      {
-        "text": "Ottawa, Canada",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The development of the National Incident Management System (NIMS) in the U.S. was a direct result of which event?",
-    "answers": [
-      {
-        "text": "Hurricane Andrew",
-        "is_correct": false
-      },
-      {
-        "text": "The 1970s California wildfires",
-        "is_correct": false
-      },
-      {
-        "text": "The terrorist attacks on September 11, 2001",
-        "is_correct": true
-      },
-      {
-        "text": "The Oklahoma City bombing",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In Canada, EM is described as a shared responsibility. Which group is NOT listed as a partner in this shared responsibility?",
-    "answers": [
-      {
-        "text": "All levels of government",
-        "is_correct": false
-      },
-      {
-        "text": "The private sector",
-        "is_correct": false
-      },
-      {
-        "text": "International military organizations",
-        "is_correct": true
-      },
-      {
-        "text": "Non-governmental organizations (NGOs) and each citizen",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In the Canadian Federal Government, what is the role of the Government Operations Centre (GOC) Exercise Section?",
-    "answers": [
-      {
-        "text": "To provide physical fitness training for first responders.",
-        "is_correct": false
-      },
-      {
-        "text": "To manage the National Exercise Program.",
-        "is_correct": true
-      },
-      {
-        "text": "To develop exercise equipment for emergency shelters.",
-        "is_correct": false
-      },
-      {
-        "text": "To review provincial exercise budgets.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In which Canadian province would you find an Emergency Management and Civil Protection Act?",
-    "answers": [
-      {
-        "text": "British Columbia",
-        "is_correct": false
-      },
-      {
-        "text": "Alberta",
-        "is_correct": false
-      },
-      {
-        "text": "Ontario",
-        "is_correct": true
-      },
-      {
-        "text": "Newfoundland",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the purpose of the Disaster Financial Assistance Arrangements (DFAA) in Canada?",
-    "answers": [
-      {
-        "text": "To provide immediate cash payments to all citizens during a disaster.",
-        "is_correct": false
-      },
-      {
-        "text": "To fund pre-disaster mitigation projects in high-risk areas.",
-        "is_correct": false
-      },
-      {
-        "text": "To define roles and guidelines for cost sharing among governments for recovery from major natural disasters.",
-        "is_correct": true
-      },
-      {
-        "text": "To offer low-interest loans to businesses to improve their emergency plans.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Who can trigger the release of federal assistance under the U.S. Stafford Act?",
-    "answers": [
-      {
-        "text": "Any mayor of an affected city.",
-        "is_correct": false
-      },
-      {
-        "text": "The Director of FEMA.",
-        "is_correct": false
-      },
-      {
-        "text": "The governor of the impacted state who makes a request.",
-        "is_correct": true
-      },
-      {
-        "text": "The Speaker of the House of Representatives.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The UK's Civil Contingencies Secretariat (CCS) is located within which government office?",
-    "answers": [
-      {
-        "text": "The Home Office",
-        "is_correct": false
-      },
-      {
-        "text": "The Ministry of Defence",
-        "is_correct": false
-      },
-      {
-        "text": "The Cabinet Office",
-        "is_correct": true
-      },
-      {
-        "text": "The Department for Communities and Local Government",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The principle of 'Comprehensive Resource Management' in ICS involves maintaining an accurate and up-to-date picture of what?",
-    "answers": [
-      {
-        "text": "The incident's budget and expenditures.",
-        "is_correct": false
-      },
-      {
-        "text": "The personal contact information of all responders.",
-        "is_correct": false
-      },
-      {
-        "text": "The utilization of personnel, teams, equipment, supplies, and facilities.",
-        "is_correct": true
-      },
-      {
-        "text": "The media coverage of the incident.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the one position in the ICS organizational structure that will always be established for an incident?",
-    "answers": [
-      {
-        "text": "Safety Officer",
-        "is_correct": false
-      },
-      {
-        "text": "Operations Section Chief",
-        "is_correct": false
-      },
-      {
-        "text": "Incident Commander",
-        "is_correct": true
-      },
-      {
-        "text": "Logistics Section Chief",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the goal of the CSA Z1600 standard?",
-    "answers": [
-      {
-        "text": "To mandate a specific incident management system for all Canadian organizations.",
-        "is_correct": false
-      },
-      {
-        "text": "To provide a framework of best practices for first responders.",
-        "is_correct": false
-      },
-      {
-        "text": "To establish the elements of a continuous improvement process for emergency and business continuity programs.",
-        "is_correct": true
-      },
-      {
-        "text": "To certify individuals as emergency management professionals.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which of the following is NOT a core component of the Alberta Incident Management System (AIMS)?",
-    "answers": [
-      {
-        "text": "Incident Command System (ICS)",
-        "is_correct": false
-      },
-      {
-        "text": "Common Terminology",
-        "is_correct": false
-      },
-      {
-        "text": "Mandatory Federal Oversight",
-        "is_correct": true
-      },
-      {
-        "text": "Integrated Communications",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What type of document provides a structure and describes the relationship between actors in the EM field?",
-    "answers": [
-      {
-        "text": "Guideline",
-        "is_correct": false
-      },
-      {
-        "text": "Framework",
-        "is_correct": true
-      },
-      {
-        "text": "Policy",
-        "is_correct": false
-      },
-      {
-        "text": "Bylaw",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The Emergency Management Framework for Canada is reviewed and revised how often?",
-    "answers": [
-      {
-        "text": "Every year",
-        "is_correct": false
-      },
-      {
-        "text": "Every 2 years",
-        "is_correct": false
-      },
-      {
-        "text": "Every 5 years",
-        "is_correct": true
-      },
-      {
-        "text": "Every 10 years",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In Canada, what is the 'bottom-up' approach to emergency management?",
-    "answers": [
-      {
-        "text": "The federal government dictates all actions to the lower levels of government.",
-        "is_correct": false
-      },
-      {
-        "text": "The response starts at the local/municipal level and moves up to provincial and federal levels as needed.",
-        "is_correct": true
-      },
-      {
-        "text": "Individual citizens are solely responsible for disaster response.",
-        "is_correct": false
-      },
-      {
-        "text": "Planning starts with recovery and works backwards to mitigation.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which of these is NOT an extraordinary power granted by a State of Local Emergency (SOLE) in Alberta?",
-    "answers": [
-      {
-        "text": "Demolishing or removing structures.",
-        "is_correct": false
-      },
-      {
-        "text": "Entering any building or land without a warrant.",
-        "is_correct": false
-      },
-      {
-        "text": "Fixing prices.",
-        "is_correct": false
-      },
-      {
-        "text": "Suspending federal elections.",
-        "is_correct": true
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What was the purpose of the 2013 Sandy Recovery Improvement Act in the U.S.A.?",
-    "answers": [
-      {
-        "text": "To create the Department of Homeland Security.",
-        "is_correct": false
-      },
-      {
-        "text": "To speed up infrastructure recovery and allow tribes to directly request disaster declarations.",
-        "is_correct": true
-      },
-      {
-        "text": "To mandate the use of the Incident Command System.",
-        "is_correct": false
-      },
-      {
-        "text": "To provide funding for pandemic preparedness.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The Civil Contingencies Secretariat (CCS) in the UK strives to spot trouble, assess its nature, and provide warning. This involves what activity?",
-    "answers": [
-      {
-        "text": "Legislative reform",
-        "is_correct": false
-      },
-      {
-        "text": "Monitoring and surveillance",
-        "is_correct": true
-      },
-      {
-        "text": "Fiscal management",
-        "is_correct": false
-      },
-      {
-        "text": "Public relations campaigns",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which ICS principle allows agencies with different legal, geographic, and functional authorities to work together effectively?",
-    "answers": [
-      {
-        "text": "Chain of Command",
-        "is_correct": false
-      },
-      {
-        "text": "Management by Objectives",
-        "is_correct": false
-      },
-      {
-        "text": "Unified Command",
-        "is_correct": true
-      },
-      {
-        "text": "Modular Organization",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The Planning Section Chief (PSC) in ICS is responsible for what primary task?",
-    "answers": [
-      {
-        "text": "Managing all incident tactical activities.",
-        "is_correct": false
-      },
-      {
-        "text": "Providing food, facilities, and medical services.",
-        "is_correct": false
-      },
-      {
-        "text": "Supervising the preparation of the Incident Action Plan.",
-        "is_correct": true
-      },
-      {
-        "text": "Monitoring costs and providing procurement.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In 2022, NFPA 1600 was consolidated into which new standard?",
-    "answers": [
-      {
-        "text": "NFPA 1660",
-        "is_correct": true
-      },
-      {
-        "text": "CSA Z1600",
-        "is_correct": false
-      },
-      {
-        "text": "ISO 22320",
-        "is_correct": false
-      },
-      {
-        "text": "NIMS",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What does ISO stand for?",
-    "answers": [
-      {
-        "text": "International Security Organization",
-        "is_correct": false
-      },
-      {
-        "text": "Internal Standards Office",
-        "is_correct": false
-      },
-      {
-        "text": "International Organization for Standardization",
-        "is_correct": true
-      },
-      {
-        "text": "Inter-governmental Systems Organization",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The National Public Alerting System (NPAS) in Canada is also known by what name?",
-    "answers": [
-      {
-        "text": "Code Red",
-        "is_correct": false
-      },
-      {
-        "text": "Amber Alert",
-        "is_correct": false
-      },
-      {
-        "text": "Alert Ready",
-        "is_correct": true
-      },
-      {
-        "text": "Weather Watch",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In the timeline of Canadian EM, the Emergency Measures Organization (EMO) was first set up in 1957 by which department?",
-    "answers": [
-      {
-        "text": "Department of National Defence",
-        "is_correct": false
-      },
-      {
-        "text": "Privy Council Office",
-        "is_correct": true
-      },
-      {
-        "text": "Public Safety Canada",
-        "is_correct": false
-      },
-      {
-        "text": "Emergency Planning Canada",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which of these is NOT a component typically included in a municipal emergency management bylaw in Canada?",
-    "answers": [
-      {
-        "text": "Creation of an Emergency Management Agency",
-        "is_correct": false
-      },
-      {
-        "text": "Provisions for declaring a State of Local Emergency (SOLE)",
-        "is_correct": false
-      },
-      {
-        "text": "Definitions of key terms",
-        "is_correct": false
-      },
-      {
-        "text": "Mandates for federal military intervention",
-        "is_correct": true
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the purpose of 'Information/Advisory Alerts' issued by provincial governments?",
-    "answers": [
-      {
-        "text": "To provide information the public needs immediately to ensure their safety.",
-        "is_correct": false
-      },
-      {
-        "text": "To provide an update to the public where they can take proactive action for an event that may occur.",
-        "is_correct": true
-      },
-      {
-        "text": "To declare a Provincial State of Emergency.",
-        "is_correct": false
-      },
-      {
-        "text": "To test the public alerting system only.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The City of Edmonton's Municipal Emergency Plan (MEP) provides a framework for City Council, City Administration, and whom else?",
-    "answers": [
-      {
-        "text": "The Federal Government",
-        "is_correct": false
-      },
-      {
-        "text": "Partner stakeholders",
-        "is_correct": true
-      },
-      {
-        "text": "The United Nations",
-        "is_correct": false
-      },
-      {
-        "text": "International NGOs",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which US government directive led to the development of the National Incident Management System (NIMS)?",
-    "answers": [
-      {
-        "text": "HSPD-5: Management of Domestic Incidents",
-        "is_correct": true
-      },
-      {
-        "text": "HSPD-21: Disaster Healthcare",
-        "is_correct": false
-      },
-      {
-        "text": "PPD-8: National Preparedness",
-        "is_correct": false
-      },
-      {
-        "text": "The Homeland Security Act",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the cost-sharing model for public assistance typically used by FEMA under the Stafford Act?",
-    "answers": [
-      {
-        "text": "50% federal : 50% state",
-        "is_correct": false
-      },
-      {
-        "text": "100% federal",
-        "is_correct": false
-      },
-      {
-        "text": "75% federal : 25% state",
-        "is_correct": true
-      },
-      {
-        "text": "25% federal : 75% state",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The ICS principle of 'Dispatch/Deployment' states that resources should respond only when...",
-    "answers": [
-      {
-        "text": "They hear about an incident on the news.",
-        "is_correct": false
-      },
-      {
-        "text": "They feel they have a specialized skill to offer.",
-        "is_correct": false
-      },
-      {
-        "text": "Requested or dispatched by an appropriate authority.",
-        "is_correct": true
-      },
-      {
-        "text": "The incident is within their home jurisdiction.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The use of an Incident Command Post, Bases, Camps, and Staging Areas falls under which ICS feature?",
-    "answers": [
-      {
-        "text": "Modular Organization",
-        "is_correct": false
-      },
-      {
-        "text": "Comprehensive Resource Management",
-        "is_correct": false
-      },
-      {
-        "text": "Incident Facilities and Locations",
-        "is_correct": true
-      },
-      {
-        "text": "Integrated Communications",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What did FIRESCOPE stand for?",
-    "answers": [
-      {
-        "text": "Firefighting Integrated Response Command Operations for Public Emergencies",
-        "is_correct": false
-      },
-      {
-        "text": "Federal Interagency Response for Catastrophic Operations and Public Emergencies",
-        "is_correct": false
-      },
-      {
-        "text": "Firefighting Resources of Southern California Organized for Potential Emergencies",
-        "is_correct": true
-      },
-      {
-        "text": "First Responder Integrated Command of Public Emergencies",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What does the Canadian program CIFER (Continuous Improvement of Federal Event Response) aim to do?",
-    "answers": [
-      {
-        "text": "Provide initial funding for disaster response.",
-        "is_correct": false
-      },
-      {
-        "text": "Train new emergency managers at the federal level.",
-        "is_correct": false
-      },
-      {
-        "text": "Track strategic-level recommendations from after-action reports.",
-        "is_correct": true
-      },
-      {
-        "text": "Develop new communications technologies for first responders.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "The program was built primarily to take after the management hierarchy of what organization?",
-    "answers": [
-      {
-        "text": "The US Army",
-        "is_correct": false
-      },
-      {
-        "text": "The US Navy",
-        "is_correct": true
-      },
-      {
-        "text": "The US Air Force",
-        "is_correct": false
-      },
-      {
-        "text": "The US Marine Corps",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which ISO standard recommends standardized colour codes (e.g., green to red) for public alerts?",
-    "answers": [
-      {
-        "text": "ISO 22322:2022",
-        "is_correct": false
-      },
-      {
-        "text": "ISO 22324:2022",
-        "is_correct": true
-      },
-      {
-        "text": "ISO 22325:2016",
-        "is_correct": false
-      },
-      {
-        "text": "ISO 22328-1:2020",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Which term describes documents that are used to interpret legislation but do not have the force of law?",
-    "answers": [
-      {
-        "text": "Acts",
-        "is_correct": false
-      },
-      {
-        "text": "Regulations",
-        "is_correct": false
-      },
-      {
-        "text": "Bylaws",
-        "is_correct": false
-      },
-      {
-        "text": "Guidelines",
-        "is_correct": true
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "In what year was the Emergencies Act and the Emergency Preparedness Act passed into Canadian law?",
-    "answers": [
-      {
-        "text": "1975",
-        "is_correct": false
-      },
-      {
-        "text": "1988",
-        "is_correct": true
-      },
-      {
-        "text": "2001",
-        "is_correct": false
-      },
-      {
-        "text": "2007",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "Who is responsible for the direction and control of a local authority's emergency response in Canada?",
-    "answers": [
-      {
-        "text": "The provincial Premier",
-        "is_correct": false
-      },
-      {
-        "text": "The Director of Emergency Management (DEM)",
-        "is_correct": false
-      },
-      {
-        "text": "The federal Minister of Public Safety",
-        "is_correct": false
-      },
-      {
-        "text": "The local authority itself",
-        "is_correct": true
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the purpose of the Pandemic and All-Hazards Preparedness Act (PAHPA) in the U.S.A.?",
-    "answers": [
-      {
-        "text": "To create the Federal Emergency Management Agency (FEMA).",
-        "is_correct": false
-      },
-      {
-        "text": "To improve the nation's public health and medical preparedness and response capabilities.",
-        "is_correct": true
-      },
-      {
-        "text": "To authorize financial assistance after natural disasters.",
-        "is_correct": false
-      },
-      {
-        "text": "To establish the National Incident Management System (NIMS).",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the purpose of the ISO 22329:2021 standard?",
-    "answers": [
-      {
-        "text": "To provide best practices for monitoring high-risk facilities.",
-        "is_correct": false
-      },
-      {
-        "text": "To recommend how to effectively use social media for emergency communications.",
-        "is_correct": true
-      },
-      {
-        "text": "To outline how to build locally driven early warning systems.",
-        "is_correct": false
-      },
-      {
-        "text": "To offer guidance on developing and issuing public warnings.",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
-  },
-  {
-    "question": "What is the title of the individual responsible for all incident activities, including the development of strategies and tactics?",
-    "answers": [
-      {
-        "text": "Operations Section Chief",
-        "is_correct": false
-      },
-      {
-        "text": "Planning Section Chief",
-        "is_correct": false
-      },
-      {
-        "text": "Incident Commander",
-        "is_correct": true
-      },
-      {
-        "text": "Safety Officer",
-        "is_correct": false
-      }
-    ],
-    "explanation": "Correct!"
+    "explanation": "The Emergency Management Framework for Canada describes a bottom-up approach where response starts at the municipal level."
   }
 ]
