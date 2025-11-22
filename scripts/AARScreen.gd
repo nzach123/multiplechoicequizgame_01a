@@ -65,18 +65,45 @@ func display_results():
 	
 	sfx_result.play()
 	
-	# Populate Mistake List
+	# --- FULL HISTORY DISPLAY LOGIC ---
+	
+	# Clear any dummy children first
+	for child in mistake_container.get_children():
+		child.queue_free()
+
 	if GameManager.session_log.size() == 0:
 		var lbl = Label.new()
-		lbl.text = "NO ERRORS DETECTED. EXCELLENT WORK."
-		lbl.modulate = Color.GREEN
+		lbl.text = "NO DATA RECORDED."
+		lbl.modulate = Color.GRAY
 		mistake_container.add_child(lbl)
 	else:
 		for entry in GameManager.session_log:
 			var entry_label = Label.new()
-			entry_label.text = "Q: " + entry["question"] + "\n" + "You chose: " + entry["user_choice"] + " | Correct: " + entry["correct_answer"] + "\n"
-			entry_label.modulate = Color(1, 0.5, 0.5) # Pale Red
+			
+			# Default to Success styling
+			var status_text = "[SUCCESS]"
+			var status_color = Color.GREEN
+			
+			# Check for Failure
+			if entry.has("is_correct") and entry["is_correct"] == false:
+				status_text = "[FAIL]"
+				status_color = Color(1, 0.4, 0.4) # Pale Red
+			
+			# Build the text string
+			# Format: "Q: [Question] \n [SUCCESS] You chose: [Answer]"
+			var final_text = "Q: " + entry["question"] + "\n" 
+			final_text += status_text + " You chose: " + entry["user_choice"]
+			
+			# If wrong, append the correct answer
+			if entry.has("is_correct") and entry["is_correct"] == false:
+				final_text += " | Correct: " + entry["correct_answer"]
+			
+			final_text += "\n" # Spacing
+			
+			entry_label.text = final_text
+			entry_label.modulate = status_color
 			entry_label.autowrap_mode = TextServer.AUTOWRAP_WORD
+			
 			mistake_container.add_child(entry_label)
 
 func _on_retry():

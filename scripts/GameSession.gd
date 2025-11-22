@@ -216,6 +216,13 @@ func _on_round_timeout():
 func handle_correct(idx):
 	play_sound(sfx_correct)
 	
+	# --- NEW LOGGING LOGIC ---
+	var q_data = GameManager.questions_pool[current_q_index]
+	var user_choice_text = buttons[idx].text
+	# For a correct answer, the user choice IS the correct text
+	GameManager.log_attempt(q_data["question"], user_choice_text, user_choice_text, true)
+	# -------------------------
+	
 	# Logic: Save Citizens
 	citizens_saved += save_weight
 	# Clamp to max just in case
@@ -244,7 +251,7 @@ func handle_wrong(selected_idx, correct_idx, q_data, user_choice_text):
 			correct_text = ans["text"]
 			break
 	
-	GameManager.log_mistake(q_data["question"], user_choice_text, correct_text)
+	GameManager.log_attempt(q_data["question"], user_choice_text, correct_text, false)
 	
 	# Visuals only
 	if selected_idx != -1 and selected_idx < buttons.size(): 

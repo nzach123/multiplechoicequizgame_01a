@@ -66,9 +66,10 @@ func load_game():
 			player_progress = json.data
 		file.close()
 
-func log_mistake(question_text, user_choice, correct_answer):
+func log_attempt(question_text, user_choice, correct_answer, is_correct):
 	session_log.append({
 		"question": question_text,
 		"user_choice": user_choice,
-		"correct_answer": correct_answer
+		"correct_answer": correct_answer,
+		"is_correct": is_correct
 	})
